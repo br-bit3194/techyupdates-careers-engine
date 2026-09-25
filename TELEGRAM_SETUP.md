@@ -123,47 +123,60 @@ TELEGRAM_BOT_TOKEN=7849201948:AAH1b_x849kdJsd83nd8s-2ksd0s
 TELEGRAM_COMMUNITY_CHANNEL_ID=-1002345678901
 ```
 
-### 2. In Vercel Project Settings (For Daily Cloud Production)
-When deploying to Vercel:
-1. Open your project on the [Vercel Dashboard](https://vercel.com/dashboard).
-2. Go to **Settings** ➡️ **Environment Variables**.
-3. Add:
+### 2. In GitHub Actions (Recommended for Daily Automated Broadcasts)
+If using GitHub Actions for scheduled runs:
+1. Go to your repository on GitHub ➔ **Settings** ➔ **Secrets and variables** ➔ **Actions**.
+2. Add the following **Repository Secrets**:
    * **`TELEGRAM_BOT_TOKEN`** = `<your_bot_token>`
    * **`TELEGRAM_COMMUNITY_CHANNEL_ID`** = `<your_channel_id>`
    * **`GEMINI_API_KEY`** = `<your_gemini_api_key>`
    * **`CRON_SECRET`** = `<your_32_character_secret>`
 
+### 3. In Vercel Project Settings (If Using Vercel Serverless)
+When deploying to Vercel:
+1. Open your project on the [Vercel Dashboard](https://vercel.com/dashboard).
+2. Go to **Settings** ➔ **Environment Variables**.
+3. Add `TELEGRAM_BOT_TOKEN`, `TELEGRAM_COMMUNITY_CHANNEL_ID`, `GEMINI_API_KEY`, and `CRON_SECRET`.
+
 ---
 
 ## Step 6: Send a Test Verification Broadcast
 
-Once your `.env` has both credentials, you can immediately test the bot:
+Once your `.env` (or GitHub Secrets) has both credentials, you can immediately test the bot:
 
-### Run the Pipeline:
+### Run the Pipeline Locally:
 ```powershell
 # In PowerShell:
 .\.venv\Scripts\python.exe api/trigger.py
 ```
 
+### Or Trigger via GitHub Actions:
+Go to **GitHub Actions** ➔ **TechyUpdates Opportunity Pipeline** ➔ Click **Run workflow**.
+
 ### Expected Telegram Output in Your Channel:
 Your channel will instantly receive:
-1. 📁 **Attached Document:** `TechyUpdates_Opportunities_YYYYMMDD.xlsx` (a styled 4-tab workbook containing Internships, Freshers, Mid-Level, and Senior roles).
-2. 📝 **Formatted Caption:**
+1. 📁 **Attached Document:** `TechyUpdates_Opportunities_YYYYMMDD.xlsx` (a styled 11-column 4-tab workbook containing Internships, Freshers, Mid-Level, and Senior roles).
+2. 📝 **Formatted Humanized Caption:**
    ```text
-   ⚡ TechyUpdates Daily Opportunity Synthesizer
-   📅 Timestamp: 24 Sep 2026, 17:55 UTC
-   🎯 Active Roles Ingested: 102
+   👋 Hey Tech Fam! Here is your daily TechyUpdates job drop! 🚀
 
-   📊 Seniority Breakdown:
-     🎓 Internships: 43
-     🚀 Freshers (0–2 YOE): 22
-     ⚡ Mid-Level (2–5 YOE): 43
-     🏆 Senior & Staff (5+ YOE): 43
+   📅 Date: 25 Sep 2026
+   ✨ We scoured and verified 102 fresh tech openings across top product companies, high-growth startups & YC founders.
 
-   🔥 Top Tier Highlights:
-   • 🎓 Databricks — Software Engineering Intern (AI/ML)
-   • 🚀 Coinbase — Associate Software Engineer
-   ...
+   🎯 What's inside today's drop:
+     🎓 Internships & College Grads: 25
+     🌱 Freshers & Entry-Level (0–2 YOE): 30
+     💻 Mid-Level Engineers (2–5 YOE): 27
+     🚀 Senior, Staff & Leads (5+ YOE): 20
+
+   🔥 Today's Top Picks:
+   • 🎓 Databricks — Software Engineering Intern (AI/ML) (Bengaluru, India)
+   • 🌱 Coinbase — Associate Software Engineer (Remote • ₹20-28 LPA)
+   • 💻 Palantir — Forward Deployed Software Engineer [Python, Go, Spark]
+   • 🚀 Anthropic — Applied AI Architect (GenAI/LLM)
+
+   📂 Attached Excel file: 4 categorized tabs with direct 1-click apply links.
+   💡 Pro-tip: Filter by your preferred tech stack & apply early. Best of luck with your prep! 🌟
    ```
 
 ---
@@ -180,4 +193,5 @@ Your channel will instantly receive:
 ---
 
 ### 🎉 Congratulations!
-Your autonomous **TechyUpdates Daily Opportunity Engine** is now fully wired to broadcast curated spreadsheets directly to your community every single day at **8:00 PM IST (14:30 UTC)**.
+Your autonomous **TechyUpdates Daily Opportunity Engine** is now fully wired to broadcast curated spreadsheets directly to your community every single day at **7:00 AM IST (01:30 UTC)**.
+

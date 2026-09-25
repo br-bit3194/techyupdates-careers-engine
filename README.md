@@ -1,69 +1,74 @@
 # NexusCareers: Autonomous Daily Opportunity Synthesizer & Community Aggregator
 
-[![Vercel Cron](https://img.shields.io/badge/Vercel-Cron%20Schedule%2014%3A15%20UTC-black?logo=vercel)](https://vercel.com)
+[![Daily Pipeline](https://github.com/br-bit3194/techyupdates-careers-engine/actions/workflows/daily_pipeline.yml/badge.svg)](https://github.com/br-bit3194/techyupdates-careers-engine/actions/workflows/daily_pipeline.yml)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://python.org)
-[![Gemini 3.5 Flash](https://img.shields.io/badge/Google-Gemini%203.5%20Flash-orange?logo=google)](https://ai.google.dev)
+[![Gemini 3 Series](https://img.shields.io/badge/Google-Gemini%203%20Series-orange?logo=google)](https://ai.google.dev)
 [![OpenPyXL](https://img.shields.io/badge/openpyxl-4--tier%20Spreadsheet-green)](https://openpyxl.readthedocs.io)
+[![Vercel Ready](https://img.shields.io/badge/Vercel-Serverless%20%26%20Cron-black?logo=vercel)](https://vercel.com)
 
-An enterprise-grade, serverless opportunity ingestion engine built for Vercel. NexusCareers triggers automatically every single day at **7:45 PM IST (14:15 UTC)**, pulls active technical roles posted within the past 24 hours from premier ATS platforms and feeds, enriches and classifies the dataset using Google Gemini, formats a 4-tier color-coded Excel workbook (`.xlsx`) entirely in-memory, and broadcasts it to a Telegram community channel without IP bans or credential leakage.
+An enterprise-grade, autonomous opportunity ingestion engine built for **GitHub Actions** and **Vercel Serverless**. NexusCareers triggers automatically every single day at **7:00 AM IST (01:30 UTC)** via GitHub Actions (with optional Vercel Cron at **7:45 PM IST / 14:15 UTC**), pulls active technical roles posted within the past 24 hours from premier ATS platforms and feeds, verifies URL liveness, enriches and classifies the dataset using Google Gemini 3 series, formats a 4-tier color-coded Excel workbook (`.xlsx`) with 11 rich columns entirely in-memory, and broadcasts it to a Telegram community channel without IP bans or credential leakage.
 
 ---
 
 ## 🏗️ System Architecture
 
 ```
-                  ┌────────────────────────────────────────┐
-                  │ Trigger Layer                          │
-                  │ - Vercel Cron (Daily @ 14:15 UTC)      │
-                  │ - Health Ping: GET /api/health (200 OK)│
-                  │ - Webhook / Manual POST /api/trigger   │
-                  └──────────────────┬─────────────────────┘
-                                     │
-                                     ▼
-                  ┌────────────────────────────────────────┐
-                  │ Ingestion Controller (api/trigger.py)  │
-                  │ Auth: Bearer CRON_SECRET               │
-                  └──────────────────┬─────────────────────┘
-                                     │
-                                     ▼
- ┌────────────────────────────────────────────────────────────────────────┐
- │ Asynchronous Multi-Source Collector (Parallel httpx)                   │
- │                                                                        │
- │ [Tier 1: Direct ATS]    [Tier 2: Startups & Feeds]  [Tier 3: Guest API]│
- │ Greenhouse / Lever /    YC Algolia & Official HN    LinkedIn Guest API │
- │ Ashby Public Endpoints  RemoteOK & Jobicy Feeds     (Circuit Breaker)  │
- └───────────────────────────────────┬────────────────────────────────────┘
-                                     │
-                                     ▼
-                  ┌────────────────────────────────────────┐
-                  │ Pre-Filter & Deduplication Engine      │
-                  │ - Freshness: < 24 Hours                │
-                  │ - Deduplication: MD5(company + title)  │
-                  │ - Anti-Scam Heuristics Filter          │
-                  │ - Liveness Link Closure Verifier       │
-                  └──────────────────┬─────────────────────┘
-                                     │
-                                     ▼
-                  ┌────────────────────────────────────────┐
-                  │ AI Extraction Engine (Gemini 3 Series) │
-                  │ - Batch size 50, 5.0s pacing (10 RPM)  │
-                  │ - 3.5 Flash ➡️ 3.8 Flash ➡️ 3.5 Lite   │
-                  │ - 3 Retries Max with Exp Backoff (2s,4s│
-                  │ - Fallback: Local Rule-Based Engine    │
-                  └──────────────────┬─────────────────────┘
-                                     │
-                                     ▼
-                  ┌────────────────────────────────────────┐
-                  │ Excel Engine (openpyxl in-memory)      │
-                  │ - 4 Tab Workbook with Clickable Links  │
-                  └──────────────────┬─────────────────────┘
-                                     │
-                                     ▼
-                  ┌────────────────────────────────────────┐
-                  │ Dispatch Layer                         │
-                  │ - Telegram Bot API (sendDocument)      │
-                  │ - Fallback: Local disk preservation    │
-                  └────────────────────────────────────────┘
+                  ┌────────────────────────────────────────────────────────┐
+                  │ Trigger Layer                                          │
+                  │ - GitHub Actions Cron (Daily @ 01:30 UTC / 7:00 AM IST)│
+                  │ - GitHub 1-Click Manual: workflow_dispatch             │
+                  │ - Vercel Cron (Daily @ 14:15 UTC / 7:45 PM IST)        │
+                  │ - Liveness Probe: GET /api/health (200 OK)             │
+                  │ - Webhook / Manual POST /api/trigger                   │
+                  └──────────────────────────┬─────────────────────────────┘
+                                             │
+                                             ▼
+                  ┌────────────────────────────────────────────────────────┐
+                  │ Ingestion Controller (api/trigger.py)                  │
+                  │ Auth: Bearer CRON_SECRET or Header secret              │
+                  └──────────────────────────┬─────────────────────────────┘
+                                             │
+                                             ▼
+ ┌──────────────────────────────────────────────────────────────────────────────┐
+ │ Asynchronous Multi-Source Collector (Parallel httpx)                         │
+ │                                                                              │
+ │ [Tier 1: Direct ATS]          [Tier 2: Startups & Feeds]  [Tier 3: Guest API]│
+ │ Greenhouse / Lever /          YC Algolia & Official HN    LinkedIn Guest API │
+ │ Ashby Public Endpoints        RemoteOK & Jobicy Feeds     (Circuit Breaker)  │
+ └───────────────────────────────────────┬──────────────────────────────────────┘
+                                         │
+                                         ▼
+                  ┌────────────────────────────────────────────────────────┐
+                  │ Pre-Filter & Deduplication Engine                      │
+                  │ - Freshness: < 24 Hours                                │
+                  │ - Deduplication: MD5(company + title)                  │
+                  │ - Anti-Scam Heuristics Filter                          │
+                  │ - Liveness Fast-Path & Link Closure Verifier           │
+                  └──────────────────────────┬─────────────────────────────┘
+                                             │
+                                             ▼
+                  ┌────────────────────────────────────────────────────────┐
+                  │ AI Extraction Engine (Gemini 3 Series)                 │
+                  │ - Batch size 50, 5.0s pacing (~10 RPM)                 │
+                  │ - 3.5 Flash ➡️ 3.8 Flash ➡️ 3.5 Flash-Lite             │
+                  │ - 3 Retries Max with Exp Backoff (2s, 4s)              │
+                  │ - Fallback: Local Rule-Based Regex Engine              │
+                  └──────────────────────────┬─────────────────────────────┘
+                                             │
+                                             ▼
+                  ┌────────────────────────────────────────────────────────┐
+                  │ Excel Engine (openpyxl in-memory)                      │
+                  │ - 4 Tab Workbook with 11 Columns & Active Hyperlinks   │
+                  │ - Posted Date, Tech Stack, CTC, & Why Apply?           │
+                  └──────────────────────────┬─────────────────────────────┘
+                                             │
+                                             ▼
+                  ┌────────────────────────────────────────────────────────┐
+                  │ Dispatch & Artifact Layer                              │
+                  │ - Telegram Bot API (sendDocument + Humanized Caption)  │
+                  │ - GitHub Actions Artifact Storage (30-day retention)   │
+                  │ - Local disk preservation fallback                     │
+                  └────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -86,32 +91,32 @@ NexusCareers ingests opportunities exclusively from **unauthenticated, legitimat
 ### 2. HOW We Gather the Data (Technical Safeguards)
 
 * **⚡ Concurrent Async I/O (`httpx` + `asyncio`):** All 30+ company endpoints and search queries are queried **simultaneously in parallel**, finishing in **~8 to 10 seconds** instead of minutes.
-* **🚫 Zero Headless Browsers:** No heavy frameworks (Playwright/Selenium) that cause out-of-memory errors or gateway timeouts (`504`) on Vercel serverless.
+* **🚫 Zero Headless Browsers:** No heavy frameworks (Playwright/Selenium) that cause out-of-memory errors or gateway timeouts (`504`) on serverless runners.
 * **🔒 100% Account Safety:** No authenticated session cookies (`li_at`) are ever used. You never risk personal account bans because everything hits unauthenticated public endpoints.
 * **🛡️ Circuit Breakers:** Every network request has an **8.0-second timeout**. If LinkedIn returns `HTTP 429` (rate limit) or an external server hangs, the circuit breaker instantly trips and the pipeline moves on without getting stuck.
+* **🔍 Fast-Path Liveness Verification:** Direct ATS roles from Greenhouse/Ashby/Lever are verified at origin, while third-party and remote postings undergo parallel HTTP status and closure phrase checks to eliminate broken or expired job links.
 
 ---
 
-### 3. What Data Points We Extract per Opportunity
+### 3. What Data Points We Extract per Opportunity (11 Columns)
 
-For every single opportunity, the pipeline normalizes and enriches the following 10 data points:
-1. **Company Name** (e.g. `Databricks`, `Coinbase`, `Anthropic`)
-2. **Role Title** (e.g. `Software Engineering Intern, AI/ML`)
-3. **Seniority Tier** (`🎓 Internships`, `🚀 Freshers (0-2 YOE)`, `⚡ Mid-Level (2-5 YOE)`, `🏆 Senior & Staff (5+ YOE)`)
-4. **Technical Domain** (`GenAI/LLM`, `Core ML`, `Backend & Distributed`, `Full-Stack & DevOps`)
-5. **Experience Level** (e.g. `0-0 yrs`, `0-2 yrs`, `3-5 yrs`, `5+ yrs`)
-6. **Workplace Type** (`Remote`, `Hybrid`, `On-site`)
-7. **Location** (e.g. `Bengaluru, India`, `San Francisco, CA`, `Remote / Global`)
-8. **Salary / CTC** (Normalized: e.g. `₹15-25 LPA`, `$140k-$165k`, or `Not Disclosed`)
-9. **Core Tech Stack** (e.g. `Python, PyTorch, Kubernetes, Kafka`)
+For every single opportunity, the pipeline normalizes, classifies, and enriches **11 distinct data points**:
+
+1. **Company** (e.g. `Databricks`, `Coinbase`, `Anthropic`, `Perplexity`)
+2. **Role Title** (e.g. `Software Engineering Intern, AI/ML`, `Member of Technical Staff`)
+3. **Domain** (`GenAI/LLM`, `Core ML`, `Backend & Distributed`, `Full-Stack & DevOps`)
+4. **Experience** (e.g. `0-0 yrs`, `0-2 yrs`, `2-5 yrs`, `5+ yrs`)
+5. **Workplace** (`Remote`, `Hybrid`, `On-site`)
+6. **Location** (e.g. `Bengaluru, India`, `San Francisco, CA`, `Remote / Global`)
+7. **Salary / CTC** (Normalized: e.g. `₹15-25 LPA`, `$140k-$165k`, or `Not Disclosed`)
+8. **Tech Stack** (e.g. `Python, PyTorch, Kubernetes, Kafka, React`)
+9. **Posted Date** (e.g. `2026-09-25`, `14 hours ago`, or `Recent (<24h)`)
 10. **Why Apply?** (1-line crisp reason highlighting why this role is attractive)
 11. **Direct Apply Link** (Clickable `=HYPERLINK("...", "Apply Direct ↗")` formula pointing directly to the company portal)
 
 ---
 
-## ⚡ Understanding the Endpoints (`api/trigger.py`)
-
-The application exposes two clean endpoints:
+## ⚡ Endpoints & Cloud Architecture
 
 ### 1. `GET /api/health` (Uptime & Liveness Probe)
 - **Unauthenticated & Fast (< 50ms)**: Returns an immediate `200 OK` JSON response:
@@ -119,73 +124,50 @@ The application exposes two clean endpoints:
   {
     "status": "healthy",
     "service": "techyupdates-careers-engine",
-    "timestamp": "2026-09-25T14:15:00.000000+00:00"
+    "timestamp": "2026-09-25T01:30:00.000000+00:00"
   }
   ```
 - Use this endpoint for uptime monitors (UptimeRobot, BetterUptime) or quick health checks without triggering AI or scraping.
 
 ### 2. `GET /api/trigger` or `POST /api/trigger` (Full Pipeline Engine)
-The **Trigger** is the serverless API endpoint that acts as the master **starter switch** for the entire pipeline.
+The **Trigger** is the master execution handler for the pipeline.
 
 ### 🔄 Execution Flow When Triggered
-When an HTTP request hits `/api/trigger`:
-1. **Security Authentication:** Verifies the `Authorization: Bearer <CRON_SECRET>` token. If missing or invalid, immediately returns `401 Unauthorized`.
-2. **Parallel Collection:** Concurrently queries Greenhouse, Ashby, Lever, Y Combinator, RemoteOK, Jobicy, and LinkedIn Guest APIs (~5 seconds).
-3. **Filtering & Deduplication:** Strictly discards roles older than 24 hours, catches scam keywords, and removes cross-platform duplicates using MD5 signatures.
+1. **Security Authentication:** Verifies the `Authorization: Bearer <CRON_SECRET>` or `x-cron-secret` token. If missing or invalid, immediately returns `401 Unauthorized`. (CLI dry-run bypasses auth if executed locally).
+2. **Parallel Collection:** Concurrently queries Greenhouse, Ashby, Lever, Y Combinator, RemoteOK, Jobicy, and LinkedIn Guest APIs (~5-8 seconds).
+3. **Filtering & Deduplication:** Discards roles older than 24 hours, catches scam keywords, and removes cross-platform duplicates using MD5 signatures.
 4. **Liveness Verification:** Validates that posting URLs are active and not closed/expired before passing to AI.
-5. **AI Tiering & Synthesis (Gemini 3):** Processes listings sequentially in batches of 50 with a safe 5.0-second delay between calls (enforcing ~9–10 RPM, well below Google's 15 RPM free tier cap). If Google experiences a demand spike, it retries up to 3 times with exponential backoff (2s, 4s) across `gemini-3.5-flash` ➡️ `gemini-3.8-flash` ➡️ `gemini-3.5-flash-lite`, and falls back to the local rule-based classifier if quota is exhausted.
-6. **Excel Generation:** Constructs a styled, 4-tab `.xlsx` spreadsheet in-memory (`io.BytesIO`) with custom theme colors and active `=HYPERLINK()` formulas.
-7. **Community Broadcast:** Dispatches the workbook and executive summary directly to your Telegram channel via `multipart/form-data`.
-8. **Local Fallback:** If Telegram credentials are omitted, it automatically writes a copy of the spreadsheet to your local directory (e.g. `TechyUpdates_Opportunities_YYYYMMDD.xlsx`).
-
-### 🎮 The 3 Ways to Trigger It
-* **1. Automatic Vercel Cron:** Automatically triggered daily at **7:45 PM IST (14:15 UTC)** by Vercel's built-in cloud scheduler.
-* **2. On-Demand Webhook / cURL:** Manually trigger the pipeline anytime without waiting for the scheduled time:
-  ```bash
-  curl -X POST https://your-project.vercel.app/api/trigger \
-    -H "Authorization: Bearer your_cron_secret"
-  ```
-* **3. Local CLI Execution:** Run directly on your machine:
-  ```bash
-  python api/trigger.py
-  ```
+5. **AI Tiering & Synthesis (Gemini 3):** Processes listings in batches of 50 with safe pacing (~10 RPM, well below Google's 15 RPM free tier cap). If Google experiences a demand spike, it retries up to 3 times with exponential backoff (2s, 4s) across `gemini-3.5-flash` ➡️ `gemini-3.8-flash` ➡️ `gemini-3.5-flash-lite`, and gracefully falls back to the local rule-based classifier if quota is exhausted.
+6. **Excel Generation:** Constructs a styled, 4-tab `.xlsx` spreadsheet in-memory (`io.BytesIO`) with custom theme colors, zebra rows, auto-filters, and active `=HYPERLINK()` formulas.
+7. **Community Broadcast:** Dispatches the workbook and humanized executive summary directly to your Telegram channel via `multipart/form-data`.
+8. **Artifact Archiving & Local Fallback:** Saves a copy of the spreadsheet (`TechyUpdates_Opportunities_YYYYMMDD.xlsx`) locally and uploads it as a GitHub Actions workflow artifact.
 
 ---
 
-## 🕒 Setting Vercel Cron at a Particular Time
+## 🕒 Automation Schedules & Cron Configuration
 
-Vercel Cron expressions use standard 5-part POSIX syntax inside `vercel.json`:
-```text
- ┌───────────── Minute (0 - 59)
- │ ┌─────────── Hour in UTC (0 - 23)
- │ │ ┌───────── Day of month (1 - 31)
- │ │ │ ┌─────── Month (1 - 12)
- │ │ │ │ ┌───── Day of week (0 - 6, 0=Sunday)
- │ │ │ │ │
- * * * * *
-```
+### 1. GitHub Actions Workflow (Primary & Recommended)
+Defined in [`.github/workflows/daily_pipeline.yml`](file:///d:/TechyUpdates/job_finder/.github/workflows/daily_pipeline.yml):
+* **Schedule:** `30 1 * * *` (Every single day at **7:00 AM IST / 01:30 UTC**)
+* **Manual Trigger:** Supports 1-click execution via **workflow_dispatch** button in the GitHub Actions tab.
+* **Artifacts:** Automatically uploads generated workbooks for 30-day retention under the Actions run summary.
 
-> **CRITICAL RULE:** Vercel Cron **always evaluates in UTC (Coordinated Universal Time)**.
-
-### 📐 IST to UTC Conversion Formula
-$$\text{UTC Time} = \text{Target IST Time} - \text{5 hours 30 minutes}$$
+### 2. Vercel Cron (Optional Secondary Serverless Trigger)
+Defined in [`vercel.json`](file:///d:/TechyUpdates/job_finder/vercel.json):
+* **Schedule:** `15 14 * * *` (Every single day at **7:45 PM IST / 14:15 UTC**)
 
 ### 📋 Time Conversion Cheat Sheet
 
-| Target Run Time (IST) | Equivalent UTC Time | `vercel.json` Schedule Expression |
+| Target Run Time (IST) | Equivalent UTC Time | Cron Expression (`schedule`) |
 |---|---|---|
-| **8:00 AM IST** | 02:30 UTC | `"schedule": "30 2 * * *"` |
-| **10:00 AM IST** | 04:30 UTC | `"schedule": "30 4 * * *"` |
-| **1:00 PM IST** | 07:30 UTC | `"schedule": "30 7 * * *"` |
-| **6:00 PM IST** | 12:30 UTC | `"schedule": "30 12 * * *"` |
-| **7:45 PM IST** *(Default)* | 14:15 UTC | `"schedule": "15 14 * * *"` |
-| **8:00 PM IST** | 14:30 UTC | `"schedule": "30 14 * * *"` |
-| **10:00 PM IST** | 16:30 UTC | `"schedule": "30 16 * * *"` |
-| **Midnight (12:00 AM IST)** | 18:30 UTC (prev day) | `"schedule": "30 18 * * *"` |
-
-### ⚡ Vercel Plan Execution Limits
-* **Hobby (Free Tier):** Allows **1 cron execution per day**. Perfect for running a daily digest (e.g. at 7:45 PM IST).
-* **Pro Plan:** Allows unlimited cron executions per day (hourly, every 6 hours, etc.).
+| **7:00 AM IST** *(GitHub Actions Default)* | **01:30 UTC** | `30 1 * * *` |
+| **8:00 AM IST** | 02:30 UTC | `30 2 * * *` |
+| **10:00 AM IST** | 04:30 UTC | `30 4 * * *` |
+| **1:00 PM IST** | 07:30 UTC | `30 7 * * *` |
+| **6:00 PM IST** | 12:30 UTC | `30 12 * * *` |
+| **7:45 PM IST** *(Vercel Cron Default)* | **14:15 UTC** | `15 14 * * *` |
+| **8:00 PM IST** | 14:30 UTC | `30 14 * * *` |
+| **10:00 PM IST** | 16:30 UTC | `30 16 * * *` |
 
 ---
 
@@ -216,33 +198,27 @@ NexusCareers focuses exclusively on **Software Engineering, AI/ML, and Technical
 
 ---
 
-## 🛡️ 24-Hour Freshness & Verification Guarantee
-
-Every opportunity in the workbook is guaranteed to be active and posted within the **last 24 hours**:
-
-1. **LinkedIn Guest API:** Enforces LinkedIn's native server-side time parameter `f_TPR=r86400` (*Rolling 86,400 seconds = 24 hours*). LinkedIn strictly excludes any posting older than 24 hours.
-2. **Direct ATS (Greenhouse, Ashby, Lever):** Evaluates exact UTC timestamps (`updated_at`, `publishedAt`, `createdAt`). The collector calculates `(now - timestamp) <= 24 hours`. Any older posting is dropped. *(For example, at Databricks, out of 884 total open jobs, 864 older jobs were filtered out and only the 20 newly updated/opened within 24 hours were retained!)*
-3. **Remote Feeds & YC:** Evaluated against `cutoff = now - 24 hours`.
-4. **Legitimacy Level:** Direct ATS and YC roles are 100% direct company openings with zero agency middlemen.
-
----
-
 ## 📁 Project Structure
 
 ```text
 job_finder/
+├── .github/
+│   └── workflows/
+│       └── daily_pipeline.yml   # Automated daily GitHub Actions workflow (7:00 AM IST)
 ├── api/
-│   └── trigger.py               # Vercel entrypoint handler & local CLI runner
+│   ├── health.py                # Dedicated ultra-fast (<50ms) liveness probe
+│   └── trigger.py               # Master pipeline execution entrypoint & CLI runner
 ├── services/
 │   ├── collectors/
 │   │   ├── __init__.py          # Dedup hash, tech filters, anti-scam checks
 │   │   ├── ats_boards.py        # Greenhouse, Lever, Ashby async fetchers
 │   │   ├── yc_algolia.py        # Y Combinator Algolia & HN jobs fallback
 │   │   ├── remote_feeds.py      # RemoteOK, Jobicy RSS/JSON
-│   │   └── linkedin_guest.py    # Polite guest scraper with circuit breaker
-│   ├── ai_extractor.py          # Gemini 3.5 Flash batch processing & fallback
-│   ├── excel_builder.py         # Multi-tab openpyxl workbook generator
-│   └── telegram_notifier.py     # Document & message broadcast service
+│   │   ├── linkedin_guest.py    # Polite guest scraper with circuit breaker
+│   │   └── liveness_verifier.py # HTTP status & expiration phrase verifier
+│   ├── ai_extractor.py          # Gemini 3 cascade (3.5 / 3.8 / Flash-Lite) & fallback
+│   ├── excel_builder.py         # 11-column, 4-tab openpyxl workbook generator
+│   └── telegram_notifier.py     # Community broadcaster & humanized caption builder
 ├── config/
 │   ├── __init__.py
 │   └── targets.py               # Verified target slugs, keywords, scam blacklist
@@ -253,6 +229,7 @@ job_finder/
 ├── vercel.json                  # Serverless function & cron definitions
 ├── pytest.ini                   # Pytest configuration
 ├── .env.example                 # Template for environment variables
+├── TELEGRAM_SETUP.md            # Step-by-step 3-minute Telegram bot setup manual
 └── README.md                    # Setup and deployment manual
 ```
 
@@ -298,7 +275,7 @@ Configure your secrets in `.env`:
 # Generate a random 32-character token for cron authentication
 CRON_SECRET=your_super_secret_32_char_token
 
-# Google AI Studio key (supports Gemini 3.5 Flash)
+# Google AI Studio key (supports Gemini 3 Series)
 GEMINI_API_KEY=AIzaSy...
 
 # Optional: defaults to gemini-3.5-flash with automatic gemini-3.8-flash / gemini-3.5-flash-lite fallback
@@ -307,13 +284,13 @@ GEMINI_MODEL=gemini-3.5-flash
 # Telegram Bot Token (from @BotFather)
 TELEGRAM_BOT_TOKEN=1234567890:ABCdefGHIjklMNOpqrsTUVwxyz
 
-# Telegram Community Channel ID (e.g., -100xxxxxxxxxx)
+# Telegram Community Channel ID (e.g., -100xxxxxxxxxx or @your_channel)
 TELEGRAM_COMMUNITY_CHANNEL_ID=-100xxxxxxxxxx
 ```
 
 > **Detailed Bot Setup Manual**: For full step-by-step instructions on setting up your bot and getting your channel ID in 3 minutes, see [**`TELEGRAM_SETUP.md`**](file:///d:/TechyUpdates/job_finder/TELEGRAM_SETUP.md).
 
-> **Note**: If Telegram credentials are not set, the pipeline automatically saves the generated Excel file directly to your local workspace (`TechyUpdates_Opportunities_YYYYMMDD.xlsx`).
+> **Note**: If Telegram credentials are not configured, the pipeline automatically saves the generated Excel file directly to your local workspace (`TechyUpdates_Opportunities_YYYYMMDD.xlsx`).
 
 ---
 
@@ -329,53 +306,43 @@ pytest -v
 python api/trigger.py
 ```
 
-This will run all collectors in parallel, deduplicate listings, enrich the dataset using Gemini 3.5 Flash, build the 4-tab Excel spreadsheet, and save it locally.
+This will run all collectors in parallel, deduplicate listings, verify URL liveness, enrich the dataset using Google Gemini 3 series, build the 11-column 4-tab Excel spreadsheet, and broadcast/save it.
 
 ---
 
-## ☁️ Deployment to Vercel
+## ☁️ Production Deployment
 
-### Step 1: Deploy with Vercel CLI
+### Option A: GitHub Actions (Recommended)
+1. Go to your GitHub repository ➔ **Settings** ➔ **Secrets and variables** ➔ **Actions**.
+2. Add the following **Repository Secrets**:
+   - `GEMINI_API_KEY`
+   - `TELEGRAM_BOT_TOKEN`
+   - `TELEGRAM_COMMUNITY_CHANNEL_ID`
+   - `CRON_SECRET`
+   - `GEMINI_MODEL` (Optional, defaults to `gemini-3.5-flash-lite` or `gemini-3.5-flash`)
+3. The workflow will run automatically every morning at **7:00 AM IST (01:30 UTC)**. You can also trigger it manually anytime by going to **Actions** ➔ **TechyUpdates Opportunity Pipeline** ➔ **Run workflow**.
+
+---
+
+### Option B: Vercel Serverless & Cron
+
+#### Step 1: Deploy with Vercel CLI
 ```bash
-# Install Vercel CLI if needed
 npm install -g vercel
-
-# Deploy project
 vercel
 ```
 
-### Step 2: Configure Environment Variables in Vercel Dashboard
-In the Vercel Project Settings -> **Environment Variables**, add:
+#### Step 2: Configure Environment Variables in Vercel Dashboard
+In your Vercel Project Settings ➔ **Environment Variables**, add:
 - `CRON_SECRET`
 - `GEMINI_API_KEY`
-- `GEMINI_MODEL` (Optional, defaults to `gemini-3.5-flash`)
+- `GEMINI_MODEL`
 - `TELEGRAM_BOT_TOKEN`
 - `TELEGRAM_COMMUNITY_CHANNEL_ID`
 
-### Step 3: Verify Cron Schedule
-The project includes `vercel.json` configured with:
-```json
-{
-  "crons": [
-    {
-      "path": "/api/trigger",
-      "schedule": "15 14 * * *"
-    }
-  ],
-  "functions": {
-    "api/trigger.py": {
-      "maxDuration": 300,
-      "memory": 1024
-    }
-  }
-}
-```
-* **Daily Schedule:** Runs at `14:15 UTC` (**7:45 PM IST**).
-* **Execution Boundary:** `maxDuration: 300` ensures serverless async I/O finishes comfortably.
+> **IMPORTANT (Deployment Protection):** In your Vercel Project Settings ➔ **Deployment Protection**, ensure **Vercel Authentication** is set to **Disabled** so that external cron triggers, uptime robots, and webhooks can access the endpoints without being intercepted by an SSO login wall.
 
-> **IMPORTANT (Deployment Protection):** In your Vercel Project Settings ➔ **Deployment Protection**, ensure **Vercel Authentication** is set to **Disabled** so that external cron triggers, uptime robots, and webhooks can access the endpoints without being intercepted by a browser SSO login wall.
-
-### Step 4: Manual Trigger Verification (cURL)
+#### Step 3: Manual Trigger Verification (cURL)
 You can trigger the pipeline manually at any time using:
 
 ```bash
