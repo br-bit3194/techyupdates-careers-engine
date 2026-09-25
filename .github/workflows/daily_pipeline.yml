@@ -2,8 +2,8 @@ name: TechyUpdates Opportunity Pipeline
 
 on:
   schedule:
-    # Runs everyday at 14:15 UTC (7:45 PM IST)
-    - cron: '15 14 * * *'
+    # Runs everyday at 01:30 UTC (7:00 AM IST)
+    - cron: '30 1 * * *'
   workflow_dispatch:
     # Allows manual 1-click execution from GitHub Actions UI
 
