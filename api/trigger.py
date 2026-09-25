@@ -5,6 +5,7 @@ import sys
 import json
 import asyncio
 import logging
+from urllib.parse import urlparse
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler
 from typing import Dict, Any, List
@@ -191,9 +192,17 @@ class handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         """Handle Vercel Cron GET invocation or health check."""
-        # Convert headers to dict
-        headers_dict = {k: v for k, v in self.headers.items()}
+        parsed_path = urlparse(self.path).path.rstrip("/")
+        if parsed_path in ("/api/health", "/health", ""):
+            self._send_response_json(200, {
+                "status": "healthy",
+                "service": "techyupdates-careers-engine",
+                "timestamp": datetime.now(timezone.utc).isoformat(),
+            })
+            return
 
+        # For pipeline triggers (/api/trigger, etc.), verify authentication
+        headers_dict = {k: v for k, v in self.headers.items()}
         if not authenticate_request(headers_dict):
             self._send_response_json(401, {"error": "Unauthorized: Invalid or missing Bearer token"})
             return

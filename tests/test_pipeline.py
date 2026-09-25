@@ -207,3 +207,24 @@ def test_liveness_closure_markers():
     active_html = "<html><body><h1>Apply for Software Engineer</h1><form action='/submit'></form></body></html>"
     active_found = any(m in active_html.lower() for m in CLOSURE_MARKERS)
     assert active_found is False
+
+
+def test_health_check_endpoint():
+    """Verify health check logic returns 200 without running pipeline."""
+    from api.trigger import handler
+    from unittest.mock import MagicMock
+
+    h = handler.__new__(handler)
+    h.path = "/api/health"
+    h.headers = {}
+    h._send_response_json = MagicMock()
+
+    h.do_GET()
+
+    h._send_response_json.assert_called_once()
+    args, _ = h._send_response_json.call_args
+    assert args[0] == 200
+    assert args[1]["status"] == "healthy"
+    assert args[1]["service"] == "techyupdates-careers-engine"
+
+
