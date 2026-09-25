@@ -91,6 +91,7 @@ def test_excel_workbook_structure():
             salary_package="$60/hr",
             platform="Ashby",
             apply_url="https://jobs.ashbyhq.com/anthropic/intern",
+            posted_date="24 Sep 2026",
             core_tech_stack=["Python", "PyTorch"],
             why_it_matters="Frontier safety research.",
         ),
@@ -106,6 +107,7 @@ def test_excel_workbook_structure():
             salary_package="$140k - $165k",
             platform="Greenhouse",
             apply_url="https://boards.greenhouse.io/stripe/123",
+            posted_date="23 Sep 2026",
             core_tech_stack=["Ruby", "Go", "Distributed Systems"],
             why_it_matters="Global financial infrastructure.",
         ),
@@ -121,6 +123,7 @@ def test_excel_workbook_structure():
             salary_package="$180k - $240k",
             platform="Ashby",
             apply_url="https://jobs.ashbyhq.com/cursor/456",
+            posted_date="24 Sep 2026",
             core_tech_stack=["TypeScript", "Rust", "C++"],
             why_it_matters="Next-gen AI code editor.",
         ),
@@ -136,6 +139,7 @@ def test_excel_workbook_structure():
             salary_package="$300k - $450k",
             platform="Greenhouse",
             apply_url="https://boards.greenhouse.io/openai/789",
+            posted_date="22 Sep 2026",
             core_tech_stack=["Python", "Kubernetes", "Ray", "Triton"],
             why_it_matters="Frontier AI supercomputing.",
         ),
@@ -154,8 +158,11 @@ def test_excel_workbook_structure():
     ws_intern = wb["🎓 Internships"]
     assert ws_intern.cell(row=1, column=1).value == "Company"
     assert ws_intern.cell(row=2, column=1).value == "Anthropic"
-    # Check hyperlink formula in column 10
-    link_cell = ws_intern.cell(row=2, column=10).value
+    # Check Posted Date in column 9
+    assert ws_intern.cell(row=1, column=9).value == "Posted Date"
+    assert ws_intern.cell(row=2, column=9).value == "24 Sep 2026"
+    # Check hyperlink formula in column 11
+    link_cell = ws_intern.cell(row=2, column=11).value
     assert '=HYPERLINK("https://jobs.ashbyhq.com/anthropic/intern", "Apply Direct ↗")' in link_cell
 
 
@@ -177,8 +184,8 @@ def test_telegram_caption_generation():
         )
     ]
     caption = generate_executive_caption(records)
-    assert "TechyUpdates Daily Opportunity Synthesizer" in caption
-    assert "🎓 *Internships:* 1" in caption
+    assert "TechyUpdates" in caption
+    assert "🎓 *Internships & College Grads:* 1" in caption
     assert "Anthropic" in caption
 
 

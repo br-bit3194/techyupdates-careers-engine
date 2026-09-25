@@ -45,6 +45,7 @@ HEADERS = [
     "Location",
     "Salary / CTC",
     "Tech Stack",
+    "Posted Date",
     "Why Apply?",
     "Direct Apply Link",
 ]
@@ -152,6 +153,7 @@ def build_excel_workbook(opportunities: List[OpportunityRecord]) -> io.BytesIO:
                 exp_str = "0+ yrs"
 
             tech_stack_str = ", ".join(opp.core_tech_stack) if opp.core_tech_stack else "Python, Cloud"
+            posted_date_str = opp.posted_date or "Recent"
 
             # Clean apply url for hyperlink
             clean_url = opp.apply_url.replace('"', '""')
@@ -166,6 +168,7 @@ def build_excel_workbook(opportunities: List[OpportunityRecord]) -> io.BytesIO:
                 opp.location,
                 opp.salary_package,
                 tech_stack_str,
+                posted_date_str,
                 opp.why_it_matters,
                 hyperlink_formula,
             ]
@@ -182,13 +185,13 @@ def build_excel_workbook(opportunities: List[OpportunityRecord]) -> io.BytesIO:
                 cell.fill = row_fill
                 cell.border = thin_border
 
-                if col_idx == 10:  # Direct Apply Link column
+                if col_idx == 11:  # Direct Apply Link column
                     cell.font = link_font
                     cell.alignment = Alignment(horizontal="center", vertical="center")
-                elif col_idx in (1, 2, 8, 9):  # Text columns
+                elif col_idx in (1, 2, 8, 10):  # Text columns (Company, Title, Tech Stack, Why Apply)
                     cell.font = data_font
                     cell.alignment = Alignment(horizontal="left", vertical="center")
-                else:  # Metadata columns (Domain, Exp, Workplace, Location, Salary)
+                else:  # Metadata columns (Domain, Exp, Workplace, Location, Salary, Posted Date)
                     cell.font = data_font
                     cell.alignment = Alignment(horizontal="center", vertical="center")
 
@@ -199,20 +202,21 @@ def build_excel_workbook(opportunities: List[OpportunityRecord]) -> io.BytesIO:
 
         # Apply Auto-Filter
         last_row = max(row_idx - 1, 1)
-        ws.auto_filter.ref = f"A1:J{last_row}"
+        ws.auto_filter.ref = f"A1:K{last_row}"
 
         # Calculate Column Widths
         column_widths = {
             1: 20,  # Company
             2: 32,  # Role Title
-            3: 32,  # Domain
+            3: 30,  # Domain
             4: 14,  # Experience
             5: 14,  # Workplace
             6: 22,  # Location
             7: 20,  # Salary / CTC
-            8: 30,  # Tech Stack
-            9: 45,  # Why Apply?
-            10: 18, # Direct Apply Link
+            8: 28,  # Tech Stack
+            9: 16,  # Posted Date
+            10: 44, # Why Apply?
+            11: 18, # Direct Apply Link
         }
         for col_idx, width in column_widths.items():
             col_letter = get_column_letter(col_idx)

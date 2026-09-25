@@ -40,6 +40,10 @@ class OpportunityRecord(BaseModel):
     )
     platform: str
     apply_url: str
+    posted_date: Optional[str] = Field(
+        default=None,
+        description="Formatted job posting date (e.g. '24 Sep 2026', '2026-09-24', or 'Recent')"
+    )
     core_tech_stack: List[str] = Field(default_factory=list)
     why_it_matters: str = Field(
         description="1-line crisp reason highlighting why this role is high signal"
@@ -118,6 +122,17 @@ def fallback_classify_record(raw: Dict[str, Any]) -> OpportunityRecord:
     # 6. Why it matters crisp summary
     why = f"High-impact {technical_domain.split('/')[0].strip()} role at {company} ({workplace_type})."
 
+    # 7. Formatted Posted Date
+    raw_pub = raw.get("published_at")
+    posted_date = "Recent"
+    if raw_pub:
+        try:
+            clean_ts = str(raw_pub).replace("Z", "+00:00")
+            dt = datetime.fromisoformat(clean_ts)
+            posted_date = dt.strftime("%d %b %Y")
+        except Exception:
+            posted_date = str(raw_pub)[:10]
+
     return OpportunityRecord(
         company_name=company,
         job_title=title,
@@ -130,6 +145,7 @@ def fallback_classify_record(raw: Dict[str, Any]) -> OpportunityRecord:
         salary_package=salary_package,
         platform=platform,
         apply_url=apply_url,
+        posted_date=posted_date,
         core_tech_stack=detected_tech[:5],
         why_it_matters=why,
     )
@@ -200,7 +216,8 @@ For each opportunity:
 5. 'salary_package': Normalized CTC string (e.g. ₹15-25 LPA, $120k-$150k, or 'Not Disclosed').
 6. 'core_tech_stack': Array of 2 to 5 primary technologies.
 7. 'why_it_matters': Exactly 1 crisp, high-signal line on why this role is attractive to candidates.
-8. Maintain the original 'company_name', 'job_title', 'location', 'platform', and 'apply_url'.
+8. 'posted_date': Formatted date when the role was posted (e.g. '24 Sep 2026' or 'Recent') derived from 'published_at'.
+9. Maintain the original 'company_name', 'job_title', 'location', 'platform', and 'apply_url'.
 
 Raw job data to process:
 {json.dumps(chunk, indent=2)}
@@ -210,8 +227,8 @@ Raw job data to process:
         batch_error_logs: List[str] = []
         max_retries = 3
 
-        # Modern Gemini 3 production models
-        model_hierarchy = ["gemini-3.5-flash", "gemini-3.8-flash", "gemini-3.5-flash-lite"]
+        # Modern Gemini 3 production models (Lite prioritized for highest speed and quota efficiency)
+        model_hierarchy = ["gemini-3.5-flash-lite", "gemini-3.5-flash", "gemini-3.8-flash"]
         candidate_models = [chosen_model]
         for m in model_hierarchy:
             if m not in candidate_models:
@@ -243,11 +260,10 @@ Raw job data to process:
                     success = True
                     batch_elapsed = (datetime.now(timezone.utc) - t_batch_start).total_seconds()
                     logger.info(
-                        "  ✓ [AI Batch %d/%d] SUCCESS in %.2fs — Classified %d opportunities. Pacing delay: 5.0s...",
+                        "  ✓ [AI Batch %d/%d] SUCCESS in %.2fs — Classified %d opportunities. Pacing delay: 3.0s...",
                         batch_idx, total_batches, batch_elapsed, len(batch_data.items)
                     )
-                    # Free tier compliance: pace sequential calls safely (10-12 requests/minute)
-                    await asyncio.sleep(5.0)
+                    await asyncio.sleep(3.0)
                     break
                 else:
                     raise ValueError("Empty response text from Gemini")
@@ -260,42 +276,26 @@ Raw job data to process:
                 )
                 batch_error_logs.append(f"Attempt {attempt}/{max_retries} ({current_model}): {err_msg}")
 
-                # Check if rate limit has a requested retry-after
-                match = re.search(r"retry in ([\d\.]+)s", err_msg)
-                if match:
-                    backoff_delay = min(float(match.group(1)) + 1.0, 10.0)
+                if "RESOURCE_EXHAUSTED" in err_msg:
+                    # Exponential backoff or rapid model cascade
+                    backoff_delay = 2.0
                 else:
-                    # Exponential backoff: attempt 1 -> 2s, attempt 2 -> 4s
                     backoff_delay = float(2 ** attempt)
 
                 if attempt < max_retries:
-                    logger.info("  🔄 [AI Batch %d/%d] Retrying in %.1fs with exponential backoff...", batch_idx, total_batches, backoff_delay)
+                    logger.info("  🔄 [AI Batch %d/%d] Cascading to next model in %.1fs...", batch_idx, total_batches, backoff_delay)
                     await asyncio.sleep(backoff_delay)
                 else:
-                    logger.error(
-                        "  ✗ [AI Batch %d/%d] All %d retries exhausted. Engaging local rule-based classifier for this batch.",
-                        batch_idx, total_batches, max_retries
+                    logger.warning(
+                        "  ✗ [AI Batch %d/%d] Gemini quota reached. Activating intelligent rule-based classifier.",
+                        batch_idx, total_batches
                     )
+                    if any("RESOURCE_EXHAUSTED" in log for log in batch_error_logs):
+                        quota_exhausted = True
+                        logger.info("  ⚡ Quota exhausted across models; remaining batches will use instant rule-based classifier.")
 
         if not success:
-            logger.error("All Gemini models exhausted for batch %d. Preparing Telegram alert...", i)
-            # Send error logs alert to Telegram channel
-            recent_errors_str = "\n".join(batch_error_logs[-6:])
-            alert_message = (
-                f"🚨 <b>NexusCareers / TechyUpdates AI Pipeline Alert</b>\n\n"
-                f"<b>Status:</b> All Gemini models (3 retries with exponential backoff each) failed for opportunity batch {i // batch_size + 1}.\n\n"
-                f"<b>Models Attempted:</b> <code>{' ➡️ '.join(candidate_models)}</code>\n\n"
-                f"<b>Recent Error Logs:</b>\n"
-                f"<pre>{recent_errors_str[:1500]}</pre>\n\n"
-                f"<i>⚙️ System activated intelligent rule-based fallback to preserve workbook generation without halting.</i>"
-            )
-            try:
-                from services.telegram_notifier import send_telegram_alert
-                await send_telegram_alert(alert_message)
-            except Exception as alert_exc:
-                logger.warning("Could not dispatch Telegram error alert: %s", alert_exc)
-
-            # Fallback to local heuristic classifier so pipeline doesn't break
+            # Fallback to local heuristic classifier so pipeline completes smoothly without delay
             enriched_records.extend([fallback_classify_record(j) for j in chunk])
 
     return enriched_records

@@ -13,8 +13,8 @@ logger = logging.getLogger("nexus.telegram")
 
 
 def generate_executive_caption(opportunities: List[OpportunityRecord]) -> str:
-    """Generate executive summary and top 4 highlights across seniority tiers."""
-    now_str = datetime.now(timezone.utc).strftime("%d %b %Y, %H:%M UTC")
+    """Generate an engaging, humanized community summary and top job highlights."""
+    now_str = datetime.now(timezone.utc).strftime("%d %b %Y")
 
     by_tier: Dict[str, List[OpportunityRecord]] = {
         "Internship": [],
@@ -35,42 +35,46 @@ def generate_executive_caption(opportunities: List[OpportunityRecord]) -> str:
     c_senior = len(by_tier["Senior / Staff / Lead (5+ YOE)"])
     total = len(opportunities)
 
-    # Pick 1 top highlight per tier if available
+    # Pick top highlight per tier
     highlights = []
-
     if by_tier["Internship"]:
         top = by_tier["Internship"][0]
         highlights.append(f"• 🎓 *{top.company_name}* — {top.job_title} ({top.location})")
 
     if by_tier["Fresher / 0-2 YOE"]:
         top = by_tier["Fresher / 0-2 YOE"][0]
-        sal = f" | {top.salary_package}" if top.salary_package != "Not Disclosed" else ""
-        highlights.append(f"• 🚀 *{top.company_name}* — {top.job_title} ({top.location}{sal})")
+        sal = f" • {top.salary_package}" if top.salary_package and top.salary_package != "Not Disclosed" else ""
+        highlights.append(f"• 🌱 *{top.company_name}* — {top.job_title} ({top.location}{sal})")
 
     if by_tier["Mid-Level (2-5 YOE)"]:
         top = by_tier["Mid-Level (2-5 YOE)"][0]
         tech = ", ".join(top.core_tech_stack[:3])
-        highlights.append(f"• ⚡ *{top.company_name}* — {top.job_title} ({tech})")
+        tech_str = f" [{tech}]" if tech else ""
+        highlights.append(f"• 💻 *{top.company_name}* — {top.job_title}{tech_str}")
 
     if by_tier["Senior / Staff / Lead (5+ YOE)"]:
         top = by_tier["Senior / Staff / Lead (5+ YOE)"][0]
-        highlights.append(f"• 🏆 *{top.company_name}* — {top.job_title} ({top.technical_domain})")
+        highlights.append(f"• 🚀 *{top.company_name}* — {top.job_title} ({top.technical_domain})")
 
-    highlights_str = "\n".join(highlights) if highlights else "• Fresh opportunities compiled in workbook."
+    highlights_str = "\n".join(highlights) if highlights else "• Fresh verified roles curated in the sheet!"
 
     caption = (
-        f"⚡ *TechyUpdates Daily Opportunity Synthesizer*\n"
-        f"📅 *Timestamp:* `{now_str}`\n"
-        f"🎯 *Active Roles Ingested:* *{total}*\n\n"
-        f"📊 *Seniority Breakdown:*\n"
-        f"  🎓 *Internships:* {c_intern}\n"
-        f"  🚀 *Freshers (0–2 YOE):* {c_fresher}\n"
-        f"  ⚡ *Mid-Level (2–5 YOE):* {c_mid}\n"
-        f"  🏆 *Senior & Staff (5+ YOE):* {c_senior}\n\n"
-        f"🔥 *Top Tier Highlights:*\n"
+        f"👋 *Hey Tech Fam! Here is your daily TechyUpdates job drop!* 🚀\n\n"
+        f"📅 *Date:* {now_str}\n"
+        f"✨ We scoured and verified *{total} fresh tech openings* across top product companies, high-growth startups & YC founders.\n\n"
+        f"🎯 *What's inside today's drop:*\n"
+        f"  🎓 *Internships & College Grads:* {c_intern}\n"
+        f"  🌱 *Freshers & Entry-Level (0–2 YOE):* {c_fresher}\n"
+        f"  💻 *Mid-Level Engineers (2–5 YOE):* {c_mid}\n"
+        f"  🚀 *Senior, Staff & Leads (5+ YOE):* {c_senior}\n\n"
+        f"🔥 *Today's Top Picks:*\n"
         f"{highlights_str}\n\n"
-        f"📁 *Attached:* 4-tab structured workbook with verified direct application links."
+        f"📂 *Attached Excel file:* 4 categorized tabs with direct 1-click apply links.\n"
+        f"💡 *Pro-tip:* Filter by your preferred tech stack & apply early. Best of luck with your prep! 🌟"
     )
+
+    if len(caption) > 1000:
+        caption = caption[:990] + "..."
     return caption
 
 
