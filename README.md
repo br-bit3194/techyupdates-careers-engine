@@ -1,11 +1,11 @@
 # NexusCareers: Autonomous Daily Opportunity Synthesizer & Community Aggregator
 
-[![Vercel Cron](https://img.shields.io/badge/Vercel-Cron%20Schedule%2014%3A30%20UTC-black?logo=vercel)](https://vercel.com)
+[![Vercel Cron](https://img.shields.io/badge/Vercel-Cron%20Schedule%2014%3A15%20UTC-black?logo=vercel)](https://vercel.com)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://python.org)
 [![Gemini 3.5 Flash](https://img.shields.io/badge/Google-Gemini%203.5%20Flash-orange?logo=google)](https://ai.google.dev)
 [![OpenPyXL](https://img.shields.io/badge/openpyxl-4--tier%20Spreadsheet-green)](https://openpyxl.readthedocs.io)
 
-An enterprise-grade, serverless opportunity ingestion engine built for Vercel. NexusCareers triggers automatically every single day at **8:00 PM IST (14:30 UTC)**, pulls active technical roles posted within the past 24 hours from premier ATS platforms and feeds, enriches and classifies the dataset using Google Gemini, formats a 4-tier color-coded Excel workbook (`.xlsx`) entirely in-memory, and broadcasts it to a Telegram community channel without IP bans or credential leakage.
+An enterprise-grade, serverless opportunity ingestion engine built for Vercel. NexusCareers triggers automatically every single day at **7:45 PM IST (14:15 UTC)**, pulls active technical roles posted within the past 24 hours from premier ATS platforms and feeds, enriches and classifies the dataset using Google Gemini, formats a 4-tier color-coded Excel workbook (`.xlsx`) entirely in-memory, and broadcasts it to a Telegram community channel without IP bans or credential leakage.
 
 ---
 
@@ -14,7 +14,8 @@ An enterprise-grade, serverless opportunity ingestion engine built for Vercel. N
 ```
                   ┌────────────────────────────────────────┐
                   │ Trigger Layer                          │
-                  │ - Vercel Cron (Daily @ 14:30 UTC)      │
+                  │ - Vercel Cron (Daily @ 14:15 UTC)      │
+                  │ - Health Ping: GET /api/health (200 OK)│
                   │ - Webhook / Manual POST /api/trigger   │
                   └──────────────────┬─────────────────────┘
                                      │
@@ -30,7 +31,7 @@ An enterprise-grade, serverless opportunity ingestion engine built for Vercel. N
  │                                                                        │
  │ [Tier 1: Direct ATS]    [Tier 2: Startups & Feeds]  [Tier 3: Guest API]│
  │ Greenhouse / Lever /    YC Algolia & Official HN    LinkedIn Guest API │
- │ Ashby Public Endpoints  RemoteOK & Jobicy Feeds     (Rate-limited)     │
+ │ Ashby Public Endpoints  RemoteOK & Jobicy Feeds     (Circuit Breaker)  │
  └───────────────────────────────────┬────────────────────────────────────┘
                                      │
                                      ▼
@@ -39,13 +40,16 @@ An enterprise-grade, serverless opportunity ingestion engine built for Vercel. N
                   │ - Freshness: < 24 Hours                │
                   │ - Deduplication: MD5(company + title)  │
                   │ - Anti-Scam Heuristics Filter          │
+                  │ - Liveness Link Closure Verifier       │
                   └──────────────────┬─────────────────────┘
                                      │
                                      ▼
                   ┌────────────────────────────────────────┐
-                  │ AI Extraction Engine (Gemini Flash)    │
-                  │ - Schema Extraction & Structured JSON  │
-                  │ - 4-Tier Seniority Classification      │
+                  │ AI Extraction Engine (Gemini 3 Series) │
+                  │ - Batch size 50, 5.0s pacing (10 RPM)  │
+                  │ - 3.5 Flash ➡️ 3.8 Flash ➡️ 3.5 Lite   │
+                  │ - 3 Retries Max with Exp Backoff (2s,4s│
+                  │ - Fallback: Local Rule-Based Engine    │
                   └──────────────────┬─────────────────────┘
                                      │
                                      ▼
@@ -57,7 +61,8 @@ An enterprise-grade, serverless opportunity ingestion engine built for Vercel. N
                                      ▼
                   ┌────────────────────────────────────────┐
                   │ Dispatch Layer                         │
-                  │ Telegram Bot API (sendDocument)        │
+                  │ - Telegram Bot API (sendDocument)      │
+                  │ - Fallback: Local disk preservation    │
                   └────────────────────────────────────────┘
 ```
 
@@ -104,28 +109,37 @@ For every single opportunity, the pipeline normalizes and enriches the following
 
 ---
 
-## ⚡ Understanding the "Trigger" (`api/trigger.py`)
+## ⚡ Understanding the Endpoints (`api/trigger.py`)
 
+The application exposes two clean endpoints:
+
+### 1. `GET /api/health` (Uptime & Liveness Probe)
+- **Unauthenticated & Fast (< 50ms)**: Returns an immediate `200 OK` JSON response:
+  ```json
+  {
+    "status": "healthy",
+    "service": "techyupdates-careers-engine",
+    "timestamp": "2026-09-25T14:15:00.000000+00:00"
+  }
+  ```
+- Use this endpoint for uptime monitors (UptimeRobot, BetterUptime) or quick health checks without triggering AI or scraping.
+
+### 2. `GET /api/trigger` or `POST /api/trigger` (Full Pipeline Engine)
 The **Trigger** is the serverless API endpoint that acts as the master **starter switch** for the entire pipeline.
-
-### 🌐 How It Works in Vercel
-When deployed to Vercel, the file `api/trigger.py` automatically binds to the public route:
-```text
-https://your-project.vercel.app/api/trigger
-```
 
 ### 🔄 Execution Flow When Triggered
 When an HTTP request hits `/api/trigger`:
 1. **Security Authentication:** Verifies the `Authorization: Bearer <CRON_SECRET>` token. If missing or invalid, immediately returns `401 Unauthorized`.
-2. **Parallel Collection:** Concurrently queries Greenhouse, Ashby, Lever, Y Combinator, RemoteOK, Jobicy, and LinkedIn Guest APIs.
+2. **Parallel Collection:** Concurrently queries Greenhouse, Ashby, Lever, Y Combinator, RemoteOK, Jobicy, and LinkedIn Guest APIs (~5 seconds).
 3. **Filtering & Deduplication:** Strictly discards roles older than 24 hours, catches scam keywords, and removes cross-platform duplicates using MD5 signatures.
-4. **AI Enrichment:** Sends deduplicated postings to **Gemini 3.5 Flash** to classify seniority tiers, technical domains, extracted tech stacks, and high-signal summaries.
-5. **Excel Generation:** Constructs a styled, 4-tab `.xlsx` spreadsheet in-memory (`io.BytesIO`) with custom theme colors and active `=HYPERLINK()` formulas.
-6. **Community Broadcast:** Dispatches the workbook and executive summary directly to your Telegram channel via `multipart/form-data`.
-7. **Local Fallback:** If Telegram credentials are omitted, it automatically writes a copy of the spreadsheet to your local directory (e.g. `NexusCareers_Opportunities_YYYYMMDD.xlsx`).
+4. **Liveness Verification:** Validates that posting URLs are active and not closed/expired before passing to AI.
+5. **AI Tiering & Synthesis (Gemini 3):** Processes listings sequentially in batches of 50 with a safe 5.0-second delay between calls (enforcing ~9–10 RPM, well below Google's 15 RPM free tier cap). If Google experiences a demand spike, it retries up to 3 times with exponential backoff (2s, 4s) across `gemini-3.5-flash` ➡️ `gemini-3.8-flash` ➡️ `gemini-3.5-flash-lite`, and falls back to the local rule-based classifier if quota is exhausted.
+6. **Excel Generation:** Constructs a styled, 4-tab `.xlsx` spreadsheet in-memory (`io.BytesIO`) with custom theme colors and active `=HYPERLINK()` formulas.
+7. **Community Broadcast:** Dispatches the workbook and executive summary directly to your Telegram channel via `multipart/form-data`.
+8. **Local Fallback:** If Telegram credentials are omitted, it automatically writes a copy of the spreadsheet to your local directory (e.g. `TechyUpdates_Opportunities_YYYYMMDD.xlsx`).
 
 ### 🎮 The 3 Ways to Trigger It
-* **1. Automatic Vercel Cron:** Automatically triggered daily at **8:00 PM IST (14:30 UTC)** by Vercel's built-in cloud scheduler.
+* **1. Automatic Vercel Cron:** Automatically triggered daily at **7:45 PM IST (14:15 UTC)** by Vercel's built-in cloud scheduler.
 * **2. On-Demand Webhook / cURL:** Manually trigger the pipeline anytime without waiting for the scheduled time:
   ```bash
   curl -X POST https://your-project.vercel.app/api/trigger \
@@ -164,12 +178,13 @@ $$\text{UTC Time} = \text{Target IST Time} - \text{5 hours 30 minutes}$$
 | **10:00 AM IST** | 04:30 UTC | `"schedule": "30 4 * * *"` |
 | **1:00 PM IST** | 07:30 UTC | `"schedule": "30 7 * * *"` |
 | **6:00 PM IST** | 12:30 UTC | `"schedule": "30 12 * * *"` |
-| **8:00 PM IST** *(Default)* | 14:30 UTC | `"schedule": "30 14 * * *"` |
+| **7:45 PM IST** *(Default)* | 14:15 UTC | `"schedule": "15 14 * * *"` |
+| **8:00 PM IST** | 14:30 UTC | `"schedule": "30 14 * * *"` |
 | **10:00 PM IST** | 16:30 UTC | `"schedule": "30 16 * * *"` |
 | **Midnight (12:00 AM IST)** | 18:30 UTC (prev day) | `"schedule": "30 18 * * *"` |
 
 ### ⚡ Vercel Plan Execution Limits
-* **Hobby (Free Tier):** Allows **1 cron execution per day**. Perfect for running a daily digest (e.g. at 8:00 PM IST).
+* **Hobby (Free Tier):** Allows **1 cron execution per day**. Perfect for running a daily digest (e.g. at 7:45 PM IST).
 * **Pro Plan:** Allows unlimited cron executions per day (hourly, every 6 hours, etc.).
 
 ---
@@ -234,6 +249,7 @@ job_finder/
 ├── tests/
 │   └── test_pipeline.py         # Complete unit and integration test suite
 ├── requirements.txt             # Dependency definitions
+├── pyproject.toml               # PEP 621 metadata & Vercel Python entrypoint
 ├── vercel.json                  # Serverless function & cron definitions
 ├── pytest.ini                   # Pytest configuration
 ├── .env.example                 # Template for environment variables
@@ -343,7 +359,7 @@ The project includes `vercel.json` configured with:
   "crons": [
     {
       "path": "/api/trigger",
-      "schedule": "30 14 * * *"
+      "schedule": "15 14 * * *"
     }
   ],
   "functions": {
@@ -354,8 +370,10 @@ The project includes `vercel.json` configured with:
   }
 }
 ```
-* **Daily Schedule:** Runs at `14:30 UTC` (8:00 PM IST).
+* **Daily Schedule:** Runs at `14:15 UTC` (**7:45 PM IST**).
 * **Execution Boundary:** `maxDuration: 300` ensures serverless async I/O finishes comfortably.
+
+> **IMPORTANT (Deployment Protection):** In your Vercel Project Settings ➔ **Deployment Protection**, ensure **Vercel Authentication** is set to **Disabled** so that external cron triggers, uptime robots, and webhooks can access the endpoints without being intercepted by a browser SSO login wall.
 
 ### Step 4: Manual Trigger Verification (cURL)
 You can trigger the pipeline manually at any time using:
