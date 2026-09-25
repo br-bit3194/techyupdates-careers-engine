@@ -32,3 +32,7 @@ def is_scam(title: str, description: str = "") -> bool:
     """Check if title or description triggers anti-scam heuristics."""
     content = f"{title} {description}".lower()
     return any(scam_phrase in content for scam_phrase in SCAM_BLACKLIST_KEYWORDS)
+
+
+from services.collectors.enterprise_early_careers import collect_enterprise_early_careers
+

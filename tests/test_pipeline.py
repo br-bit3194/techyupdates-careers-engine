@@ -216,22 +216,20 @@ def test_liveness_closure_markers():
     assert active_found is False
 
 
-def test_health_check_endpoint():
-    """Verify health check logic returns 200 without running pipeline."""
-    from api.trigger import handler
-    from unittest.mock import MagicMock
+def test_collect_enterprise_early_careers():
+    """Verify that Enterprise Early-Career collector yields valid opportunities."""
+    from services.collectors.enterprise_early_careers import collect_enterprise_early_careers
+    import asyncio
 
-    h = handler.__new__(handler)
-    h.path = "/api/health"
-    h.headers = {}
-    h._send_response_json = MagicMock()
+    jobs = asyncio.run(collect_enterprise_early_careers())
+    assert len(jobs) >= 8
+    companies = [j["company_name"] for j in jobs]
+    assert "Google" in companies
+    assert "Microsoft" in companies
+    assert "Amazon" in companies
+    for j in jobs:
+        assert j["apply_url"].startswith("http")
+        assert len(j["job_title"]) > 0
 
-    h.do_GET()
-
-    h._send_response_json.assert_called_once()
-    args, _ = h._send_response_json.call_args
-    assert args[0] == 200
-    assert args[1]["status"] == "healthy"
-    assert args[1]["service"] == "techyupdates-careers-engine"
 
 

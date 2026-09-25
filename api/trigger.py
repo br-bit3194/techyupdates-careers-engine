@@ -19,7 +19,7 @@ if PROJECT_ROOT not in sys.path:
 from dotenv import load_dotenv
 load_dotenv()
 
-from services.collectors import compute_dedup_hash, is_scam
+from services.collectors import compute_dedup_hash, is_scam, collect_enterprise_early_careers
 from services.collectors.ats_boards import collect_all_ats_jobs
 from services.collectors.yc_algolia import fetch_yc_jobs
 from services.collectors.remote_feeds import collect_remote_feeds
@@ -28,6 +28,7 @@ from services.collectors.liveness_verifier import filter_active_opportunities
 from services.ai_extractor import enrich_opportunities_with_gemini, OpportunityRecord
 from services.excel_builder import build_excel_workbook
 from services.telegram_notifier import dispatch_telegram_document
+from services.history_tracker import HistoryTracker
 
 logging.basicConfig(
     level=logging.INFO,
@@ -48,19 +49,26 @@ async def run_pipeline() -> Dict[str, Any]:
     # PHASE 1: Asynchronous Parallel Ingestion
     # -------------------------------------------------------------------------
     t_phase1 = datetime.now(timezone.utc)
-    logger.info("[PHASE 1/5: INGESTION] Initiating concurrent collection across 4 sources...")
+    logger.info("[PHASE 1/5: INGESTION] Initiating concurrent collection across 5 sources...")
 
     ats_task = asyncio.create_task(collect_all_ats_jobs())
     yc_task = asyncio.create_task(fetch_yc_jobs())
     remote_task = asyncio.create_task(collect_remote_feeds())
     linkedin_task = asyncio.create_task(collect_linkedin_guest_jobs())
+    enterprise_task = asyncio.create_task(collect_enterprise_early_careers())
 
     collector_results = await asyncio.gather(
-        ats_task, yc_task, remote_task, linkedin_task, return_exceptions=True
+        ats_task, yc_task, remote_task, linkedin_task, enterprise_task, return_exceptions=True
     )
 
     all_raw_jobs: List[Dict[str, Any]] = []
-    source_names = ["ATS Boards (Greenhouse/Ashby/Lever)", "YC Startups (Algolia/HN)", "Remote Feeds (RemoteOK/Jobicy)", "LinkedIn Guest Search"]
+    source_names = [
+        "ATS Boards (Greenhouse/Ashby/Lever)",
+        "YC Startups (Algolia/HN)",
+        "Remote Feeds (RemoteOK/Jobicy)",
+        "LinkedIn Guest Search",
+        "Enterprise Flagship & Off-Campus Drives",
+    ]
     for idx, res in enumerate(collector_results):
         src = source_names[idx]
         if isinstance(res, list):
@@ -74,19 +82,22 @@ async def run_pipeline() -> Dict[str, Any]:
     logger.info("-" * 80)
 
     # -------------------------------------------------------------------------
-    # PHASE 2: Pre-Filter & Content Deduplication
+    # PHASE 2: Pre-Filter & Cross-Day Persistent Deduplication
     # -------------------------------------------------------------------------
     t_phase2 = datetime.now(timezone.utc)
-    logger.info("[PHASE 2/5: DEDUP & FILTER] Filtering scams and normalizing hashes...")
+    logger.info("[PHASE 2/5: DEDUP & FILTER] Filtering scams and cross-day sent history...")
 
+    history_tracker = HistoryTracker()
     dedup_seen = set()
     filtered_jobs: List[Dict[str, Any]] = []
     scam_count = 0
     missing_fields_count = 0
+    past_history_dropped = 0
 
     for raw in all_raw_jobs:
         company = raw.get("company_name", "").strip()
         title = raw.get("job_title", "").strip()
+        url = raw.get("apply_url", "").strip()
         desc = raw.get("description", "")
 
         if not company or not title:
@@ -97,17 +108,25 @@ async def run_pipeline() -> Dict[str, Any]:
             scam_count += 1
             continue
 
+        # In-run memory deduplication
         key = compute_dedup_hash(company, title)
         if key in dedup_seen:
             continue
         dedup_seen.add(key)
+
+        # Cross-day persistent deduplication
+        if history_tracker.is_duplicate(company, title, url):
+            past_history_dropped += 1
+            continue
+
         filtered_jobs.append(raw)
 
     elapsed_p2 = (datetime.now(timezone.utc) - t_phase2).total_seconds()
-    dup_count = len(all_raw_jobs) - len(filtered_jobs) - scam_count - missing_fields_count
+    dup_count = len(all_raw_jobs) - len(filtered_jobs) - scam_count - missing_fields_count - past_history_dropped
     logger.info("  ✓ Scam / exploitative listings purged: %d", scam_count)
-    logger.info("  ✓ Duplicates purged: %d", dup_count)
-    logger.info("  ✓ Retained unique roles: %d (from %d raw)", len(filtered_jobs), len(all_raw_jobs))
+    logger.info("  ✓ In-run duplicate roles purged: %d", dup_count)
+    logger.info("  ✓ Past history duplicates purged (already sent): %d", past_history_dropped)
+    logger.info("  ✓ Retained unique fresh roles: %d (from %d raw)", len(filtered_jobs), len(all_raw_jobs))
     logger.info("[PHASE 2/5: DEDUP & FILTER] Complete in %.2fs", elapsed_p2)
     logger.info("-" * 80)
 
@@ -191,14 +210,20 @@ async def run_pipeline() -> Dict[str, Any]:
             logger.error("  ✗ Could not write local Excel backup: %s", exc, exc_info=True)
             local_file_path = None
 
+    # Persist sent records to history database to prevent cross-day re-sending
+    if enriched_records:
+        history_tracker.record_dispatched(enriched_records)
+        history_tracker.cleanup_expired(retention_days=30)
+        history_tracker.save()
+
     elapsed_p5 = (datetime.now(timezone.utc) - t_phase5).total_seconds()
     total_elapsed = (datetime.now(timezone.utc) - start_time).total_seconds()
 
     logger.info("[PHASE 5/5: WORKBOOK & DISPATCH] Complete in %.2fs", elapsed_p5)
     logger.info("=" * 80)
     logger.info("✅ [PIPELINE FINISHED] Execution completed in %.2fs (%.1f mins)", total_elapsed, total_elapsed / 60)
-    logger.info("Summary: %d raw ➔ %d deduped ➔ %d live active ➔ %d enriched ➔ Telegram: %s",
-                len(all_raw_jobs), len(filtered_jobs), len(active_jobs), len(enriched_records), dispatched)
+    logger.info("Summary: %d raw ➔ %d deduped (%d from history) ➔ %d live active ➔ %d enriched ➔ Telegram: %s",
+                len(all_raw_jobs), len(filtered_jobs), past_history_dropped, len(active_jobs), len(enriched_records), dispatched)
     logger.info("=" * 80)
 
     result_payload = {
@@ -207,6 +232,7 @@ async def run_pipeline() -> Dict[str, Any]:
         "elapsed_seconds": round(total_elapsed, 2),
         "total_raw": len(all_raw_jobs),
         "total_deduped": len(filtered_jobs),
+        "past_history_dropped": past_history_dropped,
         "total_active_live": len(active_jobs),
         "seniority_distribution": tier_counts,
         "telegram_dispatched": dispatched,
