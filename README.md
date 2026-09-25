@@ -285,7 +285,7 @@ CRON_SECRET=your_super_secret_32_char_token
 # Google AI Studio key (supports Gemini 3.5 Flash)
 GEMINI_API_KEY=AIzaSy...
 
-# Optional: defaults to gemini-3.5-flash with automatic gemini-2.5-flash fallback
+# Optional: defaults to gemini-3.5-flash with automatic gemini-3.8-flash / gemini-3.5-flash-lite fallback
 GEMINI_MODEL=gemini-3.5-flash
 
 # Telegram Bot Token (from @BotFather)

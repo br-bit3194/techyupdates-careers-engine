@@ -137,10 +137,10 @@ def fallback_classify_record(raw: Dict[str, Any]) -> OpportunityRecord:
 async def enrich_opportunities_with_gemini(
     raw_jobs: List[Dict[str, Any]],
     api_key: Optional[str] = None,
-    batch_size: int = 12,
+    batch_size: int = 50,
     model_name: Optional[str] = None,
 ) -> List[OpportunityRecord]:
-    """Normalize and enrich raw job listings using Gemini 3.5 Flash batch processing."""
+    """Normalize and enrich raw job listings using Gemini Flash with rate-limit pacing."""
     if not raw_jobs:
         return []
 
@@ -161,10 +161,22 @@ async def enrich_opportunities_with_gemini(
         return [fallback_classify_record(job) for job in raw_jobs]
 
     enriched_records: List[OpportunityRecord] = []
+    quota_exhausted = False
 
-    # Process in batches to stay within token/time envelopes
+    # Process in larger batches to minimize total API requests
+    total_batches = (len(raw_jobs) + batch_size - 1) // batch_size
+    logger.info("Processing %d opportunities in %d batches (batch_size=%d)...", len(raw_jobs), total_batches, batch_size)
+
     for i in range(0, len(raw_jobs), batch_size):
         chunk = raw_jobs[i : i + batch_size]
+        batch_idx = (i // batch_size) + 1
+
+        # If quota was previously exhausted, bypass remaining LLM calls directly to fallback
+        if quota_exhausted:
+            logger.info("Batch %d/%d: Quota exhausted, using local rule-based classifier.", batch_idx, total_batches)
+            enriched_records.extend([fallback_classify_record(j) for j in chunk])
+            continue
+
         prompt = f"""You are an elite Senior Staff Tech Recruiter and AI Systems Engineer.
 Normalize and classify the following {len(chunk)} tech job opportunities into structured JSON.
 
@@ -195,54 +207,65 @@ Raw job data to process:
 
         success = False
         batch_error_logs: List[str] = []
+        max_retries = 3
 
-        # Model reduction cascade: configured model -> gemini-3.5-flash -> gemini-2.5-flash
-        model_hierarchy = ["gemini-3.8-flash", "gemini-3.5-flash", "gemini-2.5-flash"]
+        # Modern Gemini 3 production models
+        model_hierarchy = ["gemini-3.5-flash", "gemini-3.8-flash", "gemini-3.5-flash-lite"]
         candidate_models = [chosen_model]
         for m in model_hierarchy:
             if m not in candidate_models:
                 candidate_models.append(m)
 
-        for mdl in candidate_models:
-            model_success = False
-            # Try 3 times with exponential backoff per model
-            for attempt in range(1, 4):
-                try:
-                    logger.info("Calling Gemini (%s) for batch %d, attempt %d/3...", mdl, i, attempt)
-                    response = client.models.generate_content(
-                        model=mdl,
-                        contents=prompt,
-                        config=types.GenerateContentConfig(
-                            response_mime_type="application/json",
-                            response_schema=OpportunitiesBatch,
-                            temperature=0.1,
-                        ),
-                    )
+        for attempt in range(1, max_retries + 1):
+            # Attempt 1: primary Gemini 3 model; Attempt 2: next available; Attempt 3: stable fallback
+            model_idx = min(attempt - 1, len(candidate_models) - 1)
+            current_model = candidate_models[model_idx]
+            try:
+                logger.info(
+                    "Calling Gemini (%s) for batch %d/%d (attempt %d/%d)...",
+                    current_model, batch_idx, total_batches, attempt, max_retries
+                )
+                response = client.models.generate_content(
+                    model=current_model,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        response_mime_type="application/json",
+                        response_schema=OpportunitiesBatch,
+                        temperature=0.1,
+                    ),
+                )
 
-                    if response.text:
-                        batch_data = OpportunitiesBatch.model_validate_json(response.text)
-                        enriched_records.extend(batch_data.items)
-                        model_success = True
-                        success = True
-                        break
-                    else:
-                        raise ValueError("Empty response text from Gemini")
+                if response.text:
+                    batch_data = OpportunitiesBatch.model_validate_json(response.text)
+                    enriched_records.extend(batch_data.items)
+                    success = True
+                    # Free tier compliance: pace sequential calls safely (10-12 requests/minute)
+                    await asyncio.sleep(5.0)
+                    break
+                else:
+                    raise ValueError("Empty response text from Gemini")
 
-                except Exception as exc:
-                    err_msg = f"Model {mdl} (attempt {attempt}/3): {exc}"
-                    logger.warning("Gemini error on batch %d - %s", i, err_msg)
-                    batch_error_logs.append(err_msg)
+            except Exception as exc:
+                err_msg = str(exc)
+                logger.warning(
+                    "Gemini error on batch %d/%d (attempt %d/%d) - %s",
+                    batch_idx, total_batches, attempt, max_retries, err_msg
+                )
+                batch_error_logs.append(f"Attempt {attempt}/{max_retries} ({current_model}): {err_msg}")
 
-                    if attempt < 3:
-                        # Exponential backoff: 2s, 4s
-                        backoff_delay = 2 ** attempt
-                        logger.info("Backing off for %ds before retry on %s...", backoff_delay, mdl)
-                        await asyncio.sleep(backoff_delay)
+                # Check if rate limit has a requested retry-after
+                match = re.search(r"retry in ([\d\.]+)s", err_msg)
+                if match:
+                    backoff_delay = min(float(match.group(1)) + 1.0, 10.0)
+                else:
+                    # Exponential backoff: attempt 1 -> 2s, attempt 2 -> 4s
+                    backoff_delay = float(2 ** attempt)
 
-            if model_success:
-                break
-            else:
-                logger.warning("Exhausted 3 attempts on %s. Cascading down to next model...", mdl)
+                if attempt < max_retries:
+                    logger.info("Retrying batch %d in %.1fs with exponential backoff...", batch_idx, backoff_delay)
+                    await asyncio.sleep(backoff_delay)
+                else:
+                    logger.error("Batch %d/%d failed after %d retries. Falling back to local classifier.", batch_idx, total_batches, max_retries)
 
         if not success:
             logger.error("All Gemini models exhausted for batch %d. Preparing Telegram alert...", i)
