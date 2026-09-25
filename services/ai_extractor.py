@@ -5,6 +5,7 @@ import json
 import logging
 import re
 import asyncio
+from datetime import datetime, timezone
 from typing import List, Optional, Literal, Dict, Any
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
@@ -216,14 +217,15 @@ Raw job data to process:
             if m not in candidate_models:
                 candidate_models.append(m)
 
+        t_batch_start = datetime.now(timezone.utc)
+
         for attempt in range(1, max_retries + 1):
-            # Attempt 1: primary Gemini 3 model; Attempt 2: next available; Attempt 3: stable fallback
             model_idx = min(attempt - 1, len(candidate_models) - 1)
             current_model = candidate_models[model_idx]
             try:
                 logger.info(
-                    "Calling Gemini (%s) for batch %d/%d (attempt %d/%d)...",
-                    current_model, batch_idx, total_batches, attempt, max_retries
+                    "  [AI Batch %d/%d] Attempt %d/%d ➔ Calling %s (%d roles)...",
+                    batch_idx, total_batches, attempt, max_retries, current_model, len(chunk)
                 )
                 response = client.models.generate_content(
                     model=current_model,
@@ -239,6 +241,11 @@ Raw job data to process:
                     batch_data = OpportunitiesBatch.model_validate_json(response.text)
                     enriched_records.extend(batch_data.items)
                     success = True
+                    batch_elapsed = (datetime.now(timezone.utc) - t_batch_start).total_seconds()
+                    logger.info(
+                        "  ✓ [AI Batch %d/%d] SUCCESS in %.2fs — Classified %d opportunities. Pacing delay: 5.0s...",
+                        batch_idx, total_batches, batch_elapsed, len(batch_data.items)
+                    )
                     # Free tier compliance: pace sequential calls safely (10-12 requests/minute)
                     await asyncio.sleep(5.0)
                     break
@@ -248,8 +255,8 @@ Raw job data to process:
             except Exception as exc:
                 err_msg = str(exc)
                 logger.warning(
-                    "Gemini error on batch %d/%d (attempt %d/%d) - %s",
-                    batch_idx, total_batches, attempt, max_retries, err_msg
+                    "  ✗ [AI Batch %d/%d] Attempt %d/%d failed on %s: %s",
+                    batch_idx, total_batches, attempt, max_retries, current_model, err_msg
                 )
                 batch_error_logs.append(f"Attempt {attempt}/{max_retries} ({current_model}): {err_msg}")
 
@@ -262,10 +269,13 @@ Raw job data to process:
                     backoff_delay = float(2 ** attempt)
 
                 if attempt < max_retries:
-                    logger.info("Retrying batch %d in %.1fs with exponential backoff...", batch_idx, backoff_delay)
+                    logger.info("  🔄 [AI Batch %d/%d] Retrying in %.1fs with exponential backoff...", batch_idx, total_batches, backoff_delay)
                     await asyncio.sleep(backoff_delay)
                 else:
-                    logger.error("Batch %d/%d failed after %d retries. Falling back to local classifier.", batch_idx, total_batches, max_retries)
+                    logger.error(
+                        "  ✗ [AI Batch %d/%d] All %d retries exhausted. Engaging local rule-based classifier for this batch.",
+                        batch_idx, total_batches, max_retries
+                    )
 
         if not success:
             logger.error("All Gemini models exhausted for batch %d. Preparing Telegram alert...", i)

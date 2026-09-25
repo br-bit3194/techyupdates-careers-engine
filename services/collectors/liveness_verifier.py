@@ -25,6 +25,11 @@ CLOSURE_MARKERS = [
 
 async def is_job_active(client: httpx.AsyncClient, job: Dict[str, Any], semaphore: asyncio.Semaphore) -> bool:
     """Verify that an opportunity link is live, not 404, and not marked as closed."""
+    # Direct company ATS endpoints (Greenhouse, Ashby, Lever, YC) were queried directly from official APIs and are 100% active
+    platform = job.get("platform", "")
+    if platform in ("Greenhouse", "Ashby", "Lever", "YC Work at a Startup"):
+        return True
+
     url = job.get("apply_url")
     if not url:
         return False

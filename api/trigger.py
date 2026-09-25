@@ -39,9 +39,17 @@ logger = logging.getLogger("nexus.trigger")
 async def run_pipeline() -> Dict[str, Any]:
     """Execute complete ingestion, AI enrichment, Excel generation, and Telegram broadcast pipeline."""
     start_time = datetime.now(timezone.utc)
-    logger.info("Starting NexusCareers Opportunity Pipeline...")
+    logger.info("=" * 80)
+    logger.info("🚀 [PIPELINE START] Autonomous Tech Opportunity Aggregator")
+    logger.info("Timestamp: %s UTC", start_time.isoformat())
+    logger.info("=" * 80)
 
-    # Step 1: Asynchronous parallel collection across all sources
+    # -------------------------------------------------------------------------
+    # PHASE 1: Asynchronous Parallel Ingestion
+    # -------------------------------------------------------------------------
+    t_phase1 = datetime.now(timezone.utc)
+    logger.info("[PHASE 1/5: INGESTION] Initiating concurrent collection across 4 sources...")
+
     ats_task = asyncio.create_task(collect_all_ats_jobs())
     yc_task = asyncio.create_task(fetch_yc_jobs())
     remote_task = asyncio.create_task(collect_remote_feeds())
@@ -52,18 +60,29 @@ async def run_pipeline() -> Dict[str, Any]:
     )
 
     all_raw_jobs: List[Dict[str, Any]] = []
-    source_names = ["ATS", "YC", "RemoteFeeds", "LinkedIn"]
+    source_names = ["ATS Boards (Greenhouse/Ashby/Lever)", "YC Startups (Algolia/HN)", "Remote Feeds (RemoteOK/Jobicy)", "LinkedIn Guest Search"]
     for idx, res in enumerate(collector_results):
         src = source_names[idx]
         if isinstance(res, list):
-            logger.info("Collected %d raw opportunities from %s", len(res), src)
+            logger.info("  ✓ %s: %d opportunities collected", src, len(res))
             all_raw_jobs.extend(res)
         elif isinstance(res, Exception):
-            logger.error("Collector %s failed with exception: %s", src, res)
+            logger.error("  ✗ %s FAILED with error: %s", src, res, exc_info=True)
 
-    # Step 2: Pre-Filter & Deduplication Engine
+    elapsed_p1 = (datetime.now(timezone.utc) - t_phase1).total_seconds()
+    logger.info("[PHASE 1/5: INGESTION] Complete in %.2fs. Total raw opportunities: %d", elapsed_p1, len(all_raw_jobs))
+    logger.info("-" * 80)
+
+    # -------------------------------------------------------------------------
+    # PHASE 2: Pre-Filter & Content Deduplication
+    # -------------------------------------------------------------------------
+    t_phase2 = datetime.now(timezone.utc)
+    logger.info("[PHASE 2/5: DEDUP & FILTER] Filtering scams and normalizing hashes...")
+
     dedup_seen = set()
     filtered_jobs: List[Dict[str, Any]] = []
+    scam_count = 0
+    missing_fields_count = 0
 
     for raw in all_raw_jobs:
         company = raw.get("company_name", "").strip()
@@ -71,9 +90,11 @@ async def run_pipeline() -> Dict[str, Any]:
         desc = raw.get("description", "")
 
         if not company or not title:
+            missing_fields_count += 1
             continue
 
         if is_scam(title, desc):
+            scam_count += 1
             continue
 
         key = compute_dedup_hash(company, title)
@@ -82,21 +103,37 @@ async def run_pipeline() -> Dict[str, Any]:
         dedup_seen.add(key)
         filtered_jobs.append(raw)
 
-    logger.info(
-        "Deduplication complete: %d raw reduced to %d unique roles",
-        len(all_raw_jobs),
-        len(filtered_jobs),
-    )
+    elapsed_p2 = (datetime.now(timezone.utc) - t_phase2).total_seconds()
+    dup_count = len(all_raw_jobs) - len(filtered_jobs) - scam_count - missing_fields_count
+    logger.info("  ✓ Scam / exploitative listings purged: %d", scam_count)
+    logger.info("  ✓ Duplicates purged: %d", dup_count)
+    logger.info("  ✓ Retained unique roles: %d (from %d raw)", len(filtered_jobs), len(all_raw_jobs))
+    logger.info("[PHASE 2/5: DEDUP & FILTER] Complete in %.2fs", elapsed_p2)
+    logger.info("-" * 80)
 
-    # Step 3: Active Status & Expiration Verification
+    # -------------------------------------------------------------------------
+    # PHASE 3: Link Liveness & Closure Verification
+    # -------------------------------------------------------------------------
+    t_phase3 = datetime.now(timezone.utc)
+    logger.info("[PHASE 3/5: LIVENESS] Concurrently verifying real-time URL status for %d roles...", len(filtered_jobs))
+
     active_jobs: List[Dict[str, Any]] = await filter_active_opportunities(filtered_jobs)
-    logger.info("Retained %d live opportunities after expiration checks", len(active_jobs))
+    elapsed_p3 = (datetime.now(timezone.utc) - t_phase3).total_seconds()
+    closed_count = len(filtered_jobs) - len(active_jobs)
+    logger.info("  ✓ Active verified live: %d", len(active_jobs))
+    logger.info("  ✗ Expired / closed purged: %d", closed_count)
+    logger.info("[PHASE 3/5: LIVENESS] Complete in %.2fs", elapsed_p3)
+    logger.info("-" * 80)
 
-    # Step 4: AI Extraction & Tiering Engine
+    # -------------------------------------------------------------------------
+    # PHASE 4: AI Extraction & Seniority Tiering
+    # -------------------------------------------------------------------------
+    t_phase4 = datetime.now(timezone.utc)
+    logger.info("[PHASE 4/5: AI TIERING] Processing %d opportunities through Gemini 3 Flash cascade...", len(active_jobs))
+
     enriched_records: List[OpportunityRecord] = await enrich_opportunities_with_gemini(active_jobs)
-    logger.info("Enriched %d opportunities with AI tiering", len(enriched_records))
+    elapsed_p4 = (datetime.now(timezone.utc) - t_phase4).total_seconds()
 
-    # Tally seniority tiers
     tier_counts = {
         "Internship": 0,
         "Fresher / 0-2 YOE": 0,
@@ -109,27 +146,39 @@ async def run_pipeline() -> Dict[str, Any]:
         else:
             tier_counts["Mid-Level (2-5 YOE)"] += 1
 
-    # Step 4: Excel Workbook Generation (in-memory)
-    excel_buffer = build_excel_workbook(enriched_records)
-    logger.info("Generated in-memory Excel workbook (%d bytes)", excel_buffer.getbuffer().nbytes)
+    logger.info("  📊 Seniority Tier Distribution:")
+    logger.info("     • 🎓 Internships:           %d", tier_counts["Internship"])
+    logger.info("     • 🚀 Freshers (0-2 YOE):    %d", tier_counts["Fresher / 0-2 YOE"])
+    logger.info("     • ⚡ Mid-Level (2-5 YOE):   %d", tier_counts["Mid-Level (2-5 YOE)"])
+    logger.info("     • 🏆 Senior/Staff (5+ YOE): %d", tier_counts["Senior / Staff / Lead (5+ YOE)"])
+    logger.info("[PHASE 4/5: AI TIERING] Complete in %.2fs. Total enriched: %d", elapsed_p4, len(enriched_records))
+    logger.info("-" * 80)
 
-    # Step 5: Telegram Dispatch Layer
+    # -------------------------------------------------------------------------
+    # PHASE 5: In-Memory Excel Build & Telegram Dispatch
+    # -------------------------------------------------------------------------
+    t_phase5 = datetime.now(timezone.utc)
+    logger.info("[PHASE 5/5: WORKBOOK & DISPATCH] Building 4-tab styled spreadsheet in-memory...")
+
+    excel_buffer = build_excel_workbook(enriched_records)
+    buffer_size = excel_buffer.getbuffer().nbytes
+    logger.info("  ✓ Generated Excel spreadsheet (%d bytes / %.2f KB)", buffer_size, buffer_size / 1024)
+
+    logger.info("  🚀 Dispatching to Telegram community channel...")
     dispatched = await dispatch_telegram_document(excel_buffer, enriched_records)
 
     local_file_path = None
     if dispatched:
-        logger.info("Successfully dispatched to Telegram! Cleaning up any local .xlsx files...")
-        # User requirement: Clear local Excel files after successfully broadcasting to Telegram
+        logger.info("  ✓ Telegram broadcast confirmed successful! Cleaning local temp files...")
         for fname in os.listdir(PROJECT_ROOT):
             if fname.endswith(".xlsx") and "Opportunities" in fname:
                 try:
                     fpath = os.path.join(PROJECT_ROOT, fname)
                     os.remove(fpath)
-                    logger.info("Cleaned up local file after Telegram dispatch: %s", fname)
+                    logger.info("    - Removed local temp file: %s", fname)
                 except Exception as exc:
-                    logger.debug("Could not remove %s: %s", fname, exc)
+                    logger.debug("    - Could not remove %s: %s", fname, exc)
     else:
-        # Fallback: Save locally only if Telegram dispatch is unconfigured or failed
         date_str = datetime.now(timezone.utc).strftime("%Y%m%d")
         local_filename = f"TechyUpdates_Opportunities_{date_str}.xlsx"
         local_file_path = os.path.join(PROJECT_ROOT, local_filename)
@@ -137,17 +186,25 @@ async def run_pipeline() -> Dict[str, Any]:
             excel_buffer.seek(0)
             with open(local_file_path, "wb") as f:
                 f.write(excel_buffer.getvalue())
-            logger.info("Saved local Excel spreadsheet: %s (Telegram not dispatched)", local_file_path)
+            logger.info("  ℹ️ Local Excel backup saved: %s", local_file_path)
         except Exception as exc:
-            logger.warning("Could not write local Excel file: %s", exc)
+            logger.error("  ✗ Could not write local Excel backup: %s", exc, exc_info=True)
             local_file_path = None
 
-    elapsed_seconds = (datetime.now(timezone.utc) - start_time).total_seconds()
+    elapsed_p5 = (datetime.now(timezone.utc) - t_phase5).total_seconds()
+    total_elapsed = (datetime.now(timezone.utc) - start_time).total_seconds()
+
+    logger.info("[PHASE 5/5: WORKBOOK & DISPATCH] Complete in %.2fs", elapsed_p5)
+    logger.info("=" * 80)
+    logger.info("✅ [PIPELINE FINISHED] Execution completed in %.2fs (%.1f mins)", total_elapsed, total_elapsed / 60)
+    logger.info("Summary: %d raw ➔ %d deduped ➔ %d live active ➔ %d enriched ➔ Telegram: %s",
+                len(all_raw_jobs), len(filtered_jobs), len(active_jobs), len(enriched_records), dispatched)
+    logger.info("=" * 80)
 
     result_payload = {
         "status": "success",
         "timestamp": start_time.isoformat(),
-        "elapsed_seconds": round(elapsed_seconds, 2),
+        "elapsed_seconds": round(total_elapsed, 2),
         "total_raw": len(all_raw_jobs),
         "total_deduped": len(filtered_jobs),
         "total_active_live": len(active_jobs),

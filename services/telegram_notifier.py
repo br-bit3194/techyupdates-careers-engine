@@ -124,18 +124,21 @@ async def dispatch_telegram_document(
     }
 
     try:
+        logger.info("  [Telegram] Uploading document '%s' (%.2f KB) to chat %s...", out_filename, len(file_bytes) / 1024, chat_id)
         async with httpx.AsyncClient(timeout=30.0) as client:
             resp = await client.post(api_url, data=data, files=files)
             if resp.status_code == 200:
-                logger.info("Successfully dispatched workbook to Telegram channel %s", chat_id)
+                resp_json = resp.json()
+                msg_id = resp_json.get("result", {}).get("message_id", "N/A")
+                logger.info("  ✓ [Telegram] Successfully dispatched workbook to Telegram channel %s (Message ID: %s)", chat_id, msg_id)
                 return True
             else:
                 logger.error(
-                    "Telegram API returned %d: %s", resp.status_code, resp.text[:300]
+                    "  ✗ [Telegram] API returned HTTP %d: %s", resp.status_code, resp.text[:500]
                 )
                 return False
     except Exception as exc:
-        logger.error("Failed dispatching document to Telegram: %s", exc)
+        logger.exception("  ✗ [Telegram] Exception during document dispatch: %s", exc)
         return False
 
 
@@ -171,11 +174,11 @@ async def send_telegram_alert(
         async with httpx.AsyncClient(timeout=15.0) as client:
             resp = await client.post(api_url, json=payload)
             if resp.status_code == 200:
-                logger.info("Successfully dispatched alert to Telegram channel %s", chat_id)
+                logger.info("  ✓ [Telegram Alert] Successfully dispatched alert to channel %s", chat_id)
                 return True
             else:
-                logger.error("Telegram alert failed (%d): %s", resp.status_code, resp.text[:200])
+                logger.error("  ✗ [Telegram Alert] API returned HTTP %d: %s", resp.status_code, resp.text[:300])
                 return False
     except Exception as exc:
-        logger.error("Failed sending Telegram alert: %s", exc)
+        logger.exception("  ✗ [Telegram Alert] Exception during alert dispatch: %s", exc)
         return False
