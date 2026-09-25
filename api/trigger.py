@@ -5,7 +5,7 @@ import sys
 import json
 import asyncio
 import logging
-from urllib.parse import urlparse
+from urllib.parse import urlparse, parse_qs
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler
 from typing import Dict, Any, List
@@ -217,22 +217,36 @@ async def run_pipeline() -> Dict[str, Any]:
     return result_payload
 
 
-def authenticate_request(headers: Dict[str, str]) -> bool:
-    """Verify Bearer token against CRON_SECRET environment variable."""
+def authenticate_request(headers: Dict[str, str], query_params: Dict[str, List[str]] = None) -> bool:
+    """Verify credentials against CRON_SECRET or vercel-cron user-agent."""
     expected_secret = os.getenv("CRON_SECRET")
     if not expected_secret:
         # In development/local mode when no secret is configured, allow execution
-        logger.warning("CRON_SECRET environment variable not set. Permitting request in dev mode.")
+        logger.info("[AUTH] CRON_SECRET environment variable not set. Permitting request in dev mode.")
         return True
 
+    # 1. Check Authorization header: Bearer <secret>
     auth_header = headers.get("Authorization") or headers.get("authorization")
-    if not auth_header:
-        return False
+    if auth_header:
+        parts = auth_header.split(" ")
+        if len(parts) == 2 and parts[0].lower() == "bearer" and parts[1] == expected_secret:
+            logger.info("[AUTH] Request authorized via Bearer token.")
+            return True
 
-    parts = auth_header.split(" ")
-    if len(parts) == 2 and parts[0].lower() == "bearer":
-        return parts[1] == expected_secret
+    # 2. Check query parameter: ?secret=<secret> or ?key=<secret>
+    if query_params:
+        provided_key = (query_params.get("secret") or query_params.get("key") or [None])[0]
+        if provided_key == expected_secret:
+            logger.info("[AUTH] Request authorized via URL secret parameter.")
+            return True
 
+    # 3. Check Vercel Cron runner User-Agent
+    user_agent = headers.get("User-Agent") or headers.get("user-agent") or ""
+    if "vercel-cron" in user_agent.lower():
+        logger.info("[AUTH] Request authorized via vercel-cron caller.")
+        return True
+
+    logger.warning("[AUTH] Unauthorized request: missing or invalid credentials. Path accessed without valid secret.")
     return False
 
 
@@ -249,7 +263,12 @@ class handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         """Handle Vercel Cron GET invocation or health check."""
-        parsed_path = urlparse(self.path).path.rstrip("/")
+        parsed_url = urlparse(self.path)
+        parsed_path = parsed_url.path.rstrip("/")
+        query_params = parse_qs(parsed_url.query)
+
+        logger.info("[HTTP] GET request received for path: %s", self.path)
+
         if parsed_path in ("/api/health", "/health", ""):
             self._send_response_json(200, {
                 "status": "healthy",
@@ -258,10 +277,12 @@ class handler(BaseHTTPRequestHandler):
             })
             return
 
-        # For pipeline triggers (/api/trigger, etc.), verify authentication
         headers_dict = {k: v for k, v in self.headers.items()}
-        if not authenticate_request(headers_dict):
-            self._send_response_json(401, {"error": "Unauthorized: Invalid or missing Bearer token"})
+        if not authenticate_request(headers_dict, query_params):
+            self._send_response_json(401, {
+                "error": "Unauthorized: Invalid or missing Bearer token",
+                "hint": "Provide Authorization: Bearer <CRON_SECRET> header or ?key=<CRON_SECRET> query parameter."
+            })
             return
 
         try:
@@ -273,10 +294,17 @@ class handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         """Handle manual webhook POST trigger."""
-        headers_dict = {k: v for k, v in self.headers.items()}
+        parsed_url = urlparse(self.path)
+        query_params = parse_qs(parsed_url.query)
 
-        if not authenticate_request(headers_dict):
-            self._send_response_json(401, {"error": "Unauthorized: Invalid or missing Bearer token"})
+        logger.info("[HTTP] POST request received for path: %s", self.path)
+
+        headers_dict = {k: v for k, v in self.headers.items()}
+        if not authenticate_request(headers_dict, query_params):
+            self._send_response_json(401, {
+                "error": "Unauthorized: Invalid or missing Bearer token",
+                "hint": "Provide Authorization: Bearer <CRON_SECRET> header or ?key=<CRON_SECRET> query parameter."
+            })
             return
 
         try:
