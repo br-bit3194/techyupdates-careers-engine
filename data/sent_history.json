@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-09-28T05:02:53.542206+00:00",
-  "total_sent_urls": 730,
-  "total_sent_keys": 728,
+  "last_updated": "2026-09-28T07:18:25.877525+00:00",
+  "total_sent_urls": 800,
+  "total_sent_keys": 797,
   "sent_urls": {
     "https://job-boards.greenhouse.io/anthropic/jobs/5382518008": {
       "company": "Anthropic",
@@ -5113,6 +5113,496 @@
       "url": "https://in.linkedin.com/jobs/view/hire-ahead-intermediate-application-developer-java-at-ups-4248969823",
       "last_sent": "2026-09-28T05:02:53.542206+00:00",
       "first_seen": "2026-09-28T05:02:53.542206+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=8099751002": {
+      "company": "Databricks",
+      "title": "AI Engineer - FDE (Forward Deployed Engineer)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8099751002",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=8015848002": {
+      "company": "Databricks",
+      "title": "AI Engineer, FDE (Forward Deployed Engineer)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8015848002",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=8779016002": {
+      "company": "Databricks",
+      "title": "Scale Solution Engineer (Japanese-speaking; English required)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8779016002",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=8849669002": {
+      "company": "Databricks",
+      "title": "Senior Scale Solution Engineer (Korean-speaking; English required)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8849669002",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8172554?gh_jid=8172554": {
+      "company": "Cloudflare",
+      "title": "Principal Partner Engineer, Japan (Based in Tokyo)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8172554?gh_jid=8172554",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8190563?gh_jid=8190563": {
+      "company": "Cloudflare",
+      "title": "VoidZero Developer Relations Engineer",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8190563?gh_jid=8190563",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8114069?gh_jid=8114069": {
+      "company": "Cloudflare",
+      "title": "VoidZero Engineer",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8114069?gh_jid=8114069",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5226536007?gh_jid=5226536007": {
+      "company": "Andurilindustries",
+      "title": "Analytics Engineer, Sentry",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226536007?gh_jid=5226536007",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8227393?gh_jid=8227393": {
+      "company": "Coinbase",
+      "title": "Associate General Counsel, Privacy",
+      "url": "https://www.coinbase.com/careers/positions/8227393?gh_jid=8227393",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8154987?gh_jid=8154987": {
+      "company": "Coinbase",
+      "title": "Associate Manager, Internal Audit",
+      "url": "https://www.coinbase.com/careers/positions/8154987?gh_jid=8154987",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/7724777?gh_jid=7724777": {
+      "company": "Coinbase",
+      "title": "Complaints Analyst II",
+      "url": "https://www.coinbase.com/careers/positions/7724777?gh_jid=7724777",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8097292?gh_jid=8097292": {
+      "company": "Coinbase",
+      "title": "Internal Audit Manager",
+      "url": "https://www.coinbase.com/careers/positions/8097292?gh_jid=8097292",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8165389?gh_jid=8165389": {
+      "company": "Coinbase",
+      "title": "Product Security Engineer",
+      "url": "https://www.coinbase.com/careers/positions/8165389?gh_jid=8165389",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8051513?gh_jid=8051513": {
+      "company": "Coinbase",
+      "title": "Senior Onchain Investigator",
+      "url": "https://www.coinbase.com/careers/positions/8051513?gh_jid=8051513",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8021647?gh_jid=8021647": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer",
+      "url": "https://www.coinbase.com/careers/positions/8021647?gh_jid=8021647",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/7847431?gh_jid=7847431": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Core AI Infrastructure",
+      "url": "https://www.coinbase.com/careers/positions/7847431?gh_jid=7847431",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/7866674?gh_jid=7866674": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer - Trading",
+      "url": "https://www.coinbase.com/careers/positions/7866674?gh_jid=7866674",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8021650?gh_jid=8021650": {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer",
+      "url": "https://www.coinbase.com/careers/positions/8021650?gh_jid=8021650",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/7991691?gh_jid=7991691": {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Core AI Infrastructure",
+      "url": "https://www.coinbase.com/careers/positions/7991691?gh_jid=7991691",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8013948?gh_jid=8013948": {
+      "company": "Coinbase",
+      "title": "Technical Program Manager, CX Intelligence & AI",
+      "url": "https://www.coinbase.com/careers/positions/8013948?gh_jid=8013948",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/mern-stack-development-intern-at-skoollage-4471323791": {
+      "company": "SKOOLLAGE",
+      "title": "MERN STACK DEVELOPMENT INTERN",
+      "url": "https://in.linkedin.com/jobs/view/mern-stack-development-intern-at-skoollage-4471323791",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://pl.linkedin.com/jobs/view/intern-software-engineering-november-2026-at-dolby-laboratories-4454528400": {
+      "company": "Dolby Laboratories",
+      "title": "Intern, Software Engineering (November 2026)",
+      "url": "https://pl.linkedin.com/jobs/view/intern-software-engineering-november-2026-at-dolby-laboratories-4454528400",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-get-at-steamax-envirocare-4471318738": {
+      "company": "Steamax Envirocare",
+      "title": "Graduate Engineer Trainee (GET)",
+      "url": "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-get-at-steamax-envirocare-4471318738",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/junior-engineer-at-tratico-engineering-india-private-limited-4471326478": {
+      "company": "TRATICO Engineering India Private Limited",
+      "title": "Junior Engineer",
+      "url": "https://in.linkedin.com/jobs/view/junior-engineer-at-tratico-engineering-india-private-limited-4471326478",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-engineer-i-%E2%80%93-frontend-at-revolte-ai-4471332289": {
+      "company": "revolte.ai",
+      "title": "Software Engineer I – Frontend",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-i-%E2%80%93-frontend-at-revolte-ai-4471332289",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/junior-software-engineer-at-careerxperts-consulting-4470830560": {
+      "company": "CareerXperts Consulting",
+      "title": "Junior Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/junior-software-engineer-at-careerxperts-consulting-4470830560",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/engineer-software-applied-ai-t500-28172-at-albertsons-companies-india-4448875088": {
+      "company": "Albertsons Companies India",
+      "title": "Engineer Software (Applied AI) [T500-28172]",
+      "url": "https://in.linkedin.com/jobs/view/engineer-software-applied-ai-t500-28172-at-albertsons-companies-india-4448875088",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/associate-software-engineer-java-at-saatvik-agro-4471341191": {
+      "company": "Saatvik Agro",
+      "title": "Associate Software Engineer (Java)",
+      "url": "https://in.linkedin.com/jobs/view/associate-software-engineer-java-at-saatvik-agro-4471341191",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/fresher-backend-developer-at-tantranzm-4471333341": {
+      "company": "TantranZm",
+      "title": "Fresher Backend Developer",
+      "url": "https://in.linkedin.com/jobs/view/fresher-backend-developer-at-tantranzm-4471333341",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-engineer-associate-at-infor-4470842393": {
+      "company": "Infor",
+      "title": "Software Engineer, Associate",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-associate-at-infor-4470842393",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/php-developer-at-amari-4471325667": {
+      "company": "Amari",
+      "title": "PHP Developer",
+      "url": "https://in.linkedin.com/jobs/view/php-developer-at-amari-4471325667",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-dev-engineer-ii-paragon-workbench-at-amazon-4463779884": {
+      "company": "Amazon",
+      "title": "Software Dev Engineer II, Paragon Workbench",
+      "url": "https://in.linkedin.com/jobs/view/software-dev-engineer-ii-paragon-workbench-at-amazon-4463779884",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-engineer-ii-at-trimble-inc-4398005888": {
+      "company": "Trimble Inc.",
+      "title": "Software Engineer II",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-ii-at-trimble-inc-4398005888",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/python-backend-engineer-at-hitachi-solutions-india-pvt-ltd-4471319619": {
+      "company": "Hitachi Solutions India Pvt Ltd",
+      "title": "Python Backend Engineer",
+      "url": "https://in.linkedin.com/jobs/view/python-backend-engineer-at-hitachi-solutions-india-pvt-ltd-4471319619",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-development-engineer-ii-timehub-experience-at-amazon-4472452177": {
+      "company": "Amazon",
+      "title": "Software Development Engineer II, Timehub Experience",
+      "url": "https://in.linkedin.com/jobs/view/software-development-engineer-ii-timehub-experience-at-amazon-4472452177",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-software-engineer-java-react-at-franklin-templeton-4462452958": {
+      "company": "Franklin Templeton",
+      "title": "Senior Software Engineer (Java & React)",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-java-react-at-franklin-templeton-4462452958",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-java-developer-india-at-thakral-one-4471313067": {
+      "company": "Thakral One",
+      "title": "Full Stack Java Developer (India)",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-java-developer-india-at-thakral-one-4471313067",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-engineer-at-aci-worldwide-4471316811": {
+      "company": "ACI Worldwide",
+      "title": "Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-at-aci-worldwide-4471316811",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/java-developer-at-tata-consultancy-services-4471317868": {
+      "company": "Tata Consultancy Services",
+      "title": "Java Developer",
+      "url": "https://in.linkedin.com/jobs/view/java-developer-at-tata-consultancy-services-4471317868",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/lead-engineer-full-stack-web-developer-mern-pern-stack-at-mahindra-and-mahindra-limited-automotive-and-farm-equipment-business-4471340065": {
+      "company": "Mahindra and Mahindra Limited [Automotive and Farm Equipment Business]",
+      "title": "Lead Engineer _ Full Stack Web Developer (MERN/PERN Stack)",
+      "url": "https://in.linkedin.com/jobs/view/lead-engineer-full-stack-web-developer-mern-pern-stack-at-mahindra-and-mahindra-limited-automotive-and-farm-equipment-business-4471340065",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://kr.linkedin.com/jobs/view/software-engineer-backend-at-%EB%8B%B9%EA%B7%BC%ED%8E%98%EC%9D%B4-karrotpay-4470816947": {
+      "company": "당근페이 (KarrotPay)",
+      "title": "Software Engineer, Backend",
+      "url": "https://kr.linkedin.com/jobs/view/software-engineer-backend-at-%EB%8B%B9%EA%B7%BC%ED%8E%98%EC%9D%B4-karrotpay-4470816947",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://vn.linkedin.com/jobs/view/senior-backend-engineer-java-at-naver-vietnam-4472469929": {
+      "company": "NAVER VIETNAM",
+      "title": "Senior Backend Engineer (Java)",
+      "url": "https://vn.linkedin.com/jobs/view/senior-backend-engineer-java-at-naver-vietnam-4472469929",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://my.linkedin.com/jobs/view/senior-software-engineer-backend-fulfillment-at-grab-4455634411": {
+      "company": "Grab",
+      "title": "Senior Software Engineer, Backend (Fulfillment)",
+      "url": "https://my.linkedin.com/jobs/view/senior-software-engineer-backend-fulfillment-at-grab-4455634411",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://au.linkedin.com/jobs/view/software-engineer-ii-backend-at-mitti-by-safetyculture-4472703106": {
+      "company": "Mitti by SafetyCulture",
+      "title": "Software Engineer II - Backend",
+      "url": "https://au.linkedin.com/jobs/view/software-engineer-ii-backend-at-mitti-by-safetyculture-4472703106",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://se.linkedin.com/jobs/view/senior-backend-developer-at-xensam-4427566643": {
+      "company": "Xensam",
+      "title": "Senior Backend Developer",
+      "url": "https://se.linkedin.com/jobs/view/senior-backend-developer-at-xensam-4427566643",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://br.linkedin.com/jobs/view/senior-software-engineer-backend-all-teams-%E2%80%93-brazil-at-doordash-3969556398": {
+      "company": "DoorDash",
+      "title": "Senior Software Engineer, Backend (All teams) – Brazil",
+      "url": "https://br.linkedin.com/jobs/view/senior-software-engineer-backend-all-teams-%E2%80%93-brazil-at-doordash-3969556398",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://lt.linkedin.com/jobs/view/golang-software-engineer-at-girteka-4470801561": {
+      "company": "Girteka",
+      "title": "Golang Software Engineer",
+      "url": "https://lt.linkedin.com/jobs/view/golang-software-engineer-at-girteka-4470801561",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-engineer-backend-at-project44-4424845412": {
+      "company": "project44",
+      "title": "Software Engineer - Backend",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-backend-at-project44-4424845412",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-engineer-at-yagy-4470819273": {
+      "company": "YAGY",
+      "title": "Full Stack Engineer",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-at-yagy-4470819273",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/java-full-stack-developer-reactjs-aws-kubernetes-at-tata-consultancy-services-4471330393": {
+      "company": "Tata Consultancy Services",
+      "title": "Java Full Stack Developer (ReactJS, AWS, Kubernetes)",
+      "url": "https://in.linkedin.com/jobs/view/java-full-stack-developer-reactjs-aws-kubernetes-at-tata-consultancy-services-4471330393",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-developer-java-react-js-at-citi-4406907125": {
+      "company": "Citi",
+      "title": "Full Stack Developer - Java - React JS",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-java-react-js-at-citi-4406907125",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-engineer-%E2%80%94-ai-commerce-platform-at-jd-com-4427178405": {
+      "company": "JD.COM",
+      "title": "Full Stack Engineer — AI Commerce Platform",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-%E2%80%94-ai-commerce-platform-at-jd-com-4427178405",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-java-full-stack-developer-at-info-services-4470811517": {
+      "company": "Info Services",
+      "title": "Senior Java Full Stack Developer",
+      "url": "https://in.linkedin.com/jobs/view/senior-java-full-stack-developer-at-info-services-4470811517",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-engineer-ai-native-development-at-kynodex-4471308353": {
+      "company": "Kynodex",
+      "title": "Full Stack Engineer (AI-Native Development)",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-ai-native-development-at-kynodex-4471308353",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/fullstack-python-engineer-at-azuga-inc-4425803750": {
+      "company": "Azuga, Inc.",
+      "title": "Fullstack Python Engineer",
+      "url": "https://in.linkedin.com/jobs/view/fullstack-python-engineer-at-azuga-inc-4425803750",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/java-full-stack-react-developer-at-infosys-4444801620": {
+      "company": "Infosys",
+      "title": "Java full stack, React Developer",
+      "url": "https://in.linkedin.com/jobs/view/java-full-stack-react-developer-at-infosys-4444801620",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-java-software-engineer-at-zaps-group-4470836566": {
+      "company": "ZAPS Group",
+      "title": "Senior Java Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/senior-java-software-engineer-at-zaps-group-4470836566",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-software-engineer-full-stack-at-valgenesis-4470830513": {
+      "company": "ValGenesis",
+      "title": "Senior Software Engineer, Full-stack",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-full-stack-at-valgenesis-4470830513",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-java-software-engineer-at-tata-consultancy-services-4471322603": {
+      "company": "Tata Consultancy Services",
+      "title": "Senior Java Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/senior-java-software-engineer-at-tata-consultancy-services-4471322603",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-software-engineer-e3-at-instawork-4394623248": {
+      "company": "Instawork",
+      "title": "Senior Software Engineer - E3",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-e3-at-instawork-4394623248",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-specialist-software-engineer-at-nice-4469334065": {
+      "company": "NiCE",
+      "title": "Senior Specialist Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/senior-specialist-software-engineer-at-nice-4469334065",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-full-stack-developer-java-and-react-at-iss-corporate-4414904760": {
+      "company": "ISS-Corporate",
+      "title": "Senior Full Stack Developer (Java and React)",
+      "url": "https://in.linkedin.com/jobs/view/senior-full-stack-developer-java-and-react-at-iss-corporate-4414904760",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-full-stack-engineer-at-persistent-systems-4470841402": {
+      "company": "Persistent Systems",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://in.linkedin.com/jobs/view/senior-full-stack-engineer-at-persistent-systems-4470841402",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-software-engineer-land-at-quorum-software-4441853178": {
+      "company": "Quorum Software",
+      "title": "Senior Software Engineer - Land",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-land-at-quorum-software-4441853178",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-full-stack-engineer-react-node-js-typescript-aws-at-profoundiq-4470808234": {
+      "company": "ProfoundIQ",
+      "title": "Senior Full-Stack Engineer (React / Node.js / TypeScript / AWS)",
+      "url": "https://in.linkedin.com/jobs/view/senior-full-stack-engineer-react-node-js-typescript-aws-at-profoundiq-4470808234",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://at.linkedin.com/jobs/view/senior-java-backend-developer-w-m-d-at-senior-quality-jobplattform-45plus-4472422962": {
+      "company": "Senior Quality - Jobplattform 45plus",
+      "title": "Senior Java Backend Developer (w/m/d)",
+      "url": "https://at.linkedin.com/jobs/view/senior-java-backend-developer-w-m-d-at-senior-quality-jobplattform-45plus-4472422962",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://www.linkedin.com/jobs/view/senior-software-engineer-java-banking-accounts-at-adyen-4453740875": {
+      "company": "Adyen",
+      "title": "Senior Software Engineer (Java) - Banking Accounts",
+      "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-java-banking-accounts-at-adyen-4453740875",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://ch.linkedin.com/jobs/view/senior-java-software-engineer-%E2%80%93-backend-and-platform-development-m-w-80-100%25-at-yellowshark%C2%AE-ag-4461826770": {
+      "company": "yellowshark® AG",
+      "title": "Senior Java Software Engineer – Backend and Platform Development (m/w) 80-100%",
+      "url": "https://ch.linkedin.com/jobs/view/senior-java-software-engineer-%E2%80%93-backend-and-platform-development-m-w-80-100%25-at-yellowshark%C2%AE-ag-4461826770",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://www.linkedin.com/jobs/view/senior-software-engineer-iii-backend-marketplace-at-walmart-global-tech-4337350291": {
+      "company": "Walmart Global Tech",
+      "title": "Senior/Software Engineer III - Backend, Marketplace",
+      "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-iii-backend-marketplace-at-walmart-global-tech-4337350291",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "https://pl.linkedin.com/jobs/view/sr-software-engineer-portfolio-services-at-addepar-4407331699": {
+      "company": "Addepar",
+      "title": "Sr. Software Engineer - Portfolio Services",
+      "url": "https://pl.linkedin.com/jobs/view/sr-software-engineer-portfolio-services-at-addepar-4407331699",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
     }
   },
   "sent_keys": {
@@ -10211,6 +10701,489 @@
       "url": "https://in.linkedin.com/jobs/view/hire-ahead-intermediate-application-developer-java-at-ups-4248969823",
       "last_sent": "2026-09-28T05:02:53.542206+00:00",
       "first_seen": "2026-09-28T05:02:53.542206+00:00"
+    },
+    "databricks:::ai engineer fde forward deployed engineer": {
+      "company": "Databricks",
+      "title": "AI Engineer, FDE (Forward Deployed Engineer)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8015848002",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "databricks:::scale solution engineer japanese speaking english required": {
+      "company": "Databricks",
+      "title": "Scale Solution Engineer (Japanese-speaking; English required)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8779016002",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "databricks:::senior scale solution engineer korean speaking english required": {
+      "company": "Databricks",
+      "title": "Senior Scale Solution Engineer (Korean-speaking; English required)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8849669002",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "cloudflare:::principal partner engineer japan based in tokyo": {
+      "company": "Cloudflare",
+      "title": "Principal Partner Engineer, Japan (Based in Tokyo)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8172554?gh_jid=8172554",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "cloudflare:::voidzero developer relations engineer": {
+      "company": "Cloudflare",
+      "title": "VoidZero Developer Relations Engineer",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8190563?gh_jid=8190563",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "cloudflare:::voidzero engineer": {
+      "company": "Cloudflare",
+      "title": "VoidZero Engineer",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8114069?gh_jid=8114069",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "andurilindustries:::analytics engineer sentry": {
+      "company": "Andurilindustries",
+      "title": "Analytics Engineer, Sentry",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226536007?gh_jid=5226536007",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "coinbase:::associate general counsel privacy": {
+      "company": "Coinbase",
+      "title": "Associate General Counsel, Privacy",
+      "url": "https://www.coinbase.com/careers/positions/8227393?gh_jid=8227393",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "coinbase:::associate manager internal audit": {
+      "company": "Coinbase",
+      "title": "Associate Manager, Internal Audit",
+      "url": "https://www.coinbase.com/careers/positions/8154987?gh_jid=8154987",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "coinbase:::complaints analyst ii": {
+      "company": "Coinbase",
+      "title": "Complaints Analyst II",
+      "url": "https://www.coinbase.com/careers/positions/7724777?gh_jid=7724777",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "coinbase:::internal audit manager": {
+      "company": "Coinbase",
+      "title": "Internal Audit Manager",
+      "url": "https://www.coinbase.com/careers/positions/8097292?gh_jid=8097292",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "coinbase:::product security engineer": {
+      "company": "Coinbase",
+      "title": "Product Security Engineer",
+      "url": "https://www.coinbase.com/careers/positions/8165389?gh_jid=8165389",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "coinbase:::senior onchain investigator": {
+      "company": "Coinbase",
+      "title": "Senior Onchain Investigator",
+      "url": "https://www.coinbase.com/careers/positions/8051513?gh_jid=8051513",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "coinbase:::senior software engineer": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer",
+      "url": "https://www.coinbase.com/careers/positions/8021647?gh_jid=8021647",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "coinbase:::senior software engineer core ai infrastructure": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Core AI Infrastructure",
+      "url": "https://www.coinbase.com/careers/positions/7847431?gh_jid=7847431",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "coinbase:::senior software engineer trading": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer - Trading",
+      "url": "https://www.coinbase.com/careers/positions/7866674?gh_jid=7866674",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "coinbase:::staff software engineer": {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer",
+      "url": "https://www.coinbase.com/careers/positions/8021650?gh_jid=8021650",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "coinbase:::staff software engineer core ai infrastructure": {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Core AI Infrastructure",
+      "url": "https://www.coinbase.com/careers/positions/7991691?gh_jid=7991691",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "coinbase:::technical program manager cx intelligence ai": {
+      "company": "Coinbase",
+      "title": "Technical Program Manager, CX Intelligence & AI",
+      "url": "https://www.coinbase.com/careers/positions/8013948?gh_jid=8013948",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "skoollage:::mern stack development intern": {
+      "company": "SKOOLLAGE",
+      "title": "MERN STACK DEVELOPMENT INTERN",
+      "url": "https://in.linkedin.com/jobs/view/mern-stack-development-intern-at-skoollage-4471323791",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "dolby laboratories:::intern software engineering november 2026": {
+      "company": "Dolby Laboratories",
+      "title": "Intern, Software Engineering (November 2026)",
+      "url": "https://pl.linkedin.com/jobs/view/intern-software-engineering-november-2026-at-dolby-laboratories-4454528400",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "steamax envirocare:::graduate engineer trainee get": {
+      "company": "Steamax Envirocare",
+      "title": "Graduate Engineer Trainee (GET)",
+      "url": "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-get-at-steamax-envirocare-4471318738",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "tratico engineering india:::junior engineer": {
+      "company": "TRATICO Engineering India Private Limited",
+      "title": "Junior Engineer",
+      "url": "https://in.linkedin.com/jobs/view/junior-engineer-at-tratico-engineering-india-private-limited-4471326478",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "revolteai:::software engineer i frontend": {
+      "company": "revolte.ai",
+      "title": "Software Engineer I – Frontend",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-i-%E2%80%93-frontend-at-revolte-ai-4471332289",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "careerxperts consulting:::junior software engineer": {
+      "company": "CareerXperts Consulting",
+      "title": "Junior Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/junior-software-engineer-at-careerxperts-consulting-4470830560",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "albertsons companies india:::engineer software applied ai t500 28172": {
+      "company": "Albertsons Companies India",
+      "title": "Engineer Software (Applied AI) [T500-28172]",
+      "url": "https://in.linkedin.com/jobs/view/engineer-software-applied-ai-t500-28172-at-albertsons-companies-india-4448875088",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "saatvik agro:::associate software engineer java": {
+      "company": "Saatvik Agro",
+      "title": "Associate Software Engineer (Java)",
+      "url": "https://in.linkedin.com/jobs/view/associate-software-engineer-java-at-saatvik-agro-4471341191",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "tantranzm:::fresher backend developer": {
+      "company": "TantranZm",
+      "title": "Fresher Backend Developer",
+      "url": "https://in.linkedin.com/jobs/view/fresher-backend-developer-at-tantranzm-4471333341",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "infor:::software engineer associate": {
+      "company": "Infor",
+      "title": "Software Engineer, Associate",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-associate-at-infor-4470842393",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "amari:::php developer": {
+      "company": "Amari",
+      "title": "PHP Developer",
+      "url": "https://in.linkedin.com/jobs/view/php-developer-at-amari-4471325667",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "amazon:::software dev engineer ii paragon workbench": {
+      "company": "Amazon",
+      "title": "Software Dev Engineer II, Paragon Workbench",
+      "url": "https://in.linkedin.com/jobs/view/software-dev-engineer-ii-paragon-workbench-at-amazon-4463779884",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "trimble:::software engineer ii": {
+      "company": "Trimble Inc.",
+      "title": "Software Engineer II",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-ii-at-trimble-inc-4398005888",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "hitachi india:::python backend engineer": {
+      "company": "Hitachi Solutions India Pvt Ltd",
+      "title": "Python Backend Engineer",
+      "url": "https://in.linkedin.com/jobs/view/python-backend-engineer-at-hitachi-solutions-india-pvt-ltd-4471319619",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "amazon:::software development engineer ii timehub experience": {
+      "company": "Amazon",
+      "title": "Software Development Engineer II, Timehub Experience",
+      "url": "https://in.linkedin.com/jobs/view/software-development-engineer-ii-timehub-experience-at-amazon-4472452177",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "franklin templeton:::senior software engineer java react": {
+      "company": "Franklin Templeton",
+      "title": "Senior Software Engineer (Java & React)",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-java-react-at-franklin-templeton-4462452958",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "thakral one:::full stack java developer india": {
+      "company": "Thakral One",
+      "title": "Full Stack Java Developer (India)",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-java-developer-india-at-thakral-one-4471313067",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "aci worldwide:::software engineer": {
+      "company": "ACI Worldwide",
+      "title": "Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-at-aci-worldwide-4471316811",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "tata consultancy:::java developer": {
+      "company": "Tata Consultancy Services",
+      "title": "Java Developer",
+      "url": "https://in.linkedin.com/jobs/view/java-developer-at-tata-consultancy-services-4471317868",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "mahindra and mahindra automotive and farm equipment business:::lead engineer _ full stack web developer mern pern stack": {
+      "company": "Mahindra and Mahindra Limited [Automotive and Farm Equipment Business]",
+      "title": "Lead Engineer _ Full Stack Web Developer (MERN/PERN Stack)",
+      "url": "https://in.linkedin.com/jobs/view/lead-engineer-full-stack-web-developer-mern-pern-stack-at-mahindra-and-mahindra-limited-automotive-and-farm-equipment-business-4471340065",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "당근페이 karrotpay:::software engineer backend": {
+      "company": "당근페이 (KarrotPay)",
+      "title": "Software Engineer, Backend",
+      "url": "https://kr.linkedin.com/jobs/view/software-engineer-backend-at-%EB%8B%B9%EA%B7%BC%ED%8E%98%EC%9D%B4-karrotpay-4470816947",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "naver vietnam:::senior backend engineer java": {
+      "company": "NAVER VIETNAM",
+      "title": "Senior Backend Engineer (Java)",
+      "url": "https://vn.linkedin.com/jobs/view/senior-backend-engineer-java-at-naver-vietnam-4472469929",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "grab:::senior software engineer backend fulfillment": {
+      "company": "Grab",
+      "title": "Senior Software Engineer, Backend (Fulfillment)",
+      "url": "https://my.linkedin.com/jobs/view/senior-software-engineer-backend-fulfillment-at-grab-4455634411",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "mitti by safetyculture:::software engineer ii backend": {
+      "company": "Mitti by SafetyCulture",
+      "title": "Software Engineer II - Backend",
+      "url": "https://au.linkedin.com/jobs/view/software-engineer-ii-backend-at-mitti-by-safetyculture-4472703106",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "xensam:::senior backend developer": {
+      "company": "Xensam",
+      "title": "Senior Backend Developer",
+      "url": "https://se.linkedin.com/jobs/view/senior-backend-developer-at-xensam-4427566643",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "doordash:::senior software engineer backend all teams brazil": {
+      "company": "DoorDash",
+      "title": "Senior Software Engineer, Backend (All teams) – Brazil",
+      "url": "https://br.linkedin.com/jobs/view/senior-software-engineer-backend-all-teams-%E2%80%93-brazil-at-doordash-3969556398",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "girteka:::golang software engineer": {
+      "company": "Girteka",
+      "title": "Golang Software Engineer",
+      "url": "https://lt.linkedin.com/jobs/view/golang-software-engineer-at-girteka-4470801561",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "project44:::software engineer backend": {
+      "company": "project44",
+      "title": "Software Engineer - Backend",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-backend-at-project44-4424845412",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "yagy:::full stack engineer": {
+      "company": "YAGY",
+      "title": "Full Stack Engineer",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-at-yagy-4470819273",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "tata consultancy:::java full stack developer reactjs aws kubernetes": {
+      "company": "Tata Consultancy Services",
+      "title": "Java Full Stack Developer (ReactJS, AWS, Kubernetes)",
+      "url": "https://in.linkedin.com/jobs/view/java-full-stack-developer-reactjs-aws-kubernetes-at-tata-consultancy-services-4471330393",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "citi:::full stack developer java react js": {
+      "company": "Citi",
+      "title": "Full Stack Developer - Java - React JS",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-java-react-js-at-citi-4406907125",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "jdcom:::full stack engineer ai commerce platform": {
+      "company": "JD.COM",
+      "title": "Full Stack Engineer — AI Commerce Platform",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-%E2%80%94-ai-commerce-platform-at-jd-com-4427178405",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "info:::senior java full stack developer": {
+      "company": "Info Services",
+      "title": "Senior Java Full Stack Developer",
+      "url": "https://in.linkedin.com/jobs/view/senior-java-full-stack-developer-at-info-services-4470811517",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "kynodex:::full stack engineer ai native development": {
+      "company": "Kynodex",
+      "title": "Full Stack Engineer (AI-Native Development)",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-ai-native-development-at-kynodex-4471308353",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "azuga:::fullstack python engineer": {
+      "company": "Azuga, Inc.",
+      "title": "Fullstack Python Engineer",
+      "url": "https://in.linkedin.com/jobs/view/fullstack-python-engineer-at-azuga-inc-4425803750",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "infosys:::java full stack react developer": {
+      "company": "Infosys",
+      "title": "Java full stack, React Developer",
+      "url": "https://in.linkedin.com/jobs/view/java-full-stack-react-developer-at-infosys-4444801620",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "zaps:::senior java software engineer": {
+      "company": "ZAPS Group",
+      "title": "Senior Java Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/senior-java-software-engineer-at-zaps-group-4470836566",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "valgenesis:::senior software engineer full stack": {
+      "company": "ValGenesis",
+      "title": "Senior Software Engineer, Full-stack",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-full-stack-at-valgenesis-4470830513",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "tata consultancy:::senior java software engineer": {
+      "company": "Tata Consultancy Services",
+      "title": "Senior Java Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/senior-java-software-engineer-at-tata-consultancy-services-4471322603",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "instawork:::senior software engineer e3": {
+      "company": "Instawork",
+      "title": "Senior Software Engineer - E3",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-e3-at-instawork-4394623248",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "nice:::senior specialist software engineer": {
+      "company": "NiCE",
+      "title": "Senior Specialist Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/senior-specialist-software-engineer-at-nice-4469334065",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "isscorporate:::senior full stack developer java and react": {
+      "company": "ISS-Corporate",
+      "title": "Senior Full Stack Developer (Java and React)",
+      "url": "https://in.linkedin.com/jobs/view/senior-full-stack-developer-java-and-react-at-iss-corporate-4414904760",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "persistent systems:::senior full stack engineer": {
+      "company": "Persistent Systems",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://in.linkedin.com/jobs/view/senior-full-stack-engineer-at-persistent-systems-4470841402",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "quorum:::senior software engineer land": {
+      "company": "Quorum Software",
+      "title": "Senior Software Engineer - Land",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-land-at-quorum-software-4441853178",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "profoundiq:::senior full stack engineer react node js typescript aws": {
+      "company": "ProfoundIQ",
+      "title": "Senior Full-Stack Engineer (React / Node.js / TypeScript / AWS)",
+      "url": "https://in.linkedin.com/jobs/view/senior-full-stack-engineer-react-node-js-typescript-aws-at-profoundiq-4470808234",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "senior quality jobplattform 45plus:::senior java backend developer w m d": {
+      "company": "Senior Quality - Jobplattform 45plus",
+      "title": "Senior Java Backend Developer (w/m/d)",
+      "url": "https://at.linkedin.com/jobs/view/senior-java-backend-developer-w-m-d-at-senior-quality-jobplattform-45plus-4472422962",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "adyen:::senior software engineer java banking accounts": {
+      "company": "Adyen",
+      "title": "Senior Software Engineer (Java) - Banking Accounts",
+      "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-java-banking-accounts-at-adyen-4453740875",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "yellowshark ag:::senior java software engineer backend and platform development m w 80 100": {
+      "company": "yellowshark® AG",
+      "title": "Senior Java Software Engineer – Backend and Platform Development (m/w) 80-100%",
+      "url": "https://ch.linkedin.com/jobs/view/senior-java-software-engineer-%E2%80%93-backend-and-platform-development-m-w-80-100%25-at-yellowshark%C2%AE-ag-4461826770",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "walmart global tech:::senior software engineer iii backend marketplace": {
+      "company": "Walmart Global Tech",
+      "title": "Senior/Software Engineer III - Backend, Marketplace",
+      "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-iii-backend-marketplace-at-walmart-global-tech-4337350291",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
+    },
+    "addepar:::sr software engineer portfolio services": {
+      "company": "Addepar",
+      "title": "Sr. Software Engineer - Portfolio Services",
+      "url": "https://pl.linkedin.com/jobs/view/sr-software-engineer-portfolio-services-at-addepar-4407331699",
+      "last_sent": "2026-09-28T07:18:25.877525+00:00",
+      "first_seen": "2026-09-28T07:18:25.877525+00:00"
     }
   }
 }
