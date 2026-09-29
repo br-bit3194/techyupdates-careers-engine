@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-09-29T04:29:10.592827+00:00",
-  "total_sent_urls": 976,
-  "total_sent_keys": 973,
+  "last_updated": "2026-09-29T07:16:02.219217+00:00",
+  "total_sent_urls": 996,
+  "total_sent_keys": 993,
   "sent_urls": {
     "https://job-boards.greenhouse.io/anthropic/jobs/5382518008": {
       "company": "Anthropic",
@@ -6835,6 +6835,146 @@
       "url": "https://in.linkedin.com/jobs/view/engineer-modem-development-at-qualcomm-4471501146",
       "last_sent": "2026-09-29T04:29:10.592827+00:00",
       "first_seen": "2026-09-29T04:29:10.592827+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=8792853002": {
+      "company": "Databricks",
+      "title": "Customer Enablement Architect (Capability Engineering & AI Adoption)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8792853002",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=8739506002": {
+      "company": "Databricks",
+      "title": "Specialist Solutions Architect - AWS Infrastructure & Platform",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8739506002",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=8739507002": {
+      "company": "Databricks",
+      "title": "Specialist Solutions Architect - Azure Infrastructure & Platform",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8739507002",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://job-boards.greenhouse.io/gusto/jobs/8013480": {
+      "company": "Gusto",
+      "title": "Senior Staff Engineer - Tax Platform Engineering",
+      "url": "https://job-boards.greenhouse.io/gusto/jobs/8013480",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://jobs.ashbyhq.com/cursor/066afe7d-e580-4f13-88d9-828a50bea894": {
+      "company": "Cursor",
+      "title": "Field Engineer - South Korea",
+      "url": "https://jobs.ashbyhq.com/cursor/066afe7d-e580-4f13-88d9-828a50bea894",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://jobs.ashbyhq.com/cursor/13517b5d-1c6c-4720-9650-b1d0db72c697": {
+      "company": "Cursor",
+      "title": "AI Deployment Manager - Japan",
+      "url": "https://jobs.ashbyhq.com/cursor/13517b5d-1c6c-4720-9650-b1d0db72c697",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://jobicy.com/jobs/152060-developer-relations-engineer-2": {
+      "company": "Supabase",
+      "title": "Developer Relations Engineer",
+      "url": "https://jobicy.com/jobs/152060-developer-relations-engineer-2",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://jobicy.com/jobs/152057-multigres-engineer": {
+      "company": "Supabase",
+      "title": "Multigres Engineer",
+      "url": "https://jobicy.com/jobs/152057-multigres-engineer",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://jobicy.com/jobs/151986-software-developer": {
+      "company": "D2L",
+      "title": "Software Developer",
+      "url": "https://jobicy.com/jobs/151986-software-developer",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://jobicy.com/jobs/151984-senior-software-developer-2-2": {
+      "company": "D2L",
+      "title": "Senior Software Developer 2",
+      "url": "https://jobicy.com/jobs/151984-senior-software-developer-2-2",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://jobicy.com/jobs/151981-senior-software-developer": {
+      "company": "D2L",
+      "title": "Senior Software Developer",
+      "url": "https://jobicy.com/jobs/151981-senior-software-developer",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://jobicy.com/jobs/147700-principal-software-architect": {
+      "company": "Testlio",
+      "title": "Principal Software Architect",
+      "url": "https://jobicy.com/jobs/147700-principal-software-architect",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/backend-engineering-intern-voice-ai-platform-at-zudu-ai-4471349262": {
+      "company": "Zudu AI",
+      "title": "Backend Engineering Intern, Voice AI Platform",
+      "url": "https://in.linkedin.com/jobs/view/backend-engineering-intern-voice-ai-platform-at-zudu-ai-4471349262",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/react-native-development-internship-in-gurgaon-at-cashkaro-com-4473038689": {
+      "company": "CashKaro.com",
+      "title": "React Native Development Internship in Gurgaon",
+      "url": "https://in.linkedin.com/jobs/view/react-native-development-internship-in-gurgaon-at-cashkaro-com-4473038689",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-developer-intern-at-thinknovaa-4471244685": {
+      "company": "ThinkNovaa",
+      "title": "Full Stack Developer Intern",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-intern-at-thinknovaa-4471244685",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/electrical-design-trainee-at-p-p-rolling-mills-mfg-co-private-limited-4471225632": {
+      "company": "P. P. Rolling Mills Mfg. Co. Private Limited",
+      "title": "Electrical Design Trainee",
+      "url": "https://in.linkedin.com/jobs/view/electrical-design-trainee-at-p-p-rolling-mills-mfg-co-private-limited-4471225632",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/early-career-trainee-service-at-ge-healthcare-4471264923": {
+      "company": "GE HealthCare",
+      "title": "Early Career Trainee - Service",
+      "url": "https://in.linkedin.com/jobs/view/early-career-trainee-service-at-ge-healthcare-4471264923",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/iti-freshers-trainees-at-kaycee-industries-limited-4473078337": {
+      "company": "Kaycee Industries Limited",
+      "title": "ITI Freshers & Trainees",
+      "url": "https://in.linkedin.com/jobs/view/iti-freshers-trainees-at-kaycee-industries-limited-4473078337",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/associate-java-backend-engineer-at-saatvik-agro-4473200023": {
+      "company": "Saatvik Agro",
+      "title": "Associate Java Backend Engineer",
+      "url": "https://in.linkedin.com/jobs/view/associate-java-backend-engineer-at-saatvik-agro-4473200023",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-developer-junior-mid-level-at-furniconcepts-4473073734": {
+      "company": "Furniconcepts",
+      "title": "Full Stack Developer (Junior / Mid-level)",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-junior-mid-level-at-furniconcepts-4473073734",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
     }
   },
   "sent_keys": {
@@ -13648,6 +13788,146 @@
       "url": "https://in.linkedin.com/jobs/view/engineer-modem-development-at-qualcomm-4471501146",
       "last_sent": "2026-09-29T04:29:10.592827+00:00",
       "first_seen": "2026-09-29T04:29:10.592827+00:00"
+    },
+    "databricks:::customer enablement architect capability engineering ai adoption": {
+      "company": "Databricks",
+      "title": "Customer Enablement Architect (Capability Engineering & AI Adoption)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8792853002",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "databricks:::specialist solutions architect aws infrastructure platform": {
+      "company": "Databricks",
+      "title": "Specialist Solutions Architect - AWS Infrastructure & Platform",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8739506002",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "databricks:::specialist solutions architect azure infrastructure platform": {
+      "company": "Databricks",
+      "title": "Specialist Solutions Architect - Azure Infrastructure & Platform",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8739507002",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "gusto:::senior staff engineer tax platform engineering": {
+      "company": "Gusto",
+      "title": "Senior Staff Engineer - Tax Platform Engineering",
+      "url": "https://job-boards.greenhouse.io/gusto/jobs/8013480",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "cursor:::field engineer south korea": {
+      "company": "Cursor",
+      "title": "Field Engineer - South Korea",
+      "url": "https://jobs.ashbyhq.com/cursor/066afe7d-e580-4f13-88d9-828a50bea894",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "cursor:::ai deployment manager japan": {
+      "company": "Cursor",
+      "title": "AI Deployment Manager - Japan",
+      "url": "https://jobs.ashbyhq.com/cursor/13517b5d-1c6c-4720-9650-b1d0db72c697",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "supabase:::developer relations engineer": {
+      "company": "Supabase",
+      "title": "Developer Relations Engineer",
+      "url": "https://jobicy.com/jobs/152060-developer-relations-engineer-2",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "supabase:::multigres engineer": {
+      "company": "Supabase",
+      "title": "Multigres Engineer",
+      "url": "https://jobicy.com/jobs/152057-multigres-engineer",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "d2l:::software developer": {
+      "company": "D2L",
+      "title": "Software Developer",
+      "url": "https://jobicy.com/jobs/151986-software-developer",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "d2l:::senior software developer 2": {
+      "company": "D2L",
+      "title": "Senior Software Developer 2",
+      "url": "https://jobicy.com/jobs/151984-senior-software-developer-2-2",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "d2l:::senior software developer": {
+      "company": "D2L",
+      "title": "Senior Software Developer",
+      "url": "https://jobicy.com/jobs/151981-senior-software-developer",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "testlio:::principal software architect": {
+      "company": "Testlio",
+      "title": "Principal Software Architect",
+      "url": "https://jobicy.com/jobs/147700-principal-software-architect",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "zudu ai:::backend engineering intern voice ai platform": {
+      "company": "Zudu AI",
+      "title": "Backend Engineering Intern, Voice AI Platform",
+      "url": "https://in.linkedin.com/jobs/view/backend-engineering-intern-voice-ai-platform-at-zudu-ai-4471349262",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "cashkarocom:::react native development internship in gurgaon": {
+      "company": "CashKaro.com",
+      "title": "React Native Development Internship in Gurgaon",
+      "url": "https://in.linkedin.com/jobs/view/react-native-development-internship-in-gurgaon-at-cashkaro-com-4473038689",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "thinknovaa:::full stack developer intern": {
+      "company": "ThinkNovaa",
+      "title": "Full Stack Developer Intern",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-intern-at-thinknovaa-4471244685",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "p p rolling mills mfg co:::electrical design trainee": {
+      "company": "P. P. Rolling Mills Mfg. Co. Private Limited",
+      "title": "Electrical Design Trainee",
+      "url": "https://in.linkedin.com/jobs/view/electrical-design-trainee-at-p-p-rolling-mills-mfg-co-private-limited-4471225632",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "ge healthcare:::early career trainee service": {
+      "company": "GE HealthCare",
+      "title": "Early Career Trainee - Service",
+      "url": "https://in.linkedin.com/jobs/view/early-career-trainee-service-at-ge-healthcare-4471264923",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "kaycee industries:::iti freshers trainees": {
+      "company": "Kaycee Industries Limited",
+      "title": "ITI Freshers & Trainees",
+      "url": "https://in.linkedin.com/jobs/view/iti-freshers-trainees-at-kaycee-industries-limited-4473078337",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "saatvik agro:::associate java backend engineer": {
+      "company": "Saatvik Agro",
+      "title": "Associate Java Backend Engineer",
+      "url": "https://in.linkedin.com/jobs/view/associate-java-backend-engineer-at-saatvik-agro-4473200023",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
+    },
+    "furniconcepts:::full stack developer junior mid level": {
+      "company": "Furniconcepts",
+      "title": "Full Stack Developer (Junior / Mid-level)",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-junior-mid-level-at-furniconcepts-4473073734",
+      "last_sent": "2026-09-29T07:16:02.219217+00:00",
+      "first_seen": "2026-09-29T07:16:02.219217+00:00"
     }
   }
 }
