@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-10-08T07:49:49.587919+00:00",
-  "total_sent_urls": 3024,
-  "total_sent_keys": 3015,
+  "last_updated": "2026-10-09T07:45:24.795882+00:00",
+  "total_sent_urls": 3211,
+  "total_sent_keys": 3202,
   "sent_urls": {
     "https://job-boards.greenhouse.io/anthropic/jobs/5382518008": {
       "company": "Anthropic",
@@ -21171,6 +21171,1315 @@
       "url": "https://in.linkedin.com/jobs/view/senior-backend-developer-ahmedabad-guj-at-trelleborg-group-4475747867",
       "last_sent": "2026-10-08T07:49:49.587919+00:00",
       "first_seen": "2026-10-08T07:49:49.587919+00:00"
+    },
+    "https://job-boards.greenhouse.io/anthropic/jobs/5139910008": {
+      "company": "Anthropic",
+      "title": "Staff+ Software Engineer, Observability",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5139910008",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://job-boards.greenhouse.io/anthropic/jobs/5440477008": {
+      "company": "Anthropic",
+      "title": "Staff + Software Security Engineer, Labs",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5440477008",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://stripe.com/jobs/search?gh_jid=8264421": {
+      "company": "Stripe",
+      "title": "Engineering Manager - Support Experience",
+      "url": "https://stripe.com/jobs/search?gh_jid=8264421",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://stripe.com/jobs/search?gh_jid=8248509": {
+      "company": "Stripe",
+      "title": "Solutions Architect, AI",
+      "url": "https://stripe.com/jobs/search?gh_jid=8248509",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://stripe.com/jobs/search?gh_jid=8209967": {
+      "company": "Stripe",
+      "title": "Staff Software Engineer,",
+      "url": "https://stripe.com/jobs/search?gh_jid=8209967",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002": {
+      "company": "Databricks",
+      "title": "PhD GenAI Research Scientist Intern",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=8860653002": {
+      "company": "Databricks",
+      "title": "Principal Brand Content & AI Search Visibility",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8860653002",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=7642125002": {
+      "company": "Databricks",
+      "title": "Senior Solutions Architect (Transport)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7642125002",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/7525971?gh_jid=7525971": {
+      "company": "Cloudflare",
+      "title": "Customer Engineering Specialist - Network Services",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7525971?gh_jid=7525971",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8260743?gh_jid=8260743": {
+      "company": "Cloudflare",
+      "title": "Senior Practice Leader, Developer Platform for Professional Services, APAC",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8260743?gh_jid=8260743",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8262000?gh_jid=8262000": {
+      "company": "Cloudflare",
+      "title": "Senior Software Engineer, Agentic Discovery",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8262000?gh_jid=8262000",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8264687?gh_jid=8264687": {
+      "company": "Cloudflare",
+      "title": "Software Engineer, Agentic Discovery",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8264687?gh_jid=8264687",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8257140?gh_jid=8257140": {
+      "company": "Cloudflare",
+      "title": "Systems Engineer - Data Security",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8257140?gh_jid=8257140",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/7804941?gh_jid=7804941": {
+      "company": "Cloudflare",
+      "title": "Territory Account Executive (AI & Digital Natives)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7804941?gh_jid=7804941",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://job-boards.greenhouse.io/discord/jobs/8485884002": {
+      "company": "Discord",
+      "title": "Senior Data Engineer",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8485884002",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://job-boards.greenhouse.io/discord/jobs/8675185002": {
+      "company": "Discord",
+      "title": "Staff Software Engineer, Enterprise Platform",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8675185002",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://job-boards.greenhouse.io/gusto/jobs/7947424": {
+      "company": "Gusto",
+      "title": "Senior Software Engineer, People Technology",
+      "url": "https://job-boards.greenhouse.io/gusto/jobs/7947424",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261873007?gh_jid=5261873007": {
+      "company": "Andurilindustries",
+      "title": "2026 Electrical Engineer Intern",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261873007?gh_jid=5261873007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5217256007?gh_jid=5217256007": {
+      "company": "Andurilindustries",
+      "title": "Actuation Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5217256007?gh_jid=5217256007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261801007?gh_jid=5261801007": {
+      "company": "Andurilindustries",
+      "title": "Associate Director, Business Development",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261801007?gh_jid=5261801007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5226623007?gh_jid=5226623007": {
+      "company": "Andurilindustries",
+      "title": "Chief Engineer, Advanced Effects (Missiles)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226623007?gh_jid=5226623007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5090905007?gh_jid=5090905007": {
+      "company": "Andurilindustries",
+      "title": "Data Engineer, Infrastructure FinOps",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5090905007?gh_jid=5090905007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5189388007?gh_jid=5189388007": {
+      "company": "Andurilindustries",
+      "title": "Director, Supply Chain Planning Process",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5189388007?gh_jid=5189388007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5256905007?gh_jid=5256905007": {
+      "company": "Andurilindustries",
+      "title": "EHS and Sustainability Systems and Analytics Specialist",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5256905007?gh_jid=5256905007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5239466007?gh_jid=5239466007": {
+      "company": "Andurilindustries",
+      "title": "Integration and Test Engineer, Fuel Systems (Omen)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5239466007?gh_jid=5239466007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5239480007?gh_jid=5239480007": {
+      "company": "Andurilindustries",
+      "title": "IT Systems Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5239480007?gh_jid=5239480007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5186068007?gh_jid=5186068007": {
+      "company": "Andurilindustries",
+      "title": "Legal Counsel - US Government Contracts (Air Defense)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5186068007?gh_jid=5186068007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261431007?gh_jid=5261431007": {
+      "company": "Andurilindustries",
+      "title": "Manager, Hardware Test Engineering",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261431007?gh_jid=5261431007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261749007?gh_jid=5261749007": {
+      "company": "Andurilindustries",
+      "title": "Manufacturing Engineer, Barracuda",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261749007?gh_jid=5261749007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261764007?gh_jid=5261764007": {
+      "company": "Andurilindustries",
+      "title": "Manufacturing Engineer II, Barracuda",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261764007?gh_jid=5261764007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261730007?gh_jid=5261730007": {
+      "company": "Andurilindustries",
+      "title": "Manufacturing Process Engineer, Supply Chain Material Flow",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261730007?gh_jid=5261730007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261435007?gh_jid=5261435007": {
+      "company": "Andurilindustries",
+      "title": "Manufacturing Test Engineering Manager",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261435007?gh_jid=5261435007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5126216007?gh_jid=5126216007": {
+      "company": "Andurilindustries",
+      "title": "Materials and Process Development Engineer, Maritime",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5126216007?gh_jid=5126216007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5010190007?gh_jid=5010190007": {
+      "company": "Andurilindustries",
+      "title": "Mechanical Engineer, Drones",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5010190007?gh_jid=5010190007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5146807007?gh_jid=5146807007": {
+      "company": "Andurilindustries",
+      "title": "Mechanical Engineer, Lead",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5146807007?gh_jid=5146807007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5165492007?gh_jid=5165492007": {
+      "company": "Andurilindustries",
+      "title": "Mechanical Engineer, Thunder",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5165492007?gh_jid=5165492007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5107130007?gh_jid=5107130007": {
+      "company": "Andurilindustries",
+      "title": "Process Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5107130007?gh_jid=5107130007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5243252007?gh_jid=5243252007": {
+      "company": "Andurilindustries",
+      "title": "Product Operations Specialist, Air Defense C2",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5243252007?gh_jid=5243252007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261846007?gh_jid=5261846007": {
+      "company": "Andurilindustries",
+      "title": "Product Sourcing Engineer, Core Tech",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261846007?gh_jid=5261846007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261162007?gh_jid=5261162007": {
+      "company": "Andurilindustries",
+      "title": "Project Engineer, AD&S",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261162007?gh_jid=5261162007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261196007?gh_jid=5261196007": {
+      "company": "Andurilindustries",
+      "title": "Prototype Manufacturing Engineer, Mechanical & Fluid Systems",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261196007?gh_jid=5261196007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261398007?gh_jid=5261398007": {
+      "company": "Andurilindustries",
+      "title": "Senior AI Infrastructure Engineer, Physical Infrastructure",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261398007?gh_jid=5261398007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5229387007?gh_jid=5229387007": {
+      "company": "Andurilindustries",
+      "title": "Senior Aviation Maintenance Engineer - Advanced Effects",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5229387007?gh_jid=5229387007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5128443007?gh_jid=5128443007": {
+      "company": "Andurilindustries",
+      "title": "Senior Design Validation Engineer, Intelligence Systems",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5128443007?gh_jid=5128443007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5225558007?gh_jid=5225558007": {
+      "company": "Andurilindustries",
+      "title": "Senior Director, Solutions Engineering",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5225558007?gh_jid=5225558007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5194664007?gh_jid=5194664007": {
+      "company": "Andurilindustries",
+      "title": "Senior Electrical Engineer, Reserve and Backup Power",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5194664007?gh_jid=5194664007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5200216007?gh_jid=5200216007": {
+      "company": "Andurilindustries",
+      "title": "Senior Engineer, Rapid Integration & Test",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5200216007?gh_jid=5200216007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5242385007?gh_jid=5242385007": {
+      "company": "Andurilindustries",
+      "title": "Senior Maintenance Planner",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5242385007?gh_jid=5242385007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5131438007?gh_jid=5131438007": {
+      "company": "Andurilindustries",
+      "title": "Senior Manufacturing Engineer, Barracuda",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5131438007?gh_jid=5131438007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5070029007?gh_jid=5070029007": {
+      "company": "Andurilindustries",
+      "title": "Senior Materials and Process Engineer, Space",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5070029007?gh_jid=5070029007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5225977007?gh_jid=5225977007": {
+      "company": "Andurilindustries",
+      "title": "Senior Mechanical Engineer, Autonomous Systems",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5225977007?gh_jid=5225977007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5010383007?gh_jid=5010383007": {
+      "company": "Andurilindustries",
+      "title": "Senior Mechanical Engineer, Drones",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5010383007?gh_jid=5010383007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5216801007?gh_jid=5216801007": {
+      "company": "Andurilindustries",
+      "title": "Senior Mechanical Engineer, Test Fixtures, Thunder",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5216801007?gh_jid=5216801007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5243855007?gh_jid=5243855007": {
+      "company": "Andurilindustries",
+      "title": "Senior Offensive Security Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5243855007?gh_jid=5243855007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5173117007?gh_jid=5173117007": {
+      "company": "Andurilindustries",
+      "title": "Senior Open Architecture Systems Engineer, Ground Systems",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5173117007?gh_jid=5173117007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261234007?gh_jid=5261234007": {
+      "company": "Andurilindustries",
+      "title": "Senior Project Engineer, AD&S",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261234007?gh_jid=5261234007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5166489007?gh_jid=5166489007": {
+      "company": "Andurilindustries",
+      "title": "Senior Propulsion Engineer, Thunder",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5166489007?gh_jid=5166489007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261681007?gh_jid=5261681007": {
+      "company": "Andurilindustries",
+      "title": "Senior Quality System Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261681007?gh_jid=5261681007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5238875007?gh_jid=5238875007": {
+      "company": "Andurilindustries",
+      "title": "Senior Radar Engineer, Air Defense",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5238875007?gh_jid=5238875007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5202000007?gh_jid=5202000007": {
+      "company": "Andurilindustries",
+      "title": "Senior Software Engineer, Distributed Systems (Rust)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5202000007?gh_jid=5202000007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261454007?gh_jid=5261454007": {
+      "company": "Andurilindustries",
+      "title": "Senior Supplier Industrialization Engineer, Core Tech Casting",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261454007?gh_jid=5261454007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261440007?gh_jid=5261440007": {
+      "company": "Andurilindustries",
+      "title": "Senior Supplier Industrialization Engineer, Core Tech Mechanical",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261440007?gh_jid=5261440007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261442007?gh_jid=5261442007": {
+      "company": "Andurilindustries",
+      "title": "Senior Supplier Manufacturing Engineer, Core Tech Mechanical",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261442007?gh_jid=5261442007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5134865007?gh_jid=5134865007": {
+      "company": "Andurilindustries",
+      "title": "Senior Supplier Quality Engineer, Composites",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5134865007?gh_jid=5134865007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/4912619007?gh_jid=4912619007": {
+      "company": "Andurilindustries",
+      "title": "Senior Systems Engineer, Air Vehicle Systems",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/4912619007?gh_jid=4912619007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5124336007?gh_jid=5124336007": {
+      "company": "Andurilindustries",
+      "title": "Software Engineer- Infrastructure",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5124336007?gh_jid=5124336007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261106007?gh_jid=5261106007": {
+      "company": "Andurilindustries",
+      "title": "Staff AI Test and Evaluation Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261106007?gh_jid=5261106007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261629007?gh_jid=5261629007": {
+      "company": "Andurilindustries",
+      "title": "Staff Avionics Maintenance Engineer - Advanced Effects",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261629007?gh_jid=5261629007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261782007?gh_jid=5261782007": {
+      "company": "Andurilindustries",
+      "title": "Staff Manufacturing Engineer, Barracuda",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261782007?gh_jid=5261782007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5221992007?gh_jid=5221992007": {
+      "company": "Andurilindustries",
+      "title": "Staff Optical Test & Calibration Engineer, XR Displays - EagleEye",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5221992007?gh_jid=5221992007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5210335007?gh_jid=5210335007": {
+      "company": "Andurilindustries",
+      "title": "Staff Site Reliability Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5210335007?gh_jid=5210335007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5173156007?gh_jid=5173156007": {
+      "company": "Andurilindustries",
+      "title": "Staff Systems Engineer, Air Vehicle Systems",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5173156007?gh_jid=5173156007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5248797007?gh_jid=5248797007": {
+      "company": "Andurilindustries",
+      "title": "Technical Recruiter, Hardware - Air Dominance and Strike (Contract)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248797007?gh_jid=5248797007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5235343007?gh_jid=5235343007": {
+      "company": "Andurilindustries",
+      "title": "Technical Recruiter, Software - Air Dominance and Strike (Contract)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5235343007?gh_jid=5235343007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5246616007?gh_jid=5246616007": {
+      "company": "Andurilindustries",
+      "title": "Test Site Operations Associate",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5246616007?gh_jid=5246616007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://job-boards.greenhouse.io/reddit/jobs/8263407": {
+      "company": "Reddit",
+      "title": "Senior Android Software Engineer, Consumer Engineering",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8263407",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://careers.airbnb.com/positions/8262812?gh_jid=8262812": {
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, iOS Platform",
+      "url": "https://careers.airbnb.com/positions/8262812?gh_jid=8262812",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://careers.airbnb.com/positions/8262769?gh_jid=8262769": {
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, iOS Platform",
+      "url": "https://careers.airbnb.com/positions/8262769?gh_jid=8262769",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobs.dropbox.com/listing/8261916?gh_jid=8261916": {
+      "company": "Dropbox",
+      "title": "Principal Software Engineer",
+      "url": "https://jobs.dropbox.com/listing/8261916?gh_jid=8261916",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://job-boards.greenhouse.io/affirm/jobs/8012043003": {
+      "company": "Affirm",
+      "title": "Software Engineer II, Backend (Online Storage)",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/8012043003",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://job-boards.greenhouse.io/affirm/jobs/8010610003": {
+      "company": "Affirm",
+      "title": "Software Engineer II, Frontend (Marketing and Privacy)",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/8010610003",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://careers.datadoghq.com/detail/7993198?gh_jid=7993198": {
+      "company": "Datadog",
+      "title": "Senior Product Security Engineer - AI Agents",
+      "url": "https://careers.datadoghq.com/detail/7993198/?gh_jid=7993198",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://careers.datadoghq.com/detail/8238457?gh_jid=8238457": {
+      "company": "Datadog",
+      "title": "Senior Sales Engineer - Majors (Central)",
+      "url": "https://careers.datadoghq.com/detail/8238457/?gh_jid=8238457",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8024880?gh_jid=8024880": {
+      "company": "Coinbase",
+      "title": "Senior Analytics Engineer, GFCO Analytics",
+      "url": "https://www.coinbase.com/careers/positions/8024880?gh_jid=8024880",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8265918?gh_jid=8265918": {
+      "company": "Coinbase",
+      "title": "Senior Engineering Manager",
+      "url": "https://www.coinbase.com/careers/positions/8265918?gh_jid=8265918",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8174232?gh_jid=8174232": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Backend/Fullstack (Coinbase Advisor - Agentic Trading)",
+      "url": "https://www.coinbase.com/careers/positions/8174232?gh_jid=8174232",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/robinhood/jobs/8250286?gh_jid=8250286&t=gh_src%3D": {
+      "company": "Robinhood",
+      "title": "Internal Audit Senior Manager, Crypto",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8250286?t=gh_src=&gh_jid=8250286",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/robinhood/jobs/8255842?gh_jid=8255842&t=gh_src%3D": {
+      "company": "Robinhood",
+      "title": "Senior Software Engineer, Web3 Backend",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8255842?t=gh_src=&gh_jid=8255842",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/robinhood/jobs/8266107?gh_jid=8266107&t=gh_src%3D": {
+      "company": "Robinhood",
+      "title": "Staff Software Engineer",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8266107?t=gh_src=&gh_jid=8266107",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://boards.greenhouse.io/robinhood/jobs/8244209?gh_jid=8244209&t=gh_src%3D": {
+      "company": "Robinhood",
+      "title": "Staff Software Engineer, Backend Platform",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8244209?t=gh_src=&gh_jid=8244209",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobs.ashbyhq.com/cursor/0a82f564-de1b-4c72-9ba4-10cf2b63c483": {
+      "company": "Cursor",
+      "title": "Forward Deployed Engineer - EMEA",
+      "url": "https://jobs.ashbyhq.com/cursor/0a82f564-de1b-4c72-9ba4-10cf2b63c483",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobs.ashbyhq.com/cursor/1d2b496f-c867-40ac-9ca7-cba8436ec2c4": {
+      "company": "Cursor",
+      "title": "Integrated Campaigns, APJ",
+      "url": "https://jobs.ashbyhq.com/cursor/1d2b496f-c867-40ac-9ca7-cba8436ec2c4",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobs.ashbyhq.com/replit/0170f630-f7c9-4471-8d2f-8c55fb184206": {
+      "company": "Replit",
+      "title": "Engineering Manager, Mobile",
+      "url": "https://jobs.ashbyhq.com/replit/0170f630-f7c9-4471-8d2f-8c55fb184206",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobs.ashbyhq.com/replit/7c3c9d29-cec2-4367-8564-eadaed165aea": {
+      "company": "Replit",
+      "title": "Software Engineering Intern – Winter 2027",
+      "url": "https://jobs.ashbyhq.com/replit/7c3c9d29-cec2-4367-8564-eadaed165aea",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/152814-business-systems-engineer": {
+      "company": "ClickUp",
+      "title": "Business Systems Engineer",
+      "url": "https://jobicy.com/jobs/152814-business-systems-engineer",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/152819-software-engineer-data-integration": {
+      "company": "Bayesian Health",
+      "title": "Software Engineer, Data Integration",
+      "url": "https://jobicy.com/jobs/152819-software-engineer-data-integration",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/152795-sr-software-engineer-ruby-on-rails": {
+      "company": "CentralReach",
+      "title": "Sr. Software Engineer, Ruby on Rails",
+      "url": "https://jobicy.com/jobs/152795-sr-software-engineer-ruby-on-rails",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154879-senior-design-quality-engineer": {
+      "company": "Bayesian Health",
+      "title": "Senior Design Quality Engineer",
+      "url": "https://jobicy.com/jobs/154879-senior-design-quality-engineer",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154875-quality-assurance-engineer-ii": {
+      "company": "Bloomreach",
+      "title": "Quality Assurance Engineer II",
+      "url": "https://jobicy.com/jobs/154875-quality-assurance-engineer-ii",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154871-senior-quality-engineer-3": {
+      "company": "StackAdapt",
+      "title": "Senior Quality Engineer",
+      "url": "https://jobicy.com/jobs/154871-senior-quality-engineer-3",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154877-sr-engineering-manager-sdet": {
+      "company": "Cribl",
+      "title": "Sr. Engineering Manager, SDET",
+      "url": "https://jobicy.com/jobs/154877-sr-engineering-manager-sdet",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154880-freelance-software-tester-with-smart-tvs-remote-in-italy": {
+      "company": "Testlio",
+      "title": "Freelance Software Tester With Smart TVs (Remote in Italy)",
+      "url": "https://jobicy.com/jobs/154880-freelance-software-tester-with-smart-tvs-remote-in-italy",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154874-qa-engineer-anywhere-in-europe": {
+      "company": "PadSplit",
+      "title": "QA Engineer (Anywhere in Europe)",
+      "url": "https://jobicy.com/jobs/154874-qa-engineer-anywhere-in-europe",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154878-junior-qa-engineer-us-remote": {
+      "company": "PerfectServe",
+      "title": "Junior QA Engineer - US Remote",
+      "url": "https://jobicy.com/jobs/154878-junior-qa-engineer-us-remote",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154872-software-test-engineer": {
+      "company": "Deepgram",
+      "title": "Software Test Engineer",
+      "url": "https://jobicy.com/jobs/154872-software-test-engineer",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154868-senior-ai-engineer-9": {
+      "company": "ActiveCampaign",
+      "title": "Senior AI Engineer",
+      "url": "https://jobicy.com/jobs/154868-senior-ai-engineer-9",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154851-engineering-manager-machine-learning-safety": {
+      "company": "Discord",
+      "title": "Engineering Manager, Machine Learning (Safety)",
+      "url": "https://jobicy.com/jobs/154851-engineering-manager-machine-learning-safety",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154857-senior-software-engineer-backend-kotlin": {
+      "company": "Fanatics",
+      "title": "Senior Software Engineer - Backend/Kotlin",
+      "url": "https://jobicy.com/jobs/154857-senior-software-engineer-backend-kotlin",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154820-research-engineer-inference": {
+      "company": "Elevenlabs",
+      "title": "Research Engineer - Inference",
+      "url": "https://jobicy.com/jobs/154820-research-engineer-inference",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154819-engineering-manager-authentication-authorisation": {
+      "company": "Pleo",
+      "title": "Engineering Manager - Authentication & Authorisation",
+      "url": "https://jobicy.com/jobs/154819-engineering-manager-authentication-authorisation",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154825-senior-backend-engineer-data-serving": {
+      "company": "Pleo",
+      "title": "Senior Backend Engineer (Data serving)",
+      "url": "https://jobicy.com/jobs/154825-senior-backend-engineer-data-serving",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154817-engineering-internal-ai-transformation": {
+      "company": "Elevenlabs",
+      "title": "Engineering - Internal AI Transformation",
+      "url": "https://jobicy.com/jobs/154817-engineering-internal-ai-transformation",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154822-staff-engineer-business-spend": {
+      "company": "Pleo",
+      "title": "Staff Engineer - Business Spend",
+      "url": "https://jobicy.com/jobs/154822-staff-engineer-business-spend",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154810-senior-product-engineer-americas": {
+      "company": "Ashby",
+      "title": "Senior Product Engineer - Americas",
+      "url": "https://jobicy.com/jobs/154810-senior-product-engineer-americas",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154809-senior-product-engineer-canada": {
+      "company": "Ashby",
+      "title": "Senior Product Engineer - Canada",
+      "url": "https://jobicy.com/jobs/154809-senior-product-engineer-canada",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154812-staff-product-engineer-canada": {
+      "company": "Ashby",
+      "title": "Staff Product Engineer - Canada",
+      "url": "https://jobicy.com/jobs/154812-staff-product-engineer-canada",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://jobicy.com/jobs/154018-full-stack-engineer-back-end-leaning": {
+      "company": "Elevenlabs",
+      "title": "Full-Stack Engineer (Back-End Leaning)",
+      "url": "https://jobicy.com/jobs/154018-full-stack-engineer-back-end-leaning",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/mern-stack-internship-at-sparks-to-ideas-4475772562": {
+      "company": "Sparks To Ideas",
+      "title": "MERN Stack Internship",
+      "url": "https://in.linkedin.com/jobs/view/mern-stack-internship-at-sparks-to-ideas-4475772562",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-engineer-intern-at-gnxtace-technologies-4477113406": {
+      "company": "Gnxtace Technologies",
+      "title": "Software Engineer Intern",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-intern-at-gnxtace-technologies-4477113406",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/backend-intern-at-kodo-4475912394": {
+      "company": "Kodo",
+      "title": "Backend Intern",
+      "url": "https://in.linkedin.com/jobs/view/backend-intern-at-kodo-4475912394",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-java-developer-internship-%E2%80%93-on-site-at-mbig-it-services-pvt-ltd-4474843123": {
+      "company": "MBiG IT SERVICES PVT. LTD.",
+      "title": "Full Stack Java Developer Internship – On-Site",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-java-developer-internship-%E2%80%93-on-site-at-mbig-it-services-pvt-ltd-4474843123",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-developer-intern-freshers-welcome-frontend-backend-apis-remote-at-crossing-infotech-4476206182": {
+      "company": "Crossing Infotech",
+      "title": "Full Stack Developer Intern | Freshers Welcome | Frontend, Backend & APIs | Remote",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-intern-freshers-welcome-frontend-backend-apis-remote-at-crossing-infotech-4476206182",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-developer-intern-freshers-welcome-programming-apis-software-development-remote-at-crossing-infotech-4476202269": {
+      "company": "Crossing Infotech",
+      "title": "Software Developer Intern | Freshers Welcome | Programming, APIs & Software Development | Remote",
+      "url": "https://in.linkedin.com/jobs/view/software-developer-intern-freshers-welcome-programming-apis-software-development-remote-at-crossing-infotech-4476202269",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://fr.linkedin.com/jobs/view/stage-ing%C3%A9nieur-d%C3%A9veloppement-fullstack-f-h-at-lyra-4474829599": {
+      "company": "Lyra",
+      "title": "Stage - Ing3nieur d''veloppement fullstack (F/H)",
+      "url": "https://fr.linkedin.com/jobs/view/stage-ing%C3%A9nieur-d%C3%A9veloppement-fullstack-f-h-at-lyra-4474829599",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://vn.linkedin.com/jobs/view/software-engineer-intern-at-anduin-transactions-4475773736": {
+      "company": "Anduin Transactions",
+      "title": "Software Engineer Intern",
+      "url": "https://vn.linkedin.com/jobs/view/software-engineer-intern-at-anduin-transactions-4475773736",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://www.linkedin.com/jobs/view/software-engineer-summer-2027-internship-at-motorola-solutions-4477117710": {
+      "company": "Motorola Solutions",
+      "title": "Software Engineer - Summer 2027 Internship",
+      "url": "https://www.linkedin.com/jobs/view/software-engineer-summer-2027-internship-at-motorola-solutions-4477117710",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://www.linkedin.com/jobs/view/software-development-intern-summer-2027-internship-at-motorola-solutions-4477122528": {
+      "company": "Motorola Solutions",
+      "title": "Software Development Intern - Summer 2027 Internship",
+      "url": "https://www.linkedin.com/jobs/view/software-development-intern-summer-2027-internship-at-motorola-solutions-4477122528",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://www.linkedin.com/jobs/view/2027-software-developer-intern-chantilly-va-at-northrop-grumman-4477620939": {
+      "company": "Northrop Grumman",
+      "title": "2027 Software Developer Intern- Chantilly VA",
+      "url": "https://www.linkedin.com/jobs/view/2027-software-developer-intern-chantilly-va-at-northrop-grumman-4477620939",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://www.linkedin.com/jobs/view/2027-business-technology-solutions-intern-data-software-engineering-undergraduate-at-abbvie-4448252180": {
+      "company": "AbbVie",
+      "title": "2027 Business Technology Solutions Intern - Data & Software Engineering (Undergraduate)",
+      "url": "https://www.linkedin.com/jobs/view/2027-business-technology-solutions-intern-data-software-engineering-undergraduate-at-abbvie-4448252180",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://www.linkedin.com/jobs/view/software-development-intern-digital-grid-management-summer-2027-at-aspen-technology-4466236314": {
+      "company": "Aspen Technology",
+      "title": "Software Development Intern - Digital Grid Management - Summer 2027",
+      "url": "https://www.linkedin.com/jobs/view/software-development-intern-digital-grid-management-summer-2027-at-aspen-technology-4466236314",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-turbomachinery-at-everllence-4468392941": {
+      "company": "Everllence",
+      "title": "Graduate Engineer Trainee - Turbomachinery",
+      "url": "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-turbomachinery-at-everllence-4468392941",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/trainee-engineer-at-nne-4477406092": {
+      "company": "NNE",
+      "title": "Trainee Engineer",
+      "url": "https://in.linkedin.com/jobs/view/trainee-engineer-at-nne-4477406092",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/diploma-engineer-trainee-electrical-2026-batch-bangalore-location-at-vertiv-4440001606": {
+      "company": "Vertiv",
+      "title": "Diploma Engineer Trainee - Electrical (2026 batch) - Bangalore Location",
+      "url": "https://in.linkedin.com/jobs/view/diploma-engineer-trainee-electrical-2026-batch-bangalore-location-at-vertiv-4440001606",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/trainee-engineer-plant-design-in-bangalore-at-acufore-india-private-limited-4477483922": {
+      "company": "Acufore India Private Limited",
+      "title": "Trainee Engineer - Plant Design in Bangalore",
+      "url": "https://in.linkedin.com/jobs/view/trainee-engineer-plant-design-in-bangalore-at-acufore-india-private-limited-4477483922",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/get-mechanical-engineer-at-xylem-4477165390": {
+      "company": "Xylem",
+      "title": "GET Mechanical Engineer",
+      "url": "https://in.linkedin.com/jobs/view/get-mechanical-engineer-at-xylem-4477165390",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/trainee-design-tower-crane-at-liebherr-tower-cranes-4458394009": {
+      "company": "Liebherr Tower Cranes",
+      "title": "Trainee- Design (Tower Crane)",
+      "url": "https://in.linkedin.com/jobs/view/trainee-design-tower-crane-at-liebherr-tower-cranes-4458394009",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/junior-software-developer-at-propbulls-solutions-pvt-ltd-4474888765": {
+      "company": "PropBulls Solutions Pvt. Ltd.",
+      "title": "Junior Software Developer",
+      "url": "https://in.linkedin.com/jobs/view/junior-software-developer-at-propbulls-solutions-pvt-ltd-4474888765",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/associate-full-stack-developer-at-blackrock-4475939799": {
+      "company": "BlackRock",
+      "title": "Associate, Full Stack Developer",
+      "url": "https://in.linkedin.com/jobs/view/associate-full-stack-developer-at-blackrock-4475939799",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-developer-net-core-at-beghou-4477174278": {
+      "company": "Beghou",
+      "title": "Software Developer - .NET Core",
+      "url": "https://in.linkedin.com/jobs/view/software-developer-net-core-at-beghou-4477174278",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/springboot-integration-associate-at-pwc-acceleration-center-india-4466246485": {
+      "company": "PwC Acceleration Center India",
+      "title": "SpringBoot Integration - Associate",
+      "url": "https://in.linkedin.com/jobs/view/springboot-integration-associate-at-pwc-acceleration-center-india-4466246485",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-engineer-i-data-infrastructure-at-rippling-4475939615": {
+      "company": "Rippling",
+      "title": "Software Engineer I -Data Infrastructure",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-i-data-infrastructure-at-rippling-4475939615",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/gbm-sts-ai-structuring-sales-strats-analyst-associate-bengaluru-at-goldman-sachs-4447351325": {
+      "company": "Goldman Sachs",
+      "title": "GBM - STS AI Structuring - Sales Strats - Analyst/Associate - Bengaluru",
+      "url": "https://in.linkedin.com/jobs/view/gbm-sts-ai-structuring-sales-strats-analyst-associate-bengaluru-at-goldman-sachs-4447351325",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-engineer-sitecore-at-air-arabia-4475795191": {
+      "company": "Air Arabia",
+      "title": "Software Engineer-Sitecore",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-sitecore-at-air-arabia-4475795191",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/sde-1-at-sourcingxpress-4477126890": {
+      "company": "SourcingXPress",
+      "title": "SDE 1",
+      "url": "https://in.linkedin.com/jobs/view/sde-1-at-sourcingxpress-4477126890",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/java-developer-at-kognivera-4475950463": {
+      "company": "KogniVera",
+      "title": "Java Developer",
+      "url": "https://in.linkedin.com/jobs/view/java-developer-at-kognivera-4475950463",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/associate-software-engineer-at-careerxperts-consulting-4474890642": {
+      "company": "CareerXperts Consulting",
+      "title": "Associate Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-careerxperts-consulting-4474890642",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/applicaton-developer-chennai-only-freshers-ok-at-compunet-connections-4475794240": {
+      "company": "Compunet Connections",
+      "title": "Applicaton Developer - Chennai Only - Freshers Ok",
+      "url": "https://in.linkedin.com/jobs/view/applicaton-developer-chennai-only-freshers-ok-at-compunet-connections-4475794240",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/junior-software-developer-at-agochar-tech-4477641693": {
+      "company": "Agochar Tech",
+      "title": "Junior Software Developer",
+      "url": "https://in.linkedin.com/jobs/view/junior-software-developer-at-agochar-tech-4477641693",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/laravel-developer-at-act-t-connect-4476267338": {
+      "company": "Act T Connect",
+      "title": "Laravel Developer",
+      "url": "https://in.linkedin.com/jobs/view/laravel-developer-at-act-t-connect-4476267338",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-engineer-iii-java-backend-at-jpmorganchase-4477466570": {
+      "company": "JPMorganChase",
+      "title": "Software Engineer III - Java Backend",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-iii-java-backend-at-jpmorganchase-4477466570",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-engineer-at-smartstream-4477168012": {
+      "company": "Smartstream",
+      "title": "Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-at-smartstream-4477168012",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/developer-iii-software-engineering-at-ust-4468387542": {
+      "company": "UST",
+      "title": "Developer III - Software Engineering",
+      "url": "https://in.linkedin.com/jobs/view/developer-iii-software-engineering-at-ust-4468387542",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-engineer-ii-java-backend-at-guidewire-software-4475789400": {
+      "company": "Guidewire Software",
+      "title": "Software Engineer II (Java, backend)",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-ii-java-backend-at-guidewire-software-4475789400",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-developer-angular-at-ust-4457234516": {
+      "company": "UST",
+      "title": "Full Stack Developer-Angular",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-angular-at-ust-4457234516",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-software-engineer-java-at-teamviewer-4459685129": {
+      "company": "TeamViewer",
+      "title": "Senior Software Engineer - Java",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-java-at-teamviewer-4459685129",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://ar.linkedin.com/jobs/view/senior-node-js-backend-engineer-at-epam-systems-4476253324": {
+      "company": "EPAM Systems",
+      "title": "Senior Node.js Backend Engineer",
+      "url": "https://ar.linkedin.com/jobs/view/senior-node-js-backend-engineer-at-epam-systems-4476253324",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://es.linkedin.com/jobs/view/senior-backend-engineer-at-fever-4468605783": {
+      "company": "Fever",
+      "title": "Senior Backend Engineer",
+      "url": "https://es.linkedin.com/jobs/view/senior-backend-engineer-at-fever-4468605783",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-backend-engineer-trading-at-amina-bank-4474880873": {
+      "company": "AMINA Bank",
+      "title": "Senior Backend Engineer (Trading)",
+      "url": "https://in.linkedin.com/jobs/view/senior-backend-engineer-trading-at-amina-bank-4474880873",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/back-end-developer-pune-chennai-bangalore-at-creospan-inc-4475773826": {
+      "company": "Creospan Inc.",
+      "title": "Back End Developer (Pune, Chennai, Bangalore)",
+      "url": "https://in.linkedin.com/jobs/view/back-end-developer-pune-chennai-bangalore-at-creospan-inc-4475773826",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://ro.linkedin.com/jobs/view/backend-developer-at-agile-freaks-4475944855": {
+      "company": "Agile Freaks",
+      "title": "Backend Developer",
+      "url": "https://ro.linkedin.com/jobs/view/backend-developer-at-agile-freaks-4475944855",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/java-backend-developer-at-capco-4465657421": {
+      "company": "Capco",
+      "title": "Java Backend Developer",
+      "url": "https://in.linkedin.com/jobs/view/java-backend-developer-at-capco-4465657421",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://se.linkedin.com/jobs/view/backend-software-engineer-%E2%80%93-ai-assist-at-telavox-4469685731": {
+      "company": "Telavox",
+      "title": "Backend Software Engineer – AI Assist",
+      "url": "https://se.linkedin.com/jobs/view/backend-software-engineer-%E2%80%93-ai-assist-at-telavox-4469685731",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://pl.linkedin.com/jobs/view/java-software-engineer-at-software-mind-4477414719": {
+      "company": "Software Mind",
+      "title": "Java Software Engineer",
+      "url": "https://pl.linkedin.com/jobs/view/java-software-engineer-at-software-mind-4477414719",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://ca.linkedin.com/jobs/view/senior-software-engineer-web3-backend-at-jobs-web3-4476209169": {
+      "company": "Jobs Web3",
+      "title": "Senior Software Engineer, Web3 Backend",
+      "url": "https://ca.linkedin.com/jobs/view/senior-software-engineer-web3-backend-at-jobs-web3-4476209169",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://pl.linkedin.com/jobs/view/java-backend-developer-at-worldline-4477435195": {
+      "company": "Worldline",
+      "title": "Java backend developer",
+      "url": "https://pl.linkedin.com/jobs/view/java-backend-developer-at-worldline-4477435195",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-web-developer-python-%2B-react-at-talentmatics-4476264659": {
+      "company": "Talentmatics",
+      "title": "Full Stack Web Developer (Python + React)",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-web-developer-python-%2B-react-at-talentmatics-4476264659",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-developer-at-turium-ai-4465726426": {
+      "company": "Turium Ai",
+      "title": "Full Stack Developer",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-at-turium-ai-4465726426",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-engineer-at-codevyasa-4474884641": {
+      "company": "CodeVyasa",
+      "title": "Full Stack Engineer",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-at-codevyasa-4474884641",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-engineer-at-meshdefend-4475920576": {
+      "company": "MeshDefend",
+      "title": "Full Stack Engineer",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-at-meshdefend-4475920576",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-developer-java-angular-at-first-citizens-india-4440082533": {
+      "company": "First Citizens India",
+      "title": "Full Stack Developer - Java, Angular",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-java-angular-at-first-citizens-india-4440082533",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-developer-node-js-at-dr-reddy-s-foundation-4476254676": {
+      "company": "Dr Reddy's Foundation",
+      "title": "Full Stack Developer (Node.js)",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-node-js-at-dr-reddy-s-foundation-4476254676",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-developer-mern-at-artech-l-l-c-4475798196": {
+      "company": "Artech L.L.C.",
+      "title": "Full Stack Developer MERN",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-mern-at-artech-l-l-c-4475798196",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/sr-software-engineer-java-at-williams-sonoma-inc-4422422194": {
+      "company": "Williams-Sonoma, Inc.",
+      "title": "Sr. Software Engineer - Java",
+      "url": "https://in.linkedin.com/jobs/view/sr-software-engineer-java-at-williams-sonoma-inc-4422422194",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-software-engineer-backend-go-at-impact-analytics-4468399868": {
+      "company": "Impact Analytics",
+      "title": "Senior Software Engineer - Backend (GO)",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-backend-go-at-impact-analytics-4468399868",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-java-software-engineer-at-recro-4476270376": {
+      "company": "Recro",
+      "title": "Senior Java Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/senior-java-software-engineer-at-recro-4476270376",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-software-engineer-atlas-agent-engine-at-mongodb-4468605837": {
+      "company": "MongoDB",
+      "title": "Senior Software Engineer, Atlas Agent Engine",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-atlas-agent-engine-at-mongodb-4468605837",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-software-engineer-ii-net-at-clean-harbors-4468269337": {
+      "company": "Clean Harbors",
+      "title": "Senior Software Engineer II - .Net",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-ii-net-at-clean-harbors-4468269337",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-golang-engineer-remote-at-kake-4474817710": {
+      "company": "Kake",
+      "title": "Senior Golang Engineer - Remote",
+      "url": "https://in.linkedin.com/jobs/view/senior-golang-engineer-remote-at-kake-4474817710",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-developer-microsoft-net-at-nokia-4477140089": {
+      "company": "Nokia",
+      "title": "Senior Developer - Microsoft .NET",
+      "url": "https://in.linkedin.com/jobs/view/senior-developer-microsoft-net-at-nokia-4477140089",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-java-developer-spring-boot-at-avihs-4477136012": {
+      "company": "Avihs",
+      "title": "Senior Java Developer (Spring Boot)",
+      "url": "https://in.linkedin.com/jobs/view/senior-java-developer-spring-boot-at-avihs-4477136012",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://es.linkedin.com/jobs/view/senior-backend-java-engineer-remoto-at-knowmad-mood-4476226938": {
+      "company": "knowmad mood",
+      "title": "Senior Backend Java Engineer - Remoto",
+      "url": "https://es.linkedin.com/jobs/view/senior-backend-java-engineer-remoto-at-knowmad-mood-4476226938",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://pl.linkedin.com/jobs/view/senior-software-engineer-%E2%80%93-daas-apis-mcp-at-cognism-4474832503": {
+      "company": "Cognism",
+      "title": "Senior Software Engineer – DaaS / APIs / MCP",
+      "url": "https://pl.linkedin.com/jobs/view/senior-software-engineer-%E2%80%93-daas-apis-mcp-at-cognism-4474832503",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://de.linkedin.com/jobs/view/senior-backend-engineer-m-w-d-at-finanzen-net-zero-4474824116": {
+      "company": "finanzen.net ZERO",
+      "title": "Senior Backend Engineer (m/w/d)",
+      "url": "https://de.linkedin.com/jobs/view/senior-backend-engineer-m-w-d-at-finanzen-net-zero-4474824116",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://www.linkedin.com/jobs/view/senior-backend-software-engineer-customer-service-platform-global-e-commerce-customer-service-platform-at-tiktok-4476217459": {
+      "company": "TikTok",
+      "title": "Senior Backend Software Engineer - Customer Service Platform - Global E-Commerce Customer Service Platform",
+      "url": "https://www.linkedin.com/jobs/view/senior-backend-software-engineer-customer-service-platform-global-e-commerce-customer-service-platform-at-tiktok-4476217459",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://ca.linkedin.com/jobs/view/senior-java-developer-enterprise-payments-banking-at-cgi-4477470242": {
+      "company": "CGI",
+      "title": "Senior Java Developer - Enterprise Payments/ Banking",
+      "url": "https://ca.linkedin.com/jobs/view/senior-java-developer-enterprise-payments-banking-at-cgi-4477470242",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/senior-software-engineer-at-moody-s-corporation-4440051718": {
+      "company": "Moody's Corporation",
+      "title": "Senior Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-at-moody-s-corporation-4440051718",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "https://mx.linkedin.com/jobs/view/0198-sr-backend-developer-java-at-alten-mexico-4475917883": {
+      "company": "ALTEN Mexico",
+      "title": "(0198) - Sr Backend Developer Java",
+      "url": "https://mx.linkedin.com/jobs/view/0198-sr-backend-developer-java-at-alten-mexico-4475917883",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
     }
   },
   "sent_keys": {
@@ -42278,6 +43587,1315 @@
       "url": "https://in.linkedin.com/jobs/view/senior-backend-developer-ahmedabad-guj-at-trelleborg-group-4475747867",
       "last_sent": "2026-10-08T07:49:49.587919+00:00",
       "first_seen": "2026-10-08T07:49:49.587919+00:00"
+    },
+    "anthropic:::staff software engineer observability": {
+      "company": "Anthropic",
+      "title": "Staff+ Software Engineer, Observability",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5139910008",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "anthropic:::staff software security engineer labs": {
+      "company": "Anthropic",
+      "title": "Staff + Software Security Engineer, Labs",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5440477008",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "stripe:::engineering manager support experience": {
+      "company": "Stripe",
+      "title": "Engineering Manager - Support Experience",
+      "url": "https://stripe.com/jobs/search?gh_jid=8264421",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "stripe:::solutions architect ai": {
+      "company": "Stripe",
+      "title": "Solutions Architect, AI",
+      "url": "https://stripe.com/jobs/search?gh_jid=8248509",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "stripe:::staff software engineer": {
+      "company": "Stripe",
+      "title": "Staff Software Engineer,",
+      "url": "https://stripe.com/jobs/search?gh_jid=8209967",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "databricks:::phd genai research scientist intern": {
+      "company": "Databricks",
+      "title": "PhD GenAI Research Scientist Intern",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "databricks:::principal brand content ai search visibility": {
+      "company": "Databricks",
+      "title": "Principal Brand Content & AI Search Visibility",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8860653002",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "databricks:::senior solutions architect transport": {
+      "company": "Databricks",
+      "title": "Senior Solutions Architect (Transport)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7642125002",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "cloudflare:::customer engineering specialist network services": {
+      "company": "Cloudflare",
+      "title": "Customer Engineering Specialist - Network Services",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7525971?gh_jid=7525971",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "cloudflare:::senior practice leader developer platform for professional services apac": {
+      "company": "Cloudflare",
+      "title": "Senior Practice Leader, Developer Platform for Professional Services, APAC",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8260743?gh_jid=8260743",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "cloudflare:::senior software engineer agentic discovery": {
+      "company": "Cloudflare",
+      "title": "Senior Software Engineer, Agentic Discovery",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8262000?gh_jid=8262000",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "cloudflare:::software engineer agentic discovery": {
+      "company": "Cloudflare",
+      "title": "Software Engineer, Agentic Discovery",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8264687?gh_jid=8264687",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "cloudflare:::systems engineer data security": {
+      "company": "Cloudflare",
+      "title": "Systems Engineer - Data Security",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8257140?gh_jid=8257140",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "cloudflare:::territory account executive ai digital natives": {
+      "company": "Cloudflare",
+      "title": "Territory Account Executive (AI & Digital Natives)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7804941?gh_jid=7804941",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "discord:::senior data engineer": {
+      "company": "Discord",
+      "title": "Senior Data Engineer",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8485884002",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "discord:::staff software engineer enterprise platform": {
+      "company": "Discord",
+      "title": "Staff Software Engineer, Enterprise Platform",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8675185002",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "gusto:::senior software engineer people technology": {
+      "company": "Gusto",
+      "title": "Senior Software Engineer, People Technology",
+      "url": "https://job-boards.greenhouse.io/gusto/jobs/7947424",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::2026 electrical engineer intern": {
+      "company": "Andurilindustries",
+      "title": "2026 Electrical Engineer Intern",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261873007?gh_jid=5261873007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::actuation engineer": {
+      "company": "Andurilindustries",
+      "title": "Actuation Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5217256007?gh_jid=5217256007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::associate director business development": {
+      "company": "Andurilindustries",
+      "title": "Associate Director, Business Development",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261801007?gh_jid=5261801007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::chief engineer advanced effects missiles": {
+      "company": "Andurilindustries",
+      "title": "Chief Engineer, Advanced Effects (Missiles)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226623007?gh_jid=5226623007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::data engineer infrastructure finops": {
+      "company": "Andurilindustries",
+      "title": "Data Engineer, Infrastructure FinOps",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5090905007?gh_jid=5090905007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::director supply chain planning process": {
+      "company": "Andurilindustries",
+      "title": "Director, Supply Chain Planning Process",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5189388007?gh_jid=5189388007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::ehs and sustainability systems and analytics specialist": {
+      "company": "Andurilindustries",
+      "title": "EHS and Sustainability Systems and Analytics Specialist",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5256905007?gh_jid=5256905007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::integration and test engineer fuel systems omen": {
+      "company": "Andurilindustries",
+      "title": "Integration and Test Engineer, Fuel Systems (Omen)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5239466007?gh_jid=5239466007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::it systems engineer": {
+      "company": "Andurilindustries",
+      "title": "IT Systems Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5239480007?gh_jid=5239480007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::legal counsel us government contracts air defense": {
+      "company": "Andurilindustries",
+      "title": "Legal Counsel - US Government Contracts (Air Defense)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5186068007?gh_jid=5186068007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::manager hardware test engineering": {
+      "company": "Andurilindustries",
+      "title": "Manager, Hardware Test Engineering",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261431007?gh_jid=5261431007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::manufacturing engineer barracuda": {
+      "company": "Andurilindustries",
+      "title": "Manufacturing Engineer, Barracuda",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261749007?gh_jid=5261749007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::manufacturing engineer ii barracuda": {
+      "company": "Andurilindustries",
+      "title": "Manufacturing Engineer II, Barracuda",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261764007?gh_jid=5261764007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::manufacturing process engineer supply chain material flow": {
+      "company": "Andurilindustries",
+      "title": "Manufacturing Process Engineer, Supply Chain Material Flow",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261730007?gh_jid=5261730007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::manufacturing test engineering manager": {
+      "company": "Andurilindustries",
+      "title": "Manufacturing Test Engineering Manager",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261435007?gh_jid=5261435007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::materials and process development engineer maritime": {
+      "company": "Andurilindustries",
+      "title": "Materials and Process Development Engineer, Maritime",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5126216007?gh_jid=5126216007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::mechanical engineer drones": {
+      "company": "Andurilindustries",
+      "title": "Mechanical Engineer, Drones",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5010190007?gh_jid=5010190007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::mechanical engineer lead": {
+      "company": "Andurilindustries",
+      "title": "Mechanical Engineer, Lead",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5146807007?gh_jid=5146807007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::mechanical engineer thunder": {
+      "company": "Andurilindustries",
+      "title": "Mechanical Engineer, Thunder",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5165492007?gh_jid=5165492007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::process engineer": {
+      "company": "Andurilindustries",
+      "title": "Process Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5107130007?gh_jid=5107130007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::product operations specialist air defense c2": {
+      "company": "Andurilindustries",
+      "title": "Product Operations Specialist, Air Defense C2",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5243252007?gh_jid=5243252007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::product sourcing engineer core tech": {
+      "company": "Andurilindustries",
+      "title": "Product Sourcing Engineer, Core Tech",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261846007?gh_jid=5261846007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::project engineer ad s": {
+      "company": "Andurilindustries",
+      "title": "Project Engineer, AD&S",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261162007?gh_jid=5261162007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::prototype manufacturing engineer mechanical fluid systems": {
+      "company": "Andurilindustries",
+      "title": "Prototype Manufacturing Engineer, Mechanical & Fluid Systems",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261196007?gh_jid=5261196007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior ai infrastructure engineer physical infrastructure": {
+      "company": "Andurilindustries",
+      "title": "Senior AI Infrastructure Engineer, Physical Infrastructure",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261398007?gh_jid=5261398007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior aviation maintenance engineer advanced effects": {
+      "company": "Andurilindustries",
+      "title": "Senior Aviation Maintenance Engineer - Advanced Effects",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5229387007?gh_jid=5229387007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior design validation engineer intelligence systems": {
+      "company": "Andurilindustries",
+      "title": "Senior Design Validation Engineer, Intelligence Systems",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5128443007?gh_jid=5128443007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior director solutions engineering": {
+      "company": "Andurilindustries",
+      "title": "Senior Director, Solutions Engineering",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5225558007?gh_jid=5225558007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior electrical engineer reserve and backup power": {
+      "company": "Andurilindustries",
+      "title": "Senior Electrical Engineer, Reserve and Backup Power",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5194664007?gh_jid=5194664007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior engineer rapid integration test": {
+      "company": "Andurilindustries",
+      "title": "Senior Engineer, Rapid Integration & Test",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5200216007?gh_jid=5200216007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior maintenance planner": {
+      "company": "Andurilindustries",
+      "title": "Senior Maintenance Planner",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5242385007?gh_jid=5242385007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior manufacturing engineer barracuda": {
+      "company": "Andurilindustries",
+      "title": "Senior Manufacturing Engineer, Barracuda",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5131438007?gh_jid=5131438007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior materials and process engineer space": {
+      "company": "Andurilindustries",
+      "title": "Senior Materials and Process Engineer, Space",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5070029007?gh_jid=5070029007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior mechanical engineer autonomous systems": {
+      "company": "Andurilindustries",
+      "title": "Senior Mechanical Engineer, Autonomous Systems",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5225977007?gh_jid=5225977007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior mechanical engineer drones": {
+      "company": "Andurilindustries",
+      "title": "Senior Mechanical Engineer, Drones",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5010383007?gh_jid=5010383007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior mechanical engineer test fixtures thunder": {
+      "company": "Andurilindustries",
+      "title": "Senior Mechanical Engineer, Test Fixtures, Thunder",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5216801007?gh_jid=5216801007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior offensive security engineer": {
+      "company": "Andurilindustries",
+      "title": "Senior Offensive Security Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5243855007?gh_jid=5243855007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior open architecture systems engineer ground systems": {
+      "company": "Andurilindustries",
+      "title": "Senior Open Architecture Systems Engineer, Ground Systems",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5173117007?gh_jid=5173117007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior project engineer ad s": {
+      "company": "Andurilindustries",
+      "title": "Senior Project Engineer, AD&S",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261234007?gh_jid=5261234007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior propulsion engineer thunder": {
+      "company": "Andurilindustries",
+      "title": "Senior Propulsion Engineer, Thunder",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5166489007?gh_jid=5166489007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior quality system engineer": {
+      "company": "Andurilindustries",
+      "title": "Senior Quality System Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261681007?gh_jid=5261681007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior radar engineer air defense": {
+      "company": "Andurilindustries",
+      "title": "Senior Radar Engineer, Air Defense",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5238875007?gh_jid=5238875007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior software engineer distributed systems rust": {
+      "company": "Andurilindustries",
+      "title": "Senior Software Engineer, Distributed Systems (Rust)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5202000007?gh_jid=5202000007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior supplier industrialization engineer core tech casting": {
+      "company": "Andurilindustries",
+      "title": "Senior Supplier Industrialization Engineer, Core Tech Casting",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261454007?gh_jid=5261454007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior supplier industrialization engineer core tech mechanical": {
+      "company": "Andurilindustries",
+      "title": "Senior Supplier Industrialization Engineer, Core Tech Mechanical",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261440007?gh_jid=5261440007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior supplier manufacturing engineer core tech mechanical": {
+      "company": "Andurilindustries",
+      "title": "Senior Supplier Manufacturing Engineer, Core Tech Mechanical",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261442007?gh_jid=5261442007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior supplier quality engineer composites": {
+      "company": "Andurilindustries",
+      "title": "Senior Supplier Quality Engineer, Composites",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5134865007?gh_jid=5134865007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::senior systems engineer air vehicle systems": {
+      "company": "Andurilindustries",
+      "title": "Senior Systems Engineer, Air Vehicle Systems",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/4912619007?gh_jid=4912619007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::software engineer infrastructure": {
+      "company": "Andurilindustries",
+      "title": "Software Engineer- Infrastructure",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5124336007?gh_jid=5124336007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::staff ai test and evaluation engineer": {
+      "company": "Andurilindustries",
+      "title": "Staff AI Test and Evaluation Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261106007?gh_jid=5261106007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::staff avionics maintenance engineer advanced effects": {
+      "company": "Andurilindustries",
+      "title": "Staff Avionics Maintenance Engineer - Advanced Effects",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261629007?gh_jid=5261629007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::staff manufacturing engineer barracuda": {
+      "company": "Andurilindustries",
+      "title": "Staff Manufacturing Engineer, Barracuda",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261782007?gh_jid=5261782007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::staff optical test calibration engineer xr displays eagleeye": {
+      "company": "Andurilindustries",
+      "title": "Staff Optical Test & Calibration Engineer, XR Displays - EagleEye",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5221992007?gh_jid=5221992007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::staff site reliability engineer": {
+      "company": "Andurilindustries",
+      "title": "Staff Site Reliability Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5210335007?gh_jid=5210335007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::staff systems engineer air vehicle systems": {
+      "company": "Andurilindustries",
+      "title": "Staff Systems Engineer, Air Vehicle Systems",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5173156007?gh_jid=5173156007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::technical recruiter hardware air dominance and strike contract": {
+      "company": "Andurilindustries",
+      "title": "Technical Recruiter, Hardware - Air Dominance and Strike (Contract)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248797007?gh_jid=5248797007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::technical recruiter software air dominance and strike contract": {
+      "company": "Andurilindustries",
+      "title": "Technical Recruiter, Software - Air Dominance and Strike (Contract)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5235343007?gh_jid=5235343007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "andurilindustries:::test site operations associate": {
+      "company": "Andurilindustries",
+      "title": "Test Site Operations Associate",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5246616007?gh_jid=5246616007",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "reddit:::senior android software engineer consumer engineering": {
+      "company": "Reddit",
+      "title": "Senior Android Software Engineer, Consumer Engineering",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8263407",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "airbnb:::senior software engineer ios platform": {
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, iOS Platform",
+      "url": "https://careers.airbnb.com/positions/8262812?gh_jid=8262812",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "airbnb:::staff software engineer ios platform": {
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, iOS Platform",
+      "url": "https://careers.airbnb.com/positions/8262769?gh_jid=8262769",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "dropbox:::principal software engineer": {
+      "company": "Dropbox",
+      "title": "Principal Software Engineer",
+      "url": "https://jobs.dropbox.com/listing/8261916?gh_jid=8261916",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "affirm:::software engineer ii backend online storage": {
+      "company": "Affirm",
+      "title": "Software Engineer II, Backend (Online Storage)",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/8012043003",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "affirm:::software engineer ii frontend marketing and privacy": {
+      "company": "Affirm",
+      "title": "Software Engineer II, Frontend (Marketing and Privacy)",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/8010610003",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "datadog:::senior product security engineer ai agents": {
+      "company": "Datadog",
+      "title": "Senior Product Security Engineer - AI Agents",
+      "url": "https://careers.datadoghq.com/detail/7993198/?gh_jid=7993198",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "datadog:::senior sales engineer majors central": {
+      "company": "Datadog",
+      "title": "Senior Sales Engineer - Majors (Central)",
+      "url": "https://careers.datadoghq.com/detail/8238457/?gh_jid=8238457",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "coinbase:::senior analytics engineer gfco analytics": {
+      "company": "Coinbase",
+      "title": "Senior Analytics Engineer, GFCO Analytics",
+      "url": "https://www.coinbase.com/careers/positions/8024880?gh_jid=8024880",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "coinbase:::senior engineering manager": {
+      "company": "Coinbase",
+      "title": "Senior Engineering Manager",
+      "url": "https://www.coinbase.com/careers/positions/8265918?gh_jid=8265918",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "coinbase:::senior software engineer backend fullstack coinbase advisor agentic trading": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Backend/Fullstack (Coinbase Advisor - Agentic Trading)",
+      "url": "https://www.coinbase.com/careers/positions/8174232?gh_jid=8174232",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "robinhood:::internal audit senior manager crypto": {
+      "company": "Robinhood",
+      "title": "Internal Audit Senior Manager, Crypto",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8250286?t=gh_src=&gh_jid=8250286",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "robinhood:::senior software engineer web3 backend": {
+      "company": "Robinhood",
+      "title": "Senior Software Engineer, Web3 Backend",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8255842?t=gh_src=&gh_jid=8255842",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "robinhood:::staff software engineer": {
+      "company": "Robinhood",
+      "title": "Staff Software Engineer",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8266107?t=gh_src=&gh_jid=8266107",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "robinhood:::staff software engineer backend platform": {
+      "company": "Robinhood",
+      "title": "Staff Software Engineer, Backend Platform",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8244209?t=gh_src=&gh_jid=8244209",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "cursor:::forward deployed engineer emea": {
+      "company": "Cursor",
+      "title": "Forward Deployed Engineer - EMEA",
+      "url": "https://jobs.ashbyhq.com/cursor/0a82f564-de1b-4c72-9ba4-10cf2b63c483",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "cursor:::integrated campaigns apj": {
+      "company": "Cursor",
+      "title": "Integrated Campaigns, APJ",
+      "url": "https://jobs.ashbyhq.com/cursor/1d2b496f-c867-40ac-9ca7-cba8436ec2c4",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "replit:::engineering manager mobile": {
+      "company": "Replit",
+      "title": "Engineering Manager, Mobile",
+      "url": "https://jobs.ashbyhq.com/replit/0170f630-f7c9-4471-8d2f-8c55fb184206",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "replit:::software engineering intern winter 2027": {
+      "company": "Replit",
+      "title": "Software Engineering Intern – Winter 2027",
+      "url": "https://jobs.ashbyhq.com/replit/7c3c9d29-cec2-4367-8564-eadaed165aea",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "clickup:::business systems engineer": {
+      "company": "ClickUp",
+      "title": "Business Systems Engineer",
+      "url": "https://jobicy.com/jobs/152814-business-systems-engineer",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "bayesian health:::software engineer data integration": {
+      "company": "Bayesian Health",
+      "title": "Software Engineer, Data Integration",
+      "url": "https://jobicy.com/jobs/152819-software-engineer-data-integration",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "centralreach:::sr software engineer ruby on rails": {
+      "company": "CentralReach",
+      "title": "Sr. Software Engineer, Ruby on Rails",
+      "url": "https://jobicy.com/jobs/152795-sr-software-engineer-ruby-on-rails",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "bayesian health:::senior design quality engineer": {
+      "company": "Bayesian Health",
+      "title": "Senior Design Quality Engineer",
+      "url": "https://jobicy.com/jobs/154879-senior-design-quality-engineer",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "bloomreach:::quality assurance engineer ii": {
+      "company": "Bloomreach",
+      "title": "Quality Assurance Engineer II",
+      "url": "https://jobicy.com/jobs/154875-quality-assurance-engineer-ii",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "stackadapt:::senior quality engineer": {
+      "company": "StackAdapt",
+      "title": "Senior Quality Engineer",
+      "url": "https://jobicy.com/jobs/154871-senior-quality-engineer-3",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "cribl:::sr engineering manager sdet": {
+      "company": "Cribl",
+      "title": "Sr. Engineering Manager, SDET",
+      "url": "https://jobicy.com/jobs/154877-sr-engineering-manager-sdet",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "testlio:::freelance software tester with smart tvs remote in italy": {
+      "company": "Testlio",
+      "title": "Freelance Software Tester With Smart TVs (Remote in Italy)",
+      "url": "https://jobicy.com/jobs/154880-freelance-software-tester-with-smart-tvs-remote-in-italy",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "padsplit:::qa engineer anywhere in europe": {
+      "company": "PadSplit",
+      "title": "QA Engineer (Anywhere in Europe)",
+      "url": "https://jobicy.com/jobs/154874-qa-engineer-anywhere-in-europe",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "perfectserve:::junior qa engineer us remote": {
+      "company": "PerfectServe",
+      "title": "Junior QA Engineer - US Remote",
+      "url": "https://jobicy.com/jobs/154878-junior-qa-engineer-us-remote",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "deepgram:::software test engineer": {
+      "company": "Deepgram",
+      "title": "Software Test Engineer",
+      "url": "https://jobicy.com/jobs/154872-software-test-engineer",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "activecampaign:::senior ai engineer": {
+      "company": "ActiveCampaign",
+      "title": "Senior AI Engineer",
+      "url": "https://jobicy.com/jobs/154868-senior-ai-engineer-9",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "discord:::engineering manager machine learning safety": {
+      "company": "Discord",
+      "title": "Engineering Manager, Machine Learning (Safety)",
+      "url": "https://jobicy.com/jobs/154851-engineering-manager-machine-learning-safety",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "fanatics:::senior software engineer backend kotlin": {
+      "company": "Fanatics",
+      "title": "Senior Software Engineer - Backend/Kotlin",
+      "url": "https://jobicy.com/jobs/154857-senior-software-engineer-backend-kotlin",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "elevenlabs:::research engineer inference": {
+      "company": "Elevenlabs",
+      "title": "Research Engineer - Inference",
+      "url": "https://jobicy.com/jobs/154820-research-engineer-inference",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "pleo:::engineering manager authentication authorisation": {
+      "company": "Pleo",
+      "title": "Engineering Manager - Authentication & Authorisation",
+      "url": "https://jobicy.com/jobs/154819-engineering-manager-authentication-authorisation",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "pleo:::senior backend engineer data serving": {
+      "company": "Pleo",
+      "title": "Senior Backend Engineer (Data serving)",
+      "url": "https://jobicy.com/jobs/154825-senior-backend-engineer-data-serving",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "elevenlabs:::engineering internal ai transformation": {
+      "company": "Elevenlabs",
+      "title": "Engineering - Internal AI Transformation",
+      "url": "https://jobicy.com/jobs/154817-engineering-internal-ai-transformation",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "pleo:::staff engineer business spend": {
+      "company": "Pleo",
+      "title": "Staff Engineer - Business Spend",
+      "url": "https://jobicy.com/jobs/154822-staff-engineer-business-spend",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "ashby:::senior product engineer americas": {
+      "company": "Ashby",
+      "title": "Senior Product Engineer - Americas",
+      "url": "https://jobicy.com/jobs/154810-senior-product-engineer-americas",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "ashby:::senior product engineer canada": {
+      "company": "Ashby",
+      "title": "Senior Product Engineer - Canada",
+      "url": "https://jobicy.com/jobs/154809-senior-product-engineer-canada",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "ashby:::staff product engineer canada": {
+      "company": "Ashby",
+      "title": "Staff Product Engineer - Canada",
+      "url": "https://jobicy.com/jobs/154812-staff-product-engineer-canada",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "elevenlabs:::full stack engineer back end leaning": {
+      "company": "Elevenlabs",
+      "title": "Full-Stack Engineer (Back-End Leaning)",
+      "url": "https://jobicy.com/jobs/154018-full-stack-engineer-back-end-leaning",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "sparks to ideas:::mern stack internship": {
+      "company": "Sparks To Ideas",
+      "title": "MERN Stack Internship",
+      "url": "https://in.linkedin.com/jobs/view/mern-stack-internship-at-sparks-to-ideas-4475772562",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "gnxtace:::software engineer intern": {
+      "company": "Gnxtace Technologies",
+      "title": "Software Engineer Intern",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-intern-at-gnxtace-technologies-4477113406",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "kodo:::backend intern": {
+      "company": "Kodo",
+      "title": "Backend Intern",
+      "url": "https://in.linkedin.com/jobs/view/backend-intern-at-kodo-4475912394",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "mbig it:::full stack java developer internship on site": {
+      "company": "MBiG IT SERVICES PVT. LTD.",
+      "title": "Full Stack Java Developer Internship – On-Site",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-java-developer-internship-%E2%80%93-on-site-at-mbig-it-services-pvt-ltd-4474843123",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "crossing infotech:::full stack developer intern freshers welcome frontend backend apis remote": {
+      "company": "Crossing Infotech",
+      "title": "Full Stack Developer Intern | Freshers Welcome | Frontend, Backend & APIs | Remote",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-intern-freshers-welcome-frontend-backend-apis-remote-at-crossing-infotech-4476206182",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "crossing infotech:::software developer intern freshers welcome programming apis software development remote": {
+      "company": "Crossing Infotech",
+      "title": "Software Developer Intern | Freshers Welcome | Programming, APIs & Software Development | Remote",
+      "url": "https://in.linkedin.com/jobs/view/software-developer-intern-freshers-welcome-programming-apis-software-development-remote-at-crossing-infotech-4476202269",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "lyra:::stage ing3nieur d veloppement fullstack f h": {
+      "company": "Lyra",
+      "title": "Stage - Ing3nieur d''veloppement fullstack (F/H)",
+      "url": "https://fr.linkedin.com/jobs/view/stage-ing%C3%A9nieur-d%C3%A9veloppement-fullstack-f-h-at-lyra-4474829599",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "anduin transactions:::software engineer intern": {
+      "company": "Anduin Transactions",
+      "title": "Software Engineer Intern",
+      "url": "https://vn.linkedin.com/jobs/view/software-engineer-intern-at-anduin-transactions-4475773736",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "motorola:::software engineer summer 2027 internship": {
+      "company": "Motorola Solutions",
+      "title": "Software Engineer - Summer 2027 Internship",
+      "url": "https://www.linkedin.com/jobs/view/software-engineer-summer-2027-internship-at-motorola-solutions-4477117710",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "motorola:::software development intern summer 2027 internship": {
+      "company": "Motorola Solutions",
+      "title": "Software Development Intern - Summer 2027 Internship",
+      "url": "https://www.linkedin.com/jobs/view/software-development-intern-summer-2027-internship-at-motorola-solutions-4477122528",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "northrop grumman:::2027 software developer intern chantilly va": {
+      "company": "Northrop Grumman",
+      "title": "2027 Software Developer Intern- Chantilly VA",
+      "url": "https://www.linkedin.com/jobs/view/2027-software-developer-intern-chantilly-va-at-northrop-grumman-4477620939",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "abbvie:::2027 business technology solutions intern data software engineering undergraduate": {
+      "company": "AbbVie",
+      "title": "2027 Business Technology Solutions Intern - Data & Software Engineering (Undergraduate)",
+      "url": "https://www.linkedin.com/jobs/view/2027-business-technology-solutions-intern-data-software-engineering-undergraduate-at-abbvie-4448252180",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "aspen technology:::software development intern digital grid management summer 2027": {
+      "company": "Aspen Technology",
+      "title": "Software Development Intern - Digital Grid Management - Summer 2027",
+      "url": "https://www.linkedin.com/jobs/view/software-development-intern-digital-grid-management-summer-2027-at-aspen-technology-4466236314",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "everllence:::graduate engineer trainee turbomachinery": {
+      "company": "Everllence",
+      "title": "Graduate Engineer Trainee - Turbomachinery",
+      "url": "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-turbomachinery-at-everllence-4468392941",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "nne:::trainee engineer": {
+      "company": "NNE",
+      "title": "Trainee Engineer",
+      "url": "https://in.linkedin.com/jobs/view/trainee-engineer-at-nne-4477406092",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "vertiv:::diploma engineer trainee electrical 2026 batch bangalore location": {
+      "company": "Vertiv",
+      "title": "Diploma Engineer Trainee - Electrical (2026 batch) - Bangalore Location",
+      "url": "https://in.linkedin.com/jobs/view/diploma-engineer-trainee-electrical-2026-batch-bangalore-location-at-vertiv-4440001606",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "acufore india:::trainee engineer plant design in bangalore": {
+      "company": "Acufore India Private Limited",
+      "title": "Trainee Engineer - Plant Design in Bangalore",
+      "url": "https://in.linkedin.com/jobs/view/trainee-engineer-plant-design-in-bangalore-at-acufore-india-private-limited-4477483922",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "xylem:::get mechanical engineer": {
+      "company": "Xylem",
+      "title": "GET Mechanical Engineer",
+      "url": "https://in.linkedin.com/jobs/view/get-mechanical-engineer-at-xylem-4477165390",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "liebherr tower cranes:::trainee design tower crane": {
+      "company": "Liebherr Tower Cranes",
+      "title": "Trainee- Design (Tower Crane)",
+      "url": "https://in.linkedin.com/jobs/view/trainee-design-tower-crane-at-liebherr-tower-cranes-4458394009",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "propbulls:::junior software developer": {
+      "company": "PropBulls Solutions Pvt. Ltd.",
+      "title": "Junior Software Developer",
+      "url": "https://in.linkedin.com/jobs/view/junior-software-developer-at-propbulls-solutions-pvt-ltd-4474888765",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "blackrock:::associate full stack developer": {
+      "company": "BlackRock",
+      "title": "Associate, Full Stack Developer",
+      "url": "https://in.linkedin.com/jobs/view/associate-full-stack-developer-at-blackrock-4475939799",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "beghou:::software developer net core": {
+      "company": "Beghou",
+      "title": "Software Developer - .NET Core",
+      "url": "https://in.linkedin.com/jobs/view/software-developer-net-core-at-beghou-4477174278",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "pwc acceleration center india:::springboot integration associate": {
+      "company": "PwC Acceleration Center India",
+      "title": "SpringBoot Integration - Associate",
+      "url": "https://in.linkedin.com/jobs/view/springboot-integration-associate-at-pwc-acceleration-center-india-4466246485",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "rippling:::software engineer i data infrastructure": {
+      "company": "Rippling",
+      "title": "Software Engineer I -Data Infrastructure",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-i-data-infrastructure-at-rippling-4475939615",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "goldman sachs:::gbm sts ai structuring sales strats analyst associate bengaluru": {
+      "company": "Goldman Sachs",
+      "title": "GBM - STS AI Structuring - Sales Strats - Analyst/Associate - Bengaluru",
+      "url": "https://in.linkedin.com/jobs/view/gbm-sts-ai-structuring-sales-strats-analyst-associate-bengaluru-at-goldman-sachs-4447351325",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "air arabia:::software engineer sitecore": {
+      "company": "Air Arabia",
+      "title": "Software Engineer-Sitecore",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-sitecore-at-air-arabia-4475795191",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "sourcingxpress:::sde 1": {
+      "company": "SourcingXPress",
+      "title": "SDE 1",
+      "url": "https://in.linkedin.com/jobs/view/sde-1-at-sourcingxpress-4477126890",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "kognivera:::java developer": {
+      "company": "KogniVera",
+      "title": "Java Developer",
+      "url": "https://in.linkedin.com/jobs/view/java-developer-at-kognivera-4475950463",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "careerxperts consulting:::associate software engineer": {
+      "company": "CareerXperts Consulting",
+      "title": "Associate Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-careerxperts-consulting-4474890642",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "compunet connections:::applicaton developer chennai only freshers ok": {
+      "company": "Compunet Connections",
+      "title": "Applicaton Developer - Chennai Only - Freshers Ok",
+      "url": "https://in.linkedin.com/jobs/view/applicaton-developer-chennai-only-freshers-ok-at-compunet-connections-4475794240",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "agochar tech:::junior software developer": {
+      "company": "Agochar Tech",
+      "title": "Junior Software Developer",
+      "url": "https://in.linkedin.com/jobs/view/junior-software-developer-at-agochar-tech-4477641693",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "act t connect:::laravel developer": {
+      "company": "Act T Connect",
+      "title": "Laravel Developer",
+      "url": "https://in.linkedin.com/jobs/view/laravel-developer-at-act-t-connect-4476267338",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "jpmorganchase:::software engineer iii java backend": {
+      "company": "JPMorganChase",
+      "title": "Software Engineer III - Java Backend",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-iii-java-backend-at-jpmorganchase-4477466570",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "smartstream:::software engineer": {
+      "company": "Smartstream",
+      "title": "Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-at-smartstream-4477168012",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "ust:::developer iii software engineering": {
+      "company": "UST",
+      "title": "Developer III - Software Engineering",
+      "url": "https://in.linkedin.com/jobs/view/developer-iii-software-engineering-at-ust-4468387542",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "guidewire:::software engineer ii java backend": {
+      "company": "Guidewire Software",
+      "title": "Software Engineer II (Java, backend)",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-ii-java-backend-at-guidewire-software-4475789400",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "ust:::full stack developer angular": {
+      "company": "UST",
+      "title": "Full Stack Developer-Angular",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-angular-at-ust-4457234516",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "teamviewer:::senior software engineer java": {
+      "company": "TeamViewer",
+      "title": "Senior Software Engineer - Java",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-java-at-teamviewer-4459685129",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "epam systems:::senior node js backend engineer": {
+      "company": "EPAM Systems",
+      "title": "Senior Node.js Backend Engineer",
+      "url": "https://ar.linkedin.com/jobs/view/senior-node-js-backend-engineer-at-epam-systems-4476253324",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "fever:::senior backend engineer": {
+      "company": "Fever",
+      "title": "Senior Backend Engineer",
+      "url": "https://es.linkedin.com/jobs/view/senior-backend-engineer-at-fever-4468605783",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "amina bank:::senior backend engineer trading": {
+      "company": "AMINA Bank",
+      "title": "Senior Backend Engineer (Trading)",
+      "url": "https://in.linkedin.com/jobs/view/senior-backend-engineer-trading-at-amina-bank-4474880873",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "creospan:::back end developer pune chennai bangalore": {
+      "company": "Creospan Inc.",
+      "title": "Back End Developer (Pune, Chennai, Bangalore)",
+      "url": "https://in.linkedin.com/jobs/view/back-end-developer-pune-chennai-bangalore-at-creospan-inc-4475773826",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "agile freaks:::backend developer": {
+      "company": "Agile Freaks",
+      "title": "Backend Developer",
+      "url": "https://ro.linkedin.com/jobs/view/backend-developer-at-agile-freaks-4475944855",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "capco:::java backend developer": {
+      "company": "Capco",
+      "title": "Java Backend Developer",
+      "url": "https://in.linkedin.com/jobs/view/java-backend-developer-at-capco-4465657421",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "telavox:::backend software engineer ai assist": {
+      "company": "Telavox",
+      "title": "Backend Software Engineer – AI Assist",
+      "url": "https://se.linkedin.com/jobs/view/backend-software-engineer-%E2%80%93-ai-assist-at-telavox-4469685731",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "mind:::java software engineer": {
+      "company": "Software Mind",
+      "title": "Java Software Engineer",
+      "url": "https://pl.linkedin.com/jobs/view/java-software-engineer-at-software-mind-4477414719",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "jobs web3:::senior software engineer web3 backend": {
+      "company": "Jobs Web3",
+      "title": "Senior Software Engineer, Web3 Backend",
+      "url": "https://ca.linkedin.com/jobs/view/senior-software-engineer-web3-backend-at-jobs-web3-4476209169",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "worldline:::java backend developer": {
+      "company": "Worldline",
+      "title": "Java backend developer",
+      "url": "https://pl.linkedin.com/jobs/view/java-backend-developer-at-worldline-4477435195",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "talentmatics:::full stack web developer python react": {
+      "company": "Talentmatics",
+      "title": "Full Stack Web Developer (Python + React)",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-web-developer-python-%2B-react-at-talentmatics-4476264659",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "turium ai:::full stack developer": {
+      "company": "Turium Ai",
+      "title": "Full Stack Developer",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-at-turium-ai-4465726426",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "codevyasa:::full stack engineer": {
+      "company": "CodeVyasa",
+      "title": "Full Stack Engineer",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-at-codevyasa-4474884641",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "meshdefend:::full stack engineer": {
+      "company": "MeshDefend",
+      "title": "Full Stack Engineer",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-at-meshdefend-4475920576",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "first citizens india:::full stack developer java angular": {
+      "company": "First Citizens India",
+      "title": "Full Stack Developer - Java, Angular",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-java-angular-at-first-citizens-india-4440082533",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "dr reddys foundation:::full stack developer node js": {
+      "company": "Dr Reddy's Foundation",
+      "title": "Full Stack Developer (Node.js)",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-node-js-at-dr-reddy-s-foundation-4476254676",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "artech llc:::full stack developer mern": {
+      "company": "Artech L.L.C.",
+      "title": "Full Stack Developer MERN",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-mern-at-artech-l-l-c-4475798196",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "williamssonoma:::sr software engineer java": {
+      "company": "Williams-Sonoma, Inc.",
+      "title": "Sr. Software Engineer - Java",
+      "url": "https://in.linkedin.com/jobs/view/sr-software-engineer-java-at-williams-sonoma-inc-4422422194",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "impact analytics:::senior software engineer backend go": {
+      "company": "Impact Analytics",
+      "title": "Senior Software Engineer - Backend (GO)",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-backend-go-at-impact-analytics-4468399868",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "recro:::senior java software engineer": {
+      "company": "Recro",
+      "title": "Senior Java Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/senior-java-software-engineer-at-recro-4476270376",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "mongodb:::senior software engineer atlas agent engine": {
+      "company": "MongoDB",
+      "title": "Senior Software Engineer, Atlas Agent Engine",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-atlas-agent-engine-at-mongodb-4468605837",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "clean harbors:::senior software engineer ii net": {
+      "company": "Clean Harbors",
+      "title": "Senior Software Engineer II - .Net",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-ii-net-at-clean-harbors-4468269337",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "kake:::senior golang engineer remote": {
+      "company": "Kake",
+      "title": "Senior Golang Engineer - Remote",
+      "url": "https://in.linkedin.com/jobs/view/senior-golang-engineer-remote-at-kake-4474817710",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "nokia:::senior developer microsoft net": {
+      "company": "Nokia",
+      "title": "Senior Developer - Microsoft .NET",
+      "url": "https://in.linkedin.com/jobs/view/senior-developer-microsoft-net-at-nokia-4477140089",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "avihs:::senior java developer spring boot": {
+      "company": "Avihs",
+      "title": "Senior Java Developer (Spring Boot)",
+      "url": "https://in.linkedin.com/jobs/view/senior-java-developer-spring-boot-at-avihs-4477136012",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "knowmad mood:::senior backend java engineer remoto": {
+      "company": "knowmad mood",
+      "title": "Senior Backend Java Engineer - Remoto",
+      "url": "https://es.linkedin.com/jobs/view/senior-backend-java-engineer-remoto-at-knowmad-mood-4476226938",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "cognism:::senior software engineer daas apis mcp": {
+      "company": "Cognism",
+      "title": "Senior Software Engineer – DaaS / APIs / MCP",
+      "url": "https://pl.linkedin.com/jobs/view/senior-software-engineer-%E2%80%93-daas-apis-mcp-at-cognism-4474832503",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "finanzennet zero:::senior backend engineer m w d": {
+      "company": "finanzen.net ZERO",
+      "title": "Senior Backend Engineer (m/w/d)",
+      "url": "https://de.linkedin.com/jobs/view/senior-backend-engineer-m-w-d-at-finanzen-net-zero-4474824116",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "tiktok:::senior backend software engineer customer service platform global e commerce customer service platform": {
+      "company": "TikTok",
+      "title": "Senior Backend Software Engineer - Customer Service Platform - Global E-Commerce Customer Service Platform",
+      "url": "https://www.linkedin.com/jobs/view/senior-backend-software-engineer-customer-service-platform-global-e-commerce-customer-service-platform-at-tiktok-4476217459",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "cgi:::senior java developer enterprise payments banking": {
+      "company": "CGI",
+      "title": "Senior Java Developer - Enterprise Payments/ Banking",
+      "url": "https://ca.linkedin.com/jobs/view/senior-java-developer-enterprise-payments-banking-at-cgi-4477470242",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "moodys:::senior software engineer": {
+      "company": "Moody's Corporation",
+      "title": "Senior Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-at-moody-s-corporation-4440051718",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
+    },
+    "alten mexico:::0198 sr backend developer java": {
+      "company": "ALTEN Mexico",
+      "title": "(0198) - Sr Backend Developer Java",
+      "url": "https://mx.linkedin.com/jobs/view/0198-sr-backend-developer-java-at-alten-mexico-4475917883",
+      "last_sent": "2026-10-09T07:45:24.795882+00:00",
+      "first_seen": "2026-10-09T07:45:24.795882+00:00"
     }
   }
 }
