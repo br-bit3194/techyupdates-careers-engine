@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-10-10T08:11:22.532835+00:00",
-  "total_sent_urls": 3366,
-  "total_sent_keys": 3357,
+  "last_updated": "2026-10-11T07:35:17.483138+00:00",
+  "total_sent_urls": 3376,
+  "total_sent_keys": 3367,
   "sent_urls": {
     "https://job-boards.greenhouse.io/anthropic/jobs/5382518008": {
       "company": "Anthropic",
@@ -23565,6 +23565,76 @@
       "url": "https://www.linkedin.com/jobs/view/senior-backend-software-engineer-java-at-global-payments-inc-4449679838",
       "last_sent": "2026-10-10T08:11:22.532835+00:00",
       "first_seen": "2026-10-10T08:11:22.532835+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=8878095002": {
+      "company": "Databricks",
+      "title": "Digital Native Account Executive, Thailand",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8878095002",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5225757007?gh_jid=5225757007": {
+      "company": "Andurilindustries",
+      "title": "Manager, Manufacturing Engineering",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5225757007?gh_jid=5225757007",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5225761007?gh_jid=5225761007": {
+      "company": "Andurilindustries",
+      "title": "Manufacturing Engineer, Process and Planning",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5225761007?gh_jid=5225761007",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5262987007?gh_jid=5262987007": {
+      "company": "Andurilindustries",
+      "title": "Senior Front End Software Engineer, React",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5262987007?gh_jid=5262987007",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5113338007?gh_jid=5113338007": {
+      "company": "Andurilindustries",
+      "title": "Senior Manufacturing Engineer, Maritime Systems",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5113338007?gh_jid=5113338007",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261122007?gh_jid=5261122007": {
+      "company": "Andurilindustries",
+      "title": "Senior Software Engineer, Strategic Defense",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261122007?gh_jid=5261122007",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5249697007?gh_jid=5249697007": {
+      "company": "Andurilindustries",
+      "title": "Senior Software Engineer, Strategic Defense (Active Clearance)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5249697007?gh_jid=5249697007",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5215777007?gh_jid=5215777007": {
+      "company": "Andurilindustries",
+      "title": "Stress Analysis Engineer, Maritime Structures",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5215777007?gh_jid=5215777007",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5242250007?gh_jid=5242250007": {
+      "company": "Andurilindustries",
+      "title": "Systems Engineer, Maritime",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5242250007?gh_jid=5242250007",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "https://jobicy.com/jobs/154967-senior-fullstack-engineer-br-based-only": {
+      "company": "Double",
+      "title": "Senior Fullstack Engineer (BR based only)",
+      "url": "https://jobicy.com/jobs/154967-senior-fullstack-engineer-br-based-only",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
     }
   },
   "sent_keys": {
@@ -47066,6 +47136,76 @@
       "url": "https://www.linkedin.com/jobs/view/senior-backend-software-engineer-java-at-global-payments-inc-4449679838",
       "last_sent": "2026-10-10T08:11:22.532835+00:00",
       "first_seen": "2026-10-10T08:11:22.532835+00:00"
+    },
+    "databricks:::digital native account executive thailand": {
+      "company": "Databricks",
+      "title": "Digital Native Account Executive, Thailand",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8878095002",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "andurilindustries:::manager manufacturing engineering": {
+      "company": "Andurilindustries",
+      "title": "Manager, Manufacturing Engineering",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5225757007?gh_jid=5225757007",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "andurilindustries:::manufacturing engineer process and planning": {
+      "company": "Andurilindustries",
+      "title": "Manufacturing Engineer, Process and Planning",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5225761007?gh_jid=5225761007",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "andurilindustries:::senior front end software engineer react": {
+      "company": "Andurilindustries",
+      "title": "Senior Front End Software Engineer, React",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5262987007?gh_jid=5262987007",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "andurilindustries:::senior manufacturing engineer maritime systems": {
+      "company": "Andurilindustries",
+      "title": "Senior Manufacturing Engineer, Maritime Systems",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5113338007?gh_jid=5113338007",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "andurilindustries:::senior software engineer strategic defense": {
+      "company": "Andurilindustries",
+      "title": "Senior Software Engineer, Strategic Defense",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261122007?gh_jid=5261122007",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "andurilindustries:::senior software engineer strategic defense active clearance": {
+      "company": "Andurilindustries",
+      "title": "Senior Software Engineer, Strategic Defense (Active Clearance)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5249697007?gh_jid=5249697007",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "andurilindustries:::stress analysis engineer maritime structures": {
+      "company": "Andurilindustries",
+      "title": "Stress Analysis Engineer, Maritime Structures",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5215777007?gh_jid=5215777007",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "andurilindustries:::systems engineer maritime": {
+      "company": "Andurilindustries",
+      "title": "Systems Engineer, Maritime",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5242250007?gh_jid=5242250007",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
+    },
+    "double:::senior fullstack engineer br based only": {
+      "company": "Double",
+      "title": "Senior Fullstack Engineer (BR based only)",
+      "url": "https://jobicy.com/jobs/154967-senior-fullstack-engineer-br-based-only",
+      "last_sent": "2026-10-11T07:35:17.483138+00:00",
+      "first_seen": "2026-10-11T07:35:17.483138+00:00"
     }
   }
 }
