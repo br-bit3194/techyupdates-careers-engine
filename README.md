@@ -50,7 +50,7 @@ An enterprise-grade, autonomous opportunity ingestion engine built for **GitHub 
                   ┌────────────────────────────────────────────────────────┐
                   │ AI Extraction Engine (Gemini 3 Series)                 │
                   │ - Batch size 50, 5.0s pacing (~10 RPM)                 │
-                  │ - 3.5 Flash ➡️ 3.8 Flash ➡️ 3.5 Flash-Lite             │
+                  │ - 3.6 Flash ➡️ 3.8 Flash ➡️ 3.6 Flash-Lite             │
                   │ - 3 Retries Max with Exp Backoff (2s, 4s)              │
                   │ - Fallback: Local Rule-Based Regex Engine              │
                   └──────────────────────────┬─────────────────────────────┘
@@ -137,7 +137,7 @@ The **Trigger** is the master execution handler for the pipeline.
 2. **Parallel Collection:** Concurrently queries Greenhouse, Ashby, Lever, Y Combinator, RemoteOK, Jobicy, and LinkedIn Guest APIs (~5-8 seconds).
 3. **Filtering & Deduplication:** Discards roles older than 24 hours, catches scam keywords, and removes cross-platform duplicates using MD5 signatures.
 4. **Liveness Verification:** Validates that posting URLs are active and not closed/expired before passing to AI.
-5. **AI Tiering & Synthesis (Gemini 3):** Processes listings in batches of 50 with safe pacing (~10 RPM, well below Google's 15 RPM free tier cap). If Google experiences a demand spike, it retries up to 3 times with exponential backoff (2s, 4s) across `gemini-3.5-flash` ➡️ `gemini-3.8-flash` ➡️ `gemini-3.5-flash-lite`, and gracefully falls back to the local rule-based classifier if quota is exhausted.
+5. **AI Tiering & Synthesis (Gemini 3):** Processes listings in batches of 50 with safe pacing (~10 RPM, well below Google's 15 RPM free tier cap). If Google experiences a demand spike, it retries up to 3 times with exponential backoff (2s, 4s) across `gemini-3.6-flash` ➡️ `gemini-3.8-flash` ➡️ `gemini-3.6-flash-lite`, and gracefully falls back to the local rule-based classifier if quota is exhausted.
 6. **Excel Generation:** Constructs a styled, 4-tab `.xlsx` spreadsheet in-memory (`io.BytesIO`) with custom theme colors, zebra rows, auto-filters, and active `=HYPERLINK()` formulas.
 7. **Community Broadcast:** Dispatches the workbook and humanized executive summary directly to your Telegram channel via `multipart/form-data`.
 8. **Artifact Archiving & Local Fallback:** Saves a copy of the spreadsheet (`TechyUpdates_Opportunities_YYYYMMDD.xlsx`) locally and uploads it as a GitHub Actions workflow artifact.
@@ -216,7 +216,7 @@ job_finder/
 │   │   ├── remote_feeds.py      # RemoteOK, Jobicy RSS/JSON
 │   │   ├── linkedin_guest.py    # Polite guest scraper with circuit breaker
 │   │   └── liveness_verifier.py # HTTP status & expiration phrase verifier
-│   ├── ai_extractor.py          # Gemini 3 cascade (3.5 / 3.8 / Flash-Lite) & fallback
+│   ├── ai_extractor.py          # Gemini 3 cascade (3.6 / 3.8 / Flash-Lite) & fallback
 │   ├── excel_builder.py         # 11-column, 4-tab openpyxl workbook generator
 │   └── telegram_notifier.py     # Community broadcaster & humanized caption builder
 ├── config/
@@ -278,8 +278,8 @@ CRON_SECRET=your_super_secret_32_char_token
 # Google AI Studio key (supports Gemini 3 Series)
 GEMINI_API_KEY=AIzaSy...
 
-# Optional: defaults to gemini-3.5-flash with automatic gemini-3.8-flash / gemini-3.5-flash-lite fallback
-GEMINI_MODEL=gemini-3.5-flash
+# Optional: defaults to gemini-3.6-flash with automatic gemini-3.8-flash / gemini-3.6-flash-lite fallback
+GEMINI_MODEL=gemini-3.6-flash
 
 # Telegram Bot Token (from @BotFather)
 TELEGRAM_BOT_TOKEN=1234567890:ABCdefGHIjklMNOpqrsTUVwxyz
@@ -319,7 +319,7 @@ This will run all collectors in parallel, deduplicate listings, verify URL liven
    - `TELEGRAM_BOT_TOKEN`
    - `TELEGRAM_COMMUNITY_CHANNEL_ID`
    - `CRON_SECRET`
-   - `GEMINI_MODEL` (Optional, defaults to `gemini-3.5-flash-lite` or `gemini-3.5-flash`)
+   - `GEMINI_MODEL` (Optional, defaults to `gemini-3.6-flash-lite` or `gemini-3.6-flash`)
 3. The workflow will run automatically every morning at **7:00 AM IST (01:30 UTC)**. You can also trigger it manually anytime by going to **Actions** ➔ **TechyUpdates Opportunity Pipeline** ➔ **Run workflow**.
 
 ---

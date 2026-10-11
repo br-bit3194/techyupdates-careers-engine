@@ -166,7 +166,7 @@ async def enrich_opportunities_with_gemini(
         logger.info("GEMINI_API_KEY not set. Using intelligent rule-based classifier.")
         return [fallback_classify_record(job) for job in raw_jobs]
 
-    chosen_model = model_name or os.getenv("GEMINI_MODEL", "gemini-3.5-flash")
+    chosen_model = model_name or os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 
     try:
         from google import genai
@@ -227,8 +227,8 @@ Raw job data to process:
         batch_error_logs: List[str] = []
         max_retries = 3
 
-        # Modern Gemini 3 production models (Lite prioritized for highest speed and quota efficiency)
-        model_hierarchy = ["gemini-3.5-flash-lite", "gemini-3.5-flash", "gemini-3.8-flash"]
+        # Modern Gemini 3 production models (Gemini 3.6 Flash prioritized)
+        model_hierarchy = ["gemini-3.6-flash", "gemini-3.6-flash-lite", "gemini-3.8-flash"]
         candidate_models = [chosen_model]
         for m in model_hierarchy:
             if m not in candidate_models:
