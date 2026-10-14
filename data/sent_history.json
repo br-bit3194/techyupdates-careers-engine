@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-10-13T08:11:13.359970+00:00",
-  "total_sent_urls": 3574,
-  "total_sent_keys": 3565,
+  "last_updated": "2026-10-14T06:31:29.734073+00:00",
+  "total_sent_urls": 3731,
+  "total_sent_keys": 3722,
   "sent_urls": {
     "https://job-boards.greenhouse.io/anthropic/jobs/5382518008": {
       "company": "Anthropic",
@@ -25021,6 +25021,1105 @@
       "url": "https://in.linkedin.com/jobs/view/senior-full-stack-developer-sj-iq-at-se-mentor-solutions-4478763633",
       "last_sent": "2026-10-13T08:11:13.359970+00:00",
       "first_seen": "2026-10-13T08:11:13.359970+00:00"
+    },
+    "https://job-boards.greenhouse.io/anthropic/jobs/5440821008": {
+      "company": "Anthropic",
+      "title": "Applied AI Engineer, Beneficial Deployments (Lab Automation)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5440821008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://job-boards.greenhouse.io/anthropic/jobs/5367562008": {
+      "company": "Anthropic",
+      "title": "Developer Relations Manager, Claude Platform",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5367562008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://job-boards.greenhouse.io/anthropic/jobs/5378643008": {
+      "company": "Anthropic",
+      "title": "Engineering Manager, Claude Platform",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5378643008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://job-boards.greenhouse.io/anthropic/jobs/5442842008": {
+      "company": "Anthropic",
+      "title": "Internal Communications Manager: GTM",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5442842008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://job-boards.greenhouse.io/anthropic/jobs/5423737008": {
+      "company": "Anthropic",
+      "title": "IT Operations Engineer, Asset Management",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5423737008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://job-boards.greenhouse.io/anthropic/jobs/5450479008": {
+      "company": "Anthropic",
+      "title": "IT Systems Engineer, M&A",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5450479008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://job-boards.greenhouse.io/anthropic/jobs/5451081008": {
+      "company": "Anthropic",
+      "title": "Policy Development, Technical AI Governance",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5451081008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://job-boards.greenhouse.io/anthropic/jobs/4641822008": {
+      "company": "Anthropic",
+      "title": "Senior Software Engineer, Inference",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4641822008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://job-boards.greenhouse.io/anthropic/jobs/5412272008": {
+      "company": "Anthropic",
+      "title": "Software Engineer, Observability & Profiling",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5412272008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://job-boards.greenhouse.io/anthropic/jobs/5150472008": {
+      "company": "Anthropic",
+      "title": "Staff Software Engineer, Inference",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5150472008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://job-boards.greenhouse.io/anthropic/jobs/5451889008": {
+      "company": "Anthropic",
+      "title": "Staff+ Software Engineer, Platform Acceleration",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5451889008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://stripe.com/jobs/search?gh_jid=8279202": {
+      "company": "Stripe",
+      "title": "Specialist Solutions Architecture, Link",
+      "url": "https://stripe.com/jobs/search?gh_jid=8279202",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/figma/jobs/6135721004?gh_jid=6135721004": {
+      "company": "Figma",
+      "title": "Manager, Software Engineering - Data Platform",
+      "url": "https://boards.greenhouse.io/figma/jobs/6135721004?gh_jid=6135721004",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/figma/jobs/6219995004?gh_jid=6219995004": {
+      "company": "Figma",
+      "title": "PhD Intern, Software Engineer - Graphics (2027)",
+      "url": "https://boards.greenhouse.io/figma/jobs/6219995004?gh_jid=6219995004",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=8876388002": {
+      "company": "Databricks",
+      "title": "Solutions Architect - FSI",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8876388002",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=8458710002": {
+      "company": "Databricks",
+      "title": "Strategic Core Account Executive - Retail",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8458710002",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8264695?gh_jid=8264695": {
+      "company": "Cloudflare",
+      "title": "Security Engineer, Applied Research & Labs",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8264695?gh_jid=8264695",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8274341?gh_jid=8274341": {
+      "company": "Cloudflare",
+      "title": "Senior Customer Engineer AI/ Start Up's",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8274341?gh_jid=8274341",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8248554?gh_jid=8248554": {
+      "company": "Cloudflare",
+      "title": "Senior Customer Engineer, Strategic Pursuits, APAC (Based in India)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8248554?gh_jid=8248554",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8248543?gh_jid=8248543": {
+      "company": "Cloudflare",
+      "title": "Senior Customer Engineer, Strategic Pursuits, APAC (Based in Singapore)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8248543?gh_jid=8248543",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8250155?gh_jid=8250155": {
+      "company": "Cloudflare",
+      "title": "Senior Software Engineer, Cloudflare for SaaS",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8250155?gh_jid=8250155",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8264043?gh_jid=8264043": {
+      "company": "Cloudflare",
+      "title": "Senior Specialist Solutions Engineer, Cloudflare One",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8264043?gh_jid=8264043",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197": {
+      "company": "Cloudflare",
+      "title": "Software Engineer Intern (2027)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8276155?gh_jid=8276155": {
+      "company": "Cloudflare",
+      "title": "Systems Engineer, Browser Isolation",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8276155?gh_jid=8276155",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8275392?gh_jid=8275392": {
+      "company": "Cloudflare",
+      "title": "Systems Engineer, DNS",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8275392?gh_jid=8275392",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/cloudflare/jobs/8164649?gh_jid=8164649": {
+      "company": "Cloudflare",
+      "title": "Technical Support Engineer, Application Performance",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8164649?gh_jid=8164649",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://job-boards.greenhouse.io/gusto/jobs/8257115": {
+      "company": "Gusto",
+      "title": "Finance Intern (Summer 2027)",
+      "url": "https://job-boards.greenhouse.io/gusto/jobs/8257115",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5265088007?gh_jid=5265088007": {
+      "company": "Andurilindustries",
+      "title": "2027 Early Career Associate Product Designer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5265088007?gh_jid=5265088007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5265158007?gh_jid=5265158007": {
+      "company": "Andurilindustries",
+      "title": "2027 Firmware Engineer Intern",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5265158007?gh_jid=5265158007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5265097007?gh_jid=5265097007": {
+      "company": "Andurilindustries",
+      "title": "2027 Product Designer Intern",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5265097007?gh_jid=5265097007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5211965007?gh_jid=5211965007": {
+      "company": "Andurilindustries",
+      "title": "Air Vehicle Lead, Missiles",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5211965007?gh_jid=5211965007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5201431007?gh_jid=5201431007": {
+      "company": "Andurilindustries",
+      "title": "Calibration Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5201431007?gh_jid=5201431007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5204368007?gh_jid=5204368007": {
+      "company": "Andurilindustries",
+      "title": "Deployment Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5204368007?gh_jid=5204368007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5179521007?gh_jid=5179521007": {
+      "company": "Andurilindustries",
+      "title": "Electrical Engineer, Maritime",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5179521007?gh_jid=5179521007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5240172007?gh_jid=5240172007": {
+      "company": "Andurilindustries",
+      "title": "Industrial Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5240172007?gh_jid=5240172007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5264403007?gh_jid=5264403007": {
+      "company": "Andurilindustries",
+      "title": "Infrastructure Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5264403007?gh_jid=5264403007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5264938007?gh_jid=5264938007": {
+      "company": "Andurilindustries",
+      "title": "Legal Operations Tech and AI Enabler",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5264938007?gh_jid=5264938007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5265139007?gh_jid=5265139007": {
+      "company": "Andurilindustries",
+      "title": "Manager, Product Quality Engineering - Bolt",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5265139007?gh_jid=5265139007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5174901007?gh_jid=5174901007": {
+      "company": "Andurilindustries",
+      "title": "Principal Radar Engineer, Space",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5174901007?gh_jid=5174901007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5242840007?gh_jid=5242840007": {
+      "company": "Andurilindustries",
+      "title": "Product Operations Engineer - Counter Intrusion",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5242840007?gh_jid=5242840007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5264635007?gh_jid=5264635007": {
+      "company": "Andurilindustries",
+      "title": "Robotics Software Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5264635007?gh_jid=5264635007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5053268007?gh_jid=5053268007": {
+      "company": "Andurilindustries",
+      "title": "Senior BOM Engineer, Intelligence Systems (Active Clearance)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5053268007?gh_jid=5053268007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5053267007?gh_jid=5053267007": {
+      "company": "Andurilindustries",
+      "title": "Senior Cost Value Engineer, Intelligence Systems (Active Clearance)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5053267007?gh_jid=5053267007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5264673007?gh_jid=5264673007": {
+      "company": "Andurilindustries",
+      "title": "Senior Project Engineer - Advanced Effects",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5264673007?gh_jid=5264673007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5174099007?gh_jid=5174099007": {
+      "company": "Andurilindustries",
+      "title": "Senior Radar Engineer, Space",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5174099007?gh_jid=5174099007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5036672007?gh_jid=5036672007": {
+      "company": "Andurilindustries",
+      "title": "Senior Software Engineer, Full Stack",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5036672007?gh_jid=5036672007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5053269007?gh_jid=5053269007": {
+      "company": "Andurilindustries",
+      "title": "Senior Supplier Sourcing Engineer, Intelligence Systems (Active Clearance)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5053269007?gh_jid=5053269007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5265279007?gh_jid=5265279007": {
+      "company": "Andurilindustries",
+      "title": "Software Engineer, Interfaces",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5265279007?gh_jid=5265279007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5264496007?gh_jid=5264496007": {
+      "company": "Andurilindustries",
+      "title": "Sr. Manager, Manufacturing Test Engineering (Intelligence Systems)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5264496007?gh_jid=5264496007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5261353007?gh_jid=5261353007": {
+      "company": "Andurilindustries",
+      "title": "Staff Software Architect, Intelligence Systems",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261353007?gh_jid=5261353007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://boards.greenhouse.io/andurilindustries/jobs/5262513007?gh_jid=5262513007": {
+      "company": "Andurilindustries",
+      "title": "Supply Chain Systems Support Analyst",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5262513007?gh_jid=5262513007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://careers.airbnb.com/positions/8275508?gh_jid=8275508": {
+      "company": "Airbnb",
+      "title": "Engineering Manager, Secure Development Engineering",
+      "url": "https://careers.airbnb.com/positions/8275508?gh_jid=8275508",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://careers.airbnb.com/positions/8272923?gh_jid=8272923": {
+      "company": "Airbnb",
+      "title": "Market Manager, Spain (Hotels)",
+      "url": "https://careers.airbnb.com/positions/8272923?gh_jid=8272923",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://careers.airbnb.com/positions/8083137?gh_jid=8083137": {
+      "company": "Airbnb",
+      "title": "Operations Engineer, Tech Foundations",
+      "url": "https://careers.airbnb.com/positions/8083137?gh_jid=8083137",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://careers.airbnb.com/positions/8263282?gh_jid=8263282": {
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, Analytics Infrastructure",
+      "url": "https://careers.airbnb.com/positions/8263282?gh_jid=8263282",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://careers.airbnb.com/positions/8279422?gh_jid=8279422": {
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, Payments Transaction Risk",
+      "url": "https://careers.airbnb.com/positions/8279422?gh_jid=8279422",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://careers.airbnb.com/positions/8263303?gh_jid=8263303": {
+      "company": "Airbnb",
+      "title": "Software Engineer, Analytics Infrastructure",
+      "url": "https://careers.airbnb.com/positions/8263303?gh_jid=8263303",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://job-boards.greenhouse.io/affirm/jobs/8015283003": {
+      "company": "Affirm",
+      "title": "Manager, Software Engineering (App Infrastructure)",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/8015283003",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://job-boards.greenhouse.io/affirm/jobs/8009657003": {
+      "company": "Affirm",
+      "title": "Manager, Software Engineering (Marketing & Privacy Engineering)",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/8009657003",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://job-boards.greenhouse.io/affirm/jobs/8013442003": {
+      "company": "Affirm",
+      "title": "Senior Software Engineer, Backend (Lakehouse Infra)",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/8013442003",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://job-boards.greenhouse.io/affirm/jobs/8015279003": {
+      "company": "Affirm",
+      "title": "Senior Staff Software Engineer, Backend (Cards)",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/8015279003",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://careers.datadoghq.com/detail/8261861?gh_jid=8261861": {
+      "company": "Datadog",
+      "title": "Manager ll, Engineering - Datadog Agent SDLC",
+      "url": "https://careers.datadoghq.com/detail/8261861/?gh_jid=8261861",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://careers.datadoghq.com/detail/8279173?gh_jid=8279173": {
+      "company": "Datadog",
+      "title": "Research Manager - Post-Training for Agents",
+      "url": "https://careers.datadoghq.com/detail/8279173/?gh_jid=8279173",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://careers.datadoghq.com/detail/8278276?gh_jid=8278276": {
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Distributed Systems (Continuous Profiler)",
+      "url": "https://careers.datadoghq.com/detail/8278276/?gh_jid=8278276",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8175363?gh_jid=8175363": {
+      "company": "Coinbase",
+      "title": "Accelerations Programs Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175363?gh_jid=8175363",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8173991?gh_jid=8173991": {
+      "company": "Coinbase",
+      "title": "Accounting Intern",
+      "url": "https://www.coinbase.com/careers/positions/8173991?gh_jid=8173991",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8175366?gh_jid=8175366": {
+      "company": "Coinbase",
+      "title": "Business Controller Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175366?gh_jid=8175366",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/7746572?gh_jid=7746572": {
+      "company": "Coinbase",
+      "title": "Communications Manager, Policy & Public Affairs",
+      "url": "https://www.coinbase.com/careers/positions/7746572?gh_jid=7746572",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8224726?gh_jid=8224726": {
+      "company": "Coinbase",
+      "title": "Compliance, International Investigations Associate",
+      "url": "https://www.coinbase.com/careers/positions/8224726?gh_jid=8224726",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8175369?gh_jid=8175369": {
+      "company": "Coinbase",
+      "title": "Credit Risk Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175369?gh_jid=8175369",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8175435?gh_jid=8175435": {
+      "company": "Coinbase",
+      "title": "Crypto Inventory Operations Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175435?gh_jid=8175435",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459": {
+      "company": "Coinbase",
+      "title": "Data Engineer Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8175429?gh_jid=8175429": {
+      "company": "Coinbase",
+      "title": "Employee and Workplace Experience Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175429?gh_jid=8175429",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8099099?gh_jid=8099099": {
+      "company": "Coinbase",
+      "title": "Forward Deployed Engineer, Compliance [Office of the CTO]",
+      "url": "https://www.coinbase.com/careers/positions/8099099?gh_jid=8099099",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8072932?gh_jid=8072932": {
+      "company": "Coinbase",
+      "title": "Forward Deployed Engineer, Finance [Office of the CTO]",
+      "url": "https://www.coinbase.com/careers/positions/8072932?gh_jid=8072932",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8060884?gh_jid=8060884": {
+      "company": "Coinbase",
+      "title": "Forward Deployed Engineer, Legal [Office of the CTO]",
+      "url": "https://www.coinbase.com/careers/positions/8060884?gh_jid=8060884",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8221238?gh_jid=8221238": {
+      "company": "Coinbase",
+      "title": "Internal Audit Analytics Intern",
+      "url": "https://www.coinbase.com/careers/positions/8221238?gh_jid=8221238",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8175432?gh_jid=8175432": {
+      "company": "Coinbase",
+      "title": "Internal Audit Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175432?gh_jid=8175432",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8114684?gh_jid=8114684": {
+      "company": "Coinbase",
+      "title": "Internal Audit Senior Associate, Operations & Compliance",
+      "url": "https://www.coinbase.com/careers/positions/8114684?gh_jid=8114684",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8162911?gh_jid=8162911": {
+      "company": "Coinbase",
+      "title": "Internal Communications Manager",
+      "url": "https://www.coinbase.com/careers/positions/8162911?gh_jid=8162911",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8175514?gh_jid=8175514": {
+      "company": "Coinbase",
+      "title": "Learning & Development Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175514?gh_jid=8175514",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8175441?gh_jid=8175441": {
+      "company": "Coinbase",
+      "title": "Machine Learning Engineer Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175441?gh_jid=8175441",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8013718?gh_jid=8013718": {
+      "company": "Coinbase",
+      "title": "Operations Senior Associate",
+      "url": "https://www.coinbase.com/careers/positions/8013718?gh_jid=8013718",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8175447?gh_jid=8175447": {
+      "company": "Coinbase",
+      "title": "Payment Risk Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175447?gh_jid=8175447",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8175339?gh_jid=8175339": {
+      "company": "Coinbase",
+      "title": "Product Design Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175339?gh_jid=8175339",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8175507?gh_jid=8175507": {
+      "company": "Coinbase",
+      "title": "Real Estate & Builds Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175507?gh_jid=8175507",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8070386?gh_jid=8070386": {
+      "company": "Coinbase",
+      "title": "Senior Associate, Business Development",
+      "url": "https://www.coinbase.com/careers/positions/8070386?gh_jid=8070386",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8060577?gh_jid=8060577": {
+      "company": "Coinbase",
+      "title": "Senior Associate, FCM",
+      "url": "https://www.coinbase.com/careers/positions/8060577?gh_jid=8060577",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8124224?gh_jid=8124224": {
+      "company": "Coinbase",
+      "title": "Senior Engineering Manager, Core AI Automation (Platform)",
+      "url": "https://www.coinbase.com/careers/positions/8124224?gh_jid=8124224",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8179114?gh_jid=8179114": {
+      "company": "Coinbase",
+      "title": "Senior Infrastructure Engineer, Trading",
+      "url": "https://www.coinbase.com/careers/positions/8179114?gh_jid=8179114",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8162914?gh_jid=8162914": {
+      "company": "Coinbase",
+      "title": "Senior Internal Communications Manager, People",
+      "url": "https://www.coinbase.com/careers/positions/8162914?gh_jid=8162914",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8211490?gh_jid=8211490": {
+      "company": "Coinbase",
+      "title": "Senior Machine Learning Platform Engineer - Identity",
+      "url": "https://www.coinbase.com/careers/positions/8211490?gh_jid=8211490",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8180833?gh_jid=8180833": {
+      "company": "Coinbase",
+      "title": "Senior Market Data Engineer",
+      "url": "https://www.coinbase.com/careers/positions/8180833?gh_jid=8180833",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8179311?gh_jid=8179311": {
+      "company": "Coinbase",
+      "title": "Senior Network Engineer",
+      "url": "https://www.coinbase.com/careers/positions/8179311?gh_jid=8179311",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8146039?gh_jid=8146039": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer - Access & Authorization (Platform)",
+      "url": "https://www.coinbase.com/careers/positions/8146039?gh_jid=8146039",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8174949?gh_jid=8174949": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Agent Verification",
+      "url": "https://www.coinbase.com/careers/positions/8174949?gh_jid=8174949",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8094196?gh_jid=8094196": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer- Blockchain Network",
+      "url": "https://www.coinbase.com/careers/positions/8094196?gh_jid=8094196",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8204215?gh_jid=8204215": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer- Blockchain Platform (Wallets, Liquidity & Bridging)",
+      "url": "https://www.coinbase.com/careers/positions/8204215?gh_jid=8204215",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8172100?gh_jid=8172100": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Core Infra Systems",
+      "url": "https://www.coinbase.com/careers/positions/8172100?gh_jid=8172100",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8097944?gh_jid=8097944": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Core Reliability",
+      "url": "https://www.coinbase.com/careers/positions/8097944?gh_jid=8097944",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/7812407?gh_jid=7812407": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer - Data Platform",
+      "url": "https://www.coinbase.com/careers/positions/7812407?gh_jid=7812407",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/7964398?gh_jid=7964398": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Developer Infrastructure",
+      "url": "https://www.coinbase.com/careers/positions/7964398?gh_jid=7964398",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8088201?gh_jid=8088201": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer - Frontend - Coinbase Card team",
+      "url": "https://www.coinbase.com/careers/positions/8088201?gh_jid=8088201",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8029035?gh_jid=8029035": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Frontend (Consumer - Payments)",
+      "url": "https://www.coinbase.com/careers/positions/8029035?gh_jid=8029035",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8165015?gh_jid=8165015": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Frontend (Platform - Identity)",
+      "url": "https://www.coinbase.com/careers/positions/8165015?gh_jid=8165015",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8103569?gh_jid=8103569": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Simple Trade Experience",
+      "url": "https://www.coinbase.com/careers/positions/8103569?gh_jid=8103569",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/7366208?gh_jid=7366208": {
+      "company": "Coinbase",
+      "title": "Senior Staff Software Engineer - Blockchain Platform",
+      "url": "https://www.coinbase.com/careers/positions/7366208?gh_jid=7366208",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/7580292?gh_jid=7580292": {
+      "company": "Coinbase",
+      "title": "Senior Staff Software Engineer, Core Automation",
+      "url": "https://www.coinbase.com/careers/positions/7580292?gh_jid=7580292",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/7711287?gh_jid=7711287": {
+      "company": "Coinbase",
+      "title": "Senior Staff Software Engineer, Data Platform",
+      "url": "https://www.coinbase.com/careers/positions/7711287?gh_jid=7711287",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8179210?gh_jid=8179210": {
+      "company": "Coinbase",
+      "title": "Senior Staff Software Engineer, Institutional Exchange",
+      "url": "https://www.coinbase.com/careers/positions/8179210?gh_jid=8179210",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8155366?gh_jid=8155366": {
+      "company": "Coinbase",
+      "title": "Senior Staff Software Engineer, Platform - IAM",
+      "url": "https://www.coinbase.com/careers/positions/8155366?gh_jid=8155366",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8209803?gh_jid=8209803": {
+      "company": "Coinbase",
+      "title": "Senior Threat Intelligence Engineer",
+      "url": "https://www.coinbase.com/careers/positions/8209803?gh_jid=8209803",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8105437?gh_jid=8105437": {
+      "company": "Coinbase",
+      "title": "Software Engineer, Blockchain Platform Nodes",
+      "url": "https://www.coinbase.com/careers/positions/8105437?gh_jid=8105437",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8164730?gh_jid=8164730": {
+      "company": "Coinbase",
+      "title": "Software Engineer, CDP - Payment Acceptance",
+      "url": "https://www.coinbase.com/careers/positions/8164730?gh_jid=8164730",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8279479?gh_jid=8279479": {
+      "company": "Coinbase",
+      "title": "Software Engineer, Enterprise Apps",
+      "url": "https://www.coinbase.com/careers/positions/8279479?gh_jid=8279479",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8165441?gh_jid=8165441": {
+      "company": "Coinbase",
+      "title": "Software Engineer, Security Platform",
+      "url": "https://www.coinbase.com/careers/positions/8165441?gh_jid=8165441",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8144772?gh_jid=8144772": {
+      "company": "Coinbase",
+      "title": "Sr. Staff Technical Architect, Unified Trading",
+      "url": "https://www.coinbase.com/careers/positions/8144772?gh_jid=8144772",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8144776?gh_jid=8144776": {
+      "company": "Coinbase",
+      "title": "Sr. Staff Technical Risk Architect, Unified Trading",
+      "url": "https://www.coinbase.com/careers/positions/8144776?gh_jid=8144776",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8144836?gh_jid=8144836": {
+      "company": "Coinbase",
+      "title": "Staff Data Engineer, Market Data",
+      "url": "https://www.coinbase.com/careers/positions/8144836?gh_jid=8144836",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8144769?gh_jid=8144769": {
+      "company": "Coinbase",
+      "title": "Staff Infrastructure Engineer, Trading",
+      "url": "https://www.coinbase.com/careers/positions/8144769?gh_jid=8144769",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8160557?gh_jid=8160557": {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Compute Platform (Routing)",
+      "url": "https://www.coinbase.com/careers/positions/8160557?gh_jid=8160557",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/7964410?gh_jid=7964410": {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Developer Infrastructure (Test Infrastructure)",
+      "url": "https://www.coinbase.com/careers/positions/7964410?gh_jid=7964410",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/7629141?gh_jid=7629141": {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Frontend (Consumer - Advanced Trading)",
+      "url": "https://www.coinbase.com/careers/positions/7629141?gh_jid=7629141",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8114877?gh_jid=8114877": {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer (Platform - Access & Authorization)",
+      "url": "https://www.coinbase.com/careers/positions/8114877?gh_jid=8114877",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/7773776?gh_jid=7773776": {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer (Platform - Identity IDV)",
+      "url": "https://www.coinbase.com/careers/positions/7773776?gh_jid=7773776",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8167571?gh_jid=8167571": {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Security Platform",
+      "url": "https://www.coinbase.com/careers/positions/8167571?gh_jid=8167571",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8175438?gh_jid=8175438": {
+      "company": "Coinbase",
+      "title": "Strategic Finance Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175438?gh_jid=8175438",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8221241?gh_jid=8221241": {
+      "company": "Coinbase",
+      "title": "Tax Information Reporting Intern",
+      "url": "https://www.coinbase.com/careers/positions/8221241?gh_jid=8221241",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8175453?gh_jid=8175453": {
+      "company": "Coinbase",
+      "title": "Tax Operations Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175453?gh_jid=8175453",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8177619?gh_jid=8177619": {
+      "company": "Coinbase",
+      "title": "Threat Intelligence Platform Engineer",
+      "url": "https://www.coinbase.com/careers/positions/8177619?gh_jid=8177619",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8175360?gh_jid=8175360": {
+      "company": "Coinbase",
+      "title": "User Research Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175360?gh_jid=8175360",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobs.lever.co/spotify/234ec969-a406-4956-8d85-365b9053ccf5": {
+      "company": "Spotify",
+      "title": "Security Engineer - Enterprise Security Platform",
+      "url": "https://jobs.lever.co/spotify/234ec969-a406-4956-8d85-365b9053ccf5",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobs.ashbyhq.com/perplexity/ef269656-94ef-463a-ae0e-6102ca3a94dd": {
+      "company": "Perplexity",
+      "title": "Technical Recruiter, AI",
+      "url": "https://jobs.ashbyhq.com/perplexity/ef269656-94ef-463a-ae0e-6102ca3a94dd",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobs.ashbyhq.com/modal/dd6fe63b-8265-474e-b1f0-fcc1c5a28daf": {
+      "company": "Modal",
+      "title": "GTM Engineer - Data Platform",
+      "url": "https://jobs.ashbyhq.com/modal/dd6fe63b-8265-474e-b1f0-fcc1c5a28daf",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobs.ashbyhq.com/cohere/031c2335-db85-4265-8a88-a54b911be36a": {
+      "company": "Cohere",
+      "title": "Forward Deployed Engineer, Agentic Platform (Korea)",
+      "url": "https://jobs.ashbyhq.com/cohere/031c2335-db85-4265-8a88-a54b911be36a",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobs.ashbyhq.com/cohere/7e0e08ed-4b12-4aaa-8dda-ad6292992061": {
+      "company": "Cohere",
+      "title": "Senior Full-Stack Engineer, Cohere Dashboard",
+      "url": "https://jobs.ashbyhq.com/cohere/7e0e08ed-4b12-4aaa-8dda-ad6292992061",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0": {
+      "company": "PostEra (YC W20)",
+      "title": "AI Researchers for Drug Discovery",
+      "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations": {
+      "company": "Coris (YC S22)",
+      "title": "Back End Engineer",
+      "url": "https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/153164-junior-software-engineer-2": {
+      "company": "PolicyMe",
+      "title": "Junior Software Engineer",
+      "url": "https://jobicy.com/jobs/153164-junior-software-engineer-2",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/153163-senior-software-engineer-trust": {
+      "company": "Veriff",
+      "title": "Senior Software Engineer (Trust)",
+      "url": "https://jobicy.com/jobs/153163-senior-software-engineer-trust",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/155230-senior-ios-engineer-swift-aws": {
+      "company": "Oowlish Technology",
+      "title": "Senior iOS Engineer (Swift & AWS)",
+      "url": "https://jobicy.com/jobs/155230-senior-ios-engineer-swift-aws",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/155233-senior-software-engineer-full-stack-node-js-react-ai-focus": {
+      "company": "Oowlish Technology",
+      "title": "Senior Software Engineer (Full Stack | Node.js & React | AI Focus)",
+      "url": "https://jobicy.com/jobs/155233-senior-software-engineer-full-stack-node-js-react-ai-focus",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/155231-full-stack-web-engineer": {
+      "company": "Fueled",
+      "title": "Full Stack Web Engineer",
+      "url": "https://jobicy.com/jobs/155231-full-stack-web-engineer",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/155228-junior-software-engineer-early-career-strong-problem-solving-coding-focus-100-remote-within-spain-2": {
+      "company": "Docplanner",
+      "title": "Junior Software Engineer – Early Career (Strong Problem solving & Coding Focus) - 100% Remote within Spain",
+      "url": "https://jobicy.com/jobs/155228-junior-software-engineer-early-career-strong-problem-solving-coding-focus-100-remote-within-spain-2",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/155221-senior-c-engineer": {
+      "company": "Findev",
+      "title": "Senior C++ Engineer",
+      "url": "https://jobicy.com/jobs/155221-senior-c-engineer",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/155200-senior-backend-engineer-10": {
+      "company": "Solace",
+      "title": "Senior Backend Engineer",
+      "url": "https://jobicy.com/jobs/155200-senior-backend-engineer-10",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/155199-staff-software-engineer-8": {
+      "company": "Solace",
+      "title": "Staff Software Engineer",
+      "url": "https://jobicy.com/jobs/155199-staff-software-engineer-8",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/155201-technical-lead-engineering": {
+      "company": "Solace",
+      "title": "Technical Lead (Engineering)",
+      "url": "https://jobicy.com/jobs/155201-technical-lead-engineering",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/155195-senior-full-stack-engineer-7": {
+      "company": "Solace",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://jobicy.com/jobs/155195-senior-full-stack-engineer-7",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/155191-lead-front-end-engineer-javascript-digital-agency-buenos-aires-argentina": {
+      "company": "Truelogic",
+      "title": "Lead Front-end Engineer (Javascript) - Digital Agency - Buenos Aires, Argentina.",
+      "url": "https://jobicy.com/jobs/155191-lead-front-end-engineer-javascript-digital-agency-buenos-aires-argentina",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/155185-senior-software-engineer-admin-iam": {
+      "company": "Mural",
+      "title": "Senior Software Engineer, Admin & IAM",
+      "url": "https://jobicy.com/jobs/155185-senior-software-engineer-admin-iam",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/155186-senior-software-engineer-full-stack-javascript": {
+      "company": "Able",
+      "title": "Senior Software Engineer (Full-Stack, JavaScript)",
+      "url": "https://jobicy.com/jobs/155186-senior-software-engineer-full-stack-javascript",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/155182-senior-forward-deployed-engineer-ai-agent": {
+      "company": "Cresta",
+      "title": "Senior Forward Deployed Engineer (AI Agent)",
+      "url": "https://jobicy.com/jobs/155182-senior-forward-deployed-engineer-ai-agent",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/155167-sr-forward-deployed-ai-engineer-remote-eligible-in-the-uk": {
+      "company": "Smartsheet",
+      "title": "Sr. Forward Deployed AI Engineer (Remote Eligible in the UK)",
+      "url": "https://jobicy.com/jobs/155167-sr-forward-deployed-ai-engineer-remote-eligible-in-the-uk",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://jobicy.com/jobs/155172-sr-software-engineer-remote-eligible-from-bulgaria": {
+      "company": "Smartsheet",
+      "title": "Sr. Software Engineer (Remote Eligible from Bulgaria)",
+      "url": "https://jobicy.com/jobs/155172-sr-software-engineer-remote-eligible-from-bulgaria",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-engineer-intern-%E2%80%93-python-odoo-freshers-at-eoxs-4478163112": {
+      "company": "EOXS",
+      "title": "Software Engineer Intern – Python / Odoo (Freshers)",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-intern-%E2%80%93-python-odoo-freshers-at-eoxs-4478163112",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-engineer-intern-pathway-at-kasparro-ai-4476417831": {
+      "company": "Kasparro AI",
+      "title": "Full Stack Engineer Intern Pathway",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-intern-pathway-at-kasparro-ai-4476417831",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
     }
   },
   "sent_keys": {
@@ -49978,6 +51077,1105 @@
       "url": "https://in.linkedin.com/jobs/view/senior-full-stack-developer-sj-iq-at-se-mentor-solutions-4478763633",
       "last_sent": "2026-10-13T08:11:13.359970+00:00",
       "first_seen": "2026-10-13T08:11:13.359970+00:00"
+    },
+    "anthropic:::applied ai engineer beneficial deployments lab automation": {
+      "company": "Anthropic",
+      "title": "Applied AI Engineer, Beneficial Deployments (Lab Automation)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5440821008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "anthropic:::developer relations manager claude platform": {
+      "company": "Anthropic",
+      "title": "Developer Relations Manager, Claude Platform",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5367562008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "anthropic:::engineering manager claude platform": {
+      "company": "Anthropic",
+      "title": "Engineering Manager, Claude Platform",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5378643008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "anthropic:::internal communications manager gtm": {
+      "company": "Anthropic",
+      "title": "Internal Communications Manager: GTM",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5442842008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "anthropic:::it operations engineer asset management": {
+      "company": "Anthropic",
+      "title": "IT Operations Engineer, Asset Management",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5423737008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "anthropic:::it systems engineer m a": {
+      "company": "Anthropic",
+      "title": "IT Systems Engineer, M&A",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5450479008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "anthropic:::policy development technical ai governance": {
+      "company": "Anthropic",
+      "title": "Policy Development, Technical AI Governance",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5451081008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "anthropic:::senior software engineer inference": {
+      "company": "Anthropic",
+      "title": "Senior Software Engineer, Inference",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4641822008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "anthropic:::software engineer observability profiling": {
+      "company": "Anthropic",
+      "title": "Software Engineer, Observability & Profiling",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5412272008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "anthropic:::staff software engineer inference": {
+      "company": "Anthropic",
+      "title": "Staff Software Engineer, Inference",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5150472008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "anthropic:::staff software engineer platform acceleration": {
+      "company": "Anthropic",
+      "title": "Staff+ Software Engineer, Platform Acceleration",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5451889008",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "stripe:::specialist solutions architecture link": {
+      "company": "Stripe",
+      "title": "Specialist Solutions Architecture, Link",
+      "url": "https://stripe.com/jobs/search?gh_jid=8279202",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "figma:::manager software engineering data platform": {
+      "company": "Figma",
+      "title": "Manager, Software Engineering - Data Platform",
+      "url": "https://boards.greenhouse.io/figma/jobs/6135721004?gh_jid=6135721004",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "figma:::phd intern software engineer graphics 2027": {
+      "company": "Figma",
+      "title": "PhD Intern, Software Engineer - Graphics (2027)",
+      "url": "https://boards.greenhouse.io/figma/jobs/6219995004?gh_jid=6219995004",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "databricks:::solutions architect fsi": {
+      "company": "Databricks",
+      "title": "Solutions Architect - FSI",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8876388002",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "databricks:::strategic core account executive retail": {
+      "company": "Databricks",
+      "title": "Strategic Core Account Executive - Retail",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8458710002",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "cloudflare:::security engineer applied research labs": {
+      "company": "Cloudflare",
+      "title": "Security Engineer, Applied Research & Labs",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8264695?gh_jid=8264695",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "cloudflare:::senior customer engineer ai start up s": {
+      "company": "Cloudflare",
+      "title": "Senior Customer Engineer AI/ Start Up's",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8274341?gh_jid=8274341",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "cloudflare:::senior customer engineer strategic pursuits apac based in india": {
+      "company": "Cloudflare",
+      "title": "Senior Customer Engineer, Strategic Pursuits, APAC (Based in India)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8248554?gh_jid=8248554",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "cloudflare:::senior customer engineer strategic pursuits apac based in singapore": {
+      "company": "Cloudflare",
+      "title": "Senior Customer Engineer, Strategic Pursuits, APAC (Based in Singapore)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8248543?gh_jid=8248543",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "cloudflare:::senior software engineer cloudflare for saas": {
+      "company": "Cloudflare",
+      "title": "Senior Software Engineer, Cloudflare for SaaS",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8250155?gh_jid=8250155",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "cloudflare:::senior specialist solutions engineer cloudflare one": {
+      "company": "Cloudflare",
+      "title": "Senior Specialist Solutions Engineer, Cloudflare One",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8264043?gh_jid=8264043",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "cloudflare:::software engineer intern 2027": {
+      "company": "Cloudflare",
+      "title": "Software Engineer Intern (2027)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "cloudflare:::systems engineer browser isolation": {
+      "company": "Cloudflare",
+      "title": "Systems Engineer, Browser Isolation",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8276155?gh_jid=8276155",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "cloudflare:::systems engineer dns": {
+      "company": "Cloudflare",
+      "title": "Systems Engineer, DNS",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8275392?gh_jid=8275392",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "cloudflare:::technical support engineer application performance": {
+      "company": "Cloudflare",
+      "title": "Technical Support Engineer, Application Performance",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8164649?gh_jid=8164649",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "gusto:::finance intern summer 2027": {
+      "company": "Gusto",
+      "title": "Finance Intern (Summer 2027)",
+      "url": "https://job-boards.greenhouse.io/gusto/jobs/8257115",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::2027 early career associate product designer": {
+      "company": "Andurilindustries",
+      "title": "2027 Early Career Associate Product Designer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5265088007?gh_jid=5265088007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::2027 firmware engineer intern": {
+      "company": "Andurilindustries",
+      "title": "2027 Firmware Engineer Intern",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5265158007?gh_jid=5265158007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::2027 product designer intern": {
+      "company": "Andurilindustries",
+      "title": "2027 Product Designer Intern",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5265097007?gh_jid=5265097007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::air vehicle lead missiles": {
+      "company": "Andurilindustries",
+      "title": "Air Vehicle Lead, Missiles",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5211965007?gh_jid=5211965007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::calibration engineer": {
+      "company": "Andurilindustries",
+      "title": "Calibration Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5201431007?gh_jid=5201431007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::deployment engineer": {
+      "company": "Andurilindustries",
+      "title": "Deployment Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5204368007?gh_jid=5204368007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::electrical engineer maritime": {
+      "company": "Andurilindustries",
+      "title": "Electrical Engineer, Maritime",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5179521007?gh_jid=5179521007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::industrial engineer": {
+      "company": "Andurilindustries",
+      "title": "Industrial Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5240172007?gh_jid=5240172007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::infrastructure engineer": {
+      "company": "Andurilindustries",
+      "title": "Infrastructure Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5264403007?gh_jid=5264403007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::legal operations tech and ai enabler": {
+      "company": "Andurilindustries",
+      "title": "Legal Operations Tech and AI Enabler",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5264938007?gh_jid=5264938007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::manager product quality engineering bolt": {
+      "company": "Andurilindustries",
+      "title": "Manager, Product Quality Engineering - Bolt",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5265139007?gh_jid=5265139007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::principal radar engineer space": {
+      "company": "Andurilindustries",
+      "title": "Principal Radar Engineer, Space",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5174901007?gh_jid=5174901007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::product operations engineer counter intrusion": {
+      "company": "Andurilindustries",
+      "title": "Product Operations Engineer - Counter Intrusion",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5242840007?gh_jid=5242840007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::robotics software engineer": {
+      "company": "Andurilindustries",
+      "title": "Robotics Software Engineer",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5264635007?gh_jid=5264635007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::senior bom engineer intelligence systems active clearance": {
+      "company": "Andurilindustries",
+      "title": "Senior BOM Engineer, Intelligence Systems (Active Clearance)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5053268007?gh_jid=5053268007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::senior cost value engineer intelligence systems active clearance": {
+      "company": "Andurilindustries",
+      "title": "Senior Cost Value Engineer, Intelligence Systems (Active Clearance)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5053267007?gh_jid=5053267007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::senior project engineer advanced effects": {
+      "company": "Andurilindustries",
+      "title": "Senior Project Engineer - Advanced Effects",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5264673007?gh_jid=5264673007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::senior radar engineer space": {
+      "company": "Andurilindustries",
+      "title": "Senior Radar Engineer, Space",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5174099007?gh_jid=5174099007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::senior software engineer full stack": {
+      "company": "Andurilindustries",
+      "title": "Senior Software Engineer, Full Stack",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5036672007?gh_jid=5036672007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::senior supplier sourcing engineer intelligence systems active clearance": {
+      "company": "Andurilindustries",
+      "title": "Senior Supplier Sourcing Engineer, Intelligence Systems (Active Clearance)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5053269007?gh_jid=5053269007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::software engineer interfaces": {
+      "company": "Andurilindustries",
+      "title": "Software Engineer, Interfaces",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5265279007?gh_jid=5265279007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::sr manager manufacturing test engineering intelligence systems": {
+      "company": "Andurilindustries",
+      "title": "Sr. Manager, Manufacturing Test Engineering (Intelligence Systems)",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5264496007?gh_jid=5264496007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::staff software architect intelligence systems": {
+      "company": "Andurilindustries",
+      "title": "Staff Software Architect, Intelligence Systems",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261353007?gh_jid=5261353007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "andurilindustries:::supply chain systems support analyst": {
+      "company": "Andurilindustries",
+      "title": "Supply Chain Systems Support Analyst",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5262513007?gh_jid=5262513007",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "airbnb:::engineering manager secure development engineering": {
+      "company": "Airbnb",
+      "title": "Engineering Manager, Secure Development Engineering",
+      "url": "https://careers.airbnb.com/positions/8275508?gh_jid=8275508",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "airbnb:::market manager spain hotels": {
+      "company": "Airbnb",
+      "title": "Market Manager, Spain (Hotels)",
+      "url": "https://careers.airbnb.com/positions/8272923?gh_jid=8272923",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "airbnb:::operations engineer tech foundations": {
+      "company": "Airbnb",
+      "title": "Operations Engineer, Tech Foundations",
+      "url": "https://careers.airbnb.com/positions/8083137?gh_jid=8083137",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "airbnb:::senior software engineer analytics infrastructure": {
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, Analytics Infrastructure",
+      "url": "https://careers.airbnb.com/positions/8263282?gh_jid=8263282",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "airbnb:::senior software engineer payments transaction risk": {
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, Payments Transaction Risk",
+      "url": "https://careers.airbnb.com/positions/8279422?gh_jid=8279422",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "airbnb:::software engineer analytics infrastructure": {
+      "company": "Airbnb",
+      "title": "Software Engineer, Analytics Infrastructure",
+      "url": "https://careers.airbnb.com/positions/8263303?gh_jid=8263303",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "affirm:::manager software engineering app infrastructure": {
+      "company": "Affirm",
+      "title": "Manager, Software Engineering (App Infrastructure)",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/8015283003",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "affirm:::manager software engineering marketing privacy engineering": {
+      "company": "Affirm",
+      "title": "Manager, Software Engineering (Marketing & Privacy Engineering)",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/8009657003",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "affirm:::senior software engineer backend lakehouse infra": {
+      "company": "Affirm",
+      "title": "Senior Software Engineer, Backend (Lakehouse Infra)",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/8013442003",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "affirm:::senior staff software engineer backend cards": {
+      "company": "Affirm",
+      "title": "Senior Staff Software Engineer, Backend (Cards)",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/8015279003",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "datadog:::manager ll engineering datadog agent sdlc": {
+      "company": "Datadog",
+      "title": "Manager ll, Engineering - Datadog Agent SDLC",
+      "url": "https://careers.datadoghq.com/detail/8261861/?gh_jid=8261861",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "datadog:::research manager post training for agents": {
+      "company": "Datadog",
+      "title": "Research Manager - Post-Training for Agents",
+      "url": "https://careers.datadoghq.com/detail/8279173/?gh_jid=8279173",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "datadog:::senior software engineer distributed systems continuous profiler": {
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Distributed Systems (Continuous Profiler)",
+      "url": "https://careers.datadoghq.com/detail/8278276/?gh_jid=8278276",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::accelerations programs intern": {
+      "company": "Coinbase",
+      "title": "Accelerations Programs Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175363?gh_jid=8175363",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::accounting intern": {
+      "company": "Coinbase",
+      "title": "Accounting Intern",
+      "url": "https://www.coinbase.com/careers/positions/8173991?gh_jid=8173991",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::business controller intern": {
+      "company": "Coinbase",
+      "title": "Business Controller Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175366?gh_jid=8175366",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::communications manager policy public affairs": {
+      "company": "Coinbase",
+      "title": "Communications Manager, Policy & Public Affairs",
+      "url": "https://www.coinbase.com/careers/positions/7746572?gh_jid=7746572",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::compliance international investigations associate": {
+      "company": "Coinbase",
+      "title": "Compliance, International Investigations Associate",
+      "url": "https://www.coinbase.com/careers/positions/8224726?gh_jid=8224726",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::credit risk intern": {
+      "company": "Coinbase",
+      "title": "Credit Risk Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175369?gh_jid=8175369",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::crypto inventory operations intern": {
+      "company": "Coinbase",
+      "title": "Crypto Inventory Operations Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175435?gh_jid=8175435",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::data engineer intern": {
+      "company": "Coinbase",
+      "title": "Data Engineer Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::employee and workplace experience intern": {
+      "company": "Coinbase",
+      "title": "Employee and Workplace Experience Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175429?gh_jid=8175429",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::forward deployed engineer compliance office of the cto": {
+      "company": "Coinbase",
+      "title": "Forward Deployed Engineer, Compliance [Office of the CTO]",
+      "url": "https://www.coinbase.com/careers/positions/8099099?gh_jid=8099099",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::forward deployed engineer finance office of the cto": {
+      "company": "Coinbase",
+      "title": "Forward Deployed Engineer, Finance [Office of the CTO]",
+      "url": "https://www.coinbase.com/careers/positions/8072932?gh_jid=8072932",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::forward deployed engineer legal office of the cto": {
+      "company": "Coinbase",
+      "title": "Forward Deployed Engineer, Legal [Office of the CTO]",
+      "url": "https://www.coinbase.com/careers/positions/8060884?gh_jid=8060884",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::internal audit analytics intern": {
+      "company": "Coinbase",
+      "title": "Internal Audit Analytics Intern",
+      "url": "https://www.coinbase.com/careers/positions/8221238?gh_jid=8221238",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::internal audit intern": {
+      "company": "Coinbase",
+      "title": "Internal Audit Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175432?gh_jid=8175432",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::internal audit senior associate operations compliance": {
+      "company": "Coinbase",
+      "title": "Internal Audit Senior Associate, Operations & Compliance",
+      "url": "https://www.coinbase.com/careers/positions/8114684?gh_jid=8114684",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::internal communications manager": {
+      "company": "Coinbase",
+      "title": "Internal Communications Manager",
+      "url": "https://www.coinbase.com/careers/positions/8162911?gh_jid=8162911",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::learning development intern": {
+      "company": "Coinbase",
+      "title": "Learning & Development Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175514?gh_jid=8175514",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::machine learning engineer intern": {
+      "company": "Coinbase",
+      "title": "Machine Learning Engineer Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175441?gh_jid=8175441",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::operations senior associate": {
+      "company": "Coinbase",
+      "title": "Operations Senior Associate",
+      "url": "https://www.coinbase.com/careers/positions/8013718?gh_jid=8013718",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::payment risk intern": {
+      "company": "Coinbase",
+      "title": "Payment Risk Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175447?gh_jid=8175447",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::product design intern": {
+      "company": "Coinbase",
+      "title": "Product Design Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175339?gh_jid=8175339",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::real estate builds intern": {
+      "company": "Coinbase",
+      "title": "Real Estate & Builds Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175507?gh_jid=8175507",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior associate business development": {
+      "company": "Coinbase",
+      "title": "Senior Associate, Business Development",
+      "url": "https://www.coinbase.com/careers/positions/8070386?gh_jid=8070386",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior associate fcm": {
+      "company": "Coinbase",
+      "title": "Senior Associate, FCM",
+      "url": "https://www.coinbase.com/careers/positions/8060577?gh_jid=8060577",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior engineering manager core ai automation platform": {
+      "company": "Coinbase",
+      "title": "Senior Engineering Manager, Core AI Automation (Platform)",
+      "url": "https://www.coinbase.com/careers/positions/8124224?gh_jid=8124224",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior infrastructure engineer trading": {
+      "company": "Coinbase",
+      "title": "Senior Infrastructure Engineer, Trading",
+      "url": "https://www.coinbase.com/careers/positions/8179114?gh_jid=8179114",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior internal communications manager people": {
+      "company": "Coinbase",
+      "title": "Senior Internal Communications Manager, People",
+      "url": "https://www.coinbase.com/careers/positions/8162914?gh_jid=8162914",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior machine learning platform engineer identity": {
+      "company": "Coinbase",
+      "title": "Senior Machine Learning Platform Engineer - Identity",
+      "url": "https://www.coinbase.com/careers/positions/8211490?gh_jid=8211490",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior market data engineer": {
+      "company": "Coinbase",
+      "title": "Senior Market Data Engineer",
+      "url": "https://www.coinbase.com/careers/positions/8180833?gh_jid=8180833",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior network engineer": {
+      "company": "Coinbase",
+      "title": "Senior Network Engineer",
+      "url": "https://www.coinbase.com/careers/positions/8179311?gh_jid=8179311",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior software engineer access authorization platform": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer - Access & Authorization (Platform)",
+      "url": "https://www.coinbase.com/careers/positions/8146039?gh_jid=8146039",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior software engineer agent verification": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Agent Verification",
+      "url": "https://www.coinbase.com/careers/positions/8174949?gh_jid=8174949",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior software engineer blockchain network": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer- Blockchain Network",
+      "url": "https://www.coinbase.com/careers/positions/8094196?gh_jid=8094196",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior software engineer blockchain platform wallets liquidity bridging": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer- Blockchain Platform (Wallets, Liquidity & Bridging)",
+      "url": "https://www.coinbase.com/careers/positions/8204215?gh_jid=8204215",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior software engineer core infra systems": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Core Infra Systems",
+      "url": "https://www.coinbase.com/careers/positions/8172100?gh_jid=8172100",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior software engineer core reliability": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Core Reliability",
+      "url": "https://www.coinbase.com/careers/positions/8097944?gh_jid=8097944",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior software engineer data platform": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer - Data Platform",
+      "url": "https://www.coinbase.com/careers/positions/7812407?gh_jid=7812407",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior software engineer developer infrastructure": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Developer Infrastructure",
+      "url": "https://www.coinbase.com/careers/positions/7964398?gh_jid=7964398",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior software engineer frontend coinbase card team": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer - Frontend - Coinbase Card team",
+      "url": "https://www.coinbase.com/careers/positions/8088201?gh_jid=8088201",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior software engineer frontend consumer payments": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Frontend (Consumer - Payments)",
+      "url": "https://www.coinbase.com/careers/positions/8029035?gh_jid=8029035",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior software engineer frontend platform identity": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Frontend (Platform - Identity)",
+      "url": "https://www.coinbase.com/careers/positions/8165015?gh_jid=8165015",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior software engineer simple trade experience": {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Simple Trade Experience",
+      "url": "https://www.coinbase.com/careers/positions/8103569?gh_jid=8103569",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior staff software engineer blockchain platform": {
+      "company": "Coinbase",
+      "title": "Senior Staff Software Engineer - Blockchain Platform",
+      "url": "https://www.coinbase.com/careers/positions/7366208?gh_jid=7366208",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior staff software engineer core automation": {
+      "company": "Coinbase",
+      "title": "Senior Staff Software Engineer, Core Automation",
+      "url": "https://www.coinbase.com/careers/positions/7580292?gh_jid=7580292",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior staff software engineer data platform": {
+      "company": "Coinbase",
+      "title": "Senior Staff Software Engineer, Data Platform",
+      "url": "https://www.coinbase.com/careers/positions/7711287?gh_jid=7711287",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior staff software engineer institutional exchange": {
+      "company": "Coinbase",
+      "title": "Senior Staff Software Engineer, Institutional Exchange",
+      "url": "https://www.coinbase.com/careers/positions/8179210?gh_jid=8179210",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior staff software engineer platform iam": {
+      "company": "Coinbase",
+      "title": "Senior Staff Software Engineer, Platform - IAM",
+      "url": "https://www.coinbase.com/careers/positions/8155366?gh_jid=8155366",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::senior threat intelligence engineer": {
+      "company": "Coinbase",
+      "title": "Senior Threat Intelligence Engineer",
+      "url": "https://www.coinbase.com/careers/positions/8209803?gh_jid=8209803",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::software engineer blockchain platform nodes": {
+      "company": "Coinbase",
+      "title": "Software Engineer, Blockchain Platform Nodes",
+      "url": "https://www.coinbase.com/careers/positions/8105437?gh_jid=8105437",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::software engineer cdp payment acceptance": {
+      "company": "Coinbase",
+      "title": "Software Engineer, CDP - Payment Acceptance",
+      "url": "https://www.coinbase.com/careers/positions/8164730?gh_jid=8164730",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::software engineer enterprise apps": {
+      "company": "Coinbase",
+      "title": "Software Engineer, Enterprise Apps",
+      "url": "https://www.coinbase.com/careers/positions/8279479?gh_jid=8279479",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::software engineer security platform": {
+      "company": "Coinbase",
+      "title": "Software Engineer, Security Platform",
+      "url": "https://www.coinbase.com/careers/positions/8165441?gh_jid=8165441",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::sr staff technical architect unified trading": {
+      "company": "Coinbase",
+      "title": "Sr. Staff Technical Architect, Unified Trading",
+      "url": "https://www.coinbase.com/careers/positions/8144772?gh_jid=8144772",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::sr staff technical risk architect unified trading": {
+      "company": "Coinbase",
+      "title": "Sr. Staff Technical Risk Architect, Unified Trading",
+      "url": "https://www.coinbase.com/careers/positions/8144776?gh_jid=8144776",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::staff data engineer market data": {
+      "company": "Coinbase",
+      "title": "Staff Data Engineer, Market Data",
+      "url": "https://www.coinbase.com/careers/positions/8144836?gh_jid=8144836",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::staff infrastructure engineer trading": {
+      "company": "Coinbase",
+      "title": "Staff Infrastructure Engineer, Trading",
+      "url": "https://www.coinbase.com/careers/positions/8144769?gh_jid=8144769",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::staff software engineer compute platform routing": {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Compute Platform (Routing)",
+      "url": "https://www.coinbase.com/careers/positions/8160557?gh_jid=8160557",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::staff software engineer developer infrastructure test infrastructure": {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Developer Infrastructure (Test Infrastructure)",
+      "url": "https://www.coinbase.com/careers/positions/7964410?gh_jid=7964410",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::staff software engineer frontend consumer advanced trading": {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Frontend (Consumer - Advanced Trading)",
+      "url": "https://www.coinbase.com/careers/positions/7629141?gh_jid=7629141",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::staff software engineer platform access authorization": {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer (Platform - Access & Authorization)",
+      "url": "https://www.coinbase.com/careers/positions/8114877?gh_jid=8114877",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::staff software engineer platform identity idv": {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer (Platform - Identity IDV)",
+      "url": "https://www.coinbase.com/careers/positions/7773776?gh_jid=7773776",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::staff software engineer security platform": {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Security Platform",
+      "url": "https://www.coinbase.com/careers/positions/8167571?gh_jid=8167571",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::strategic finance intern": {
+      "company": "Coinbase",
+      "title": "Strategic Finance Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175438?gh_jid=8175438",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::tax information reporting intern": {
+      "company": "Coinbase",
+      "title": "Tax Information Reporting Intern",
+      "url": "https://www.coinbase.com/careers/positions/8221241?gh_jid=8221241",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::tax operations intern": {
+      "company": "Coinbase",
+      "title": "Tax Operations Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175453?gh_jid=8175453",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::threat intelligence platform engineer": {
+      "company": "Coinbase",
+      "title": "Threat Intelligence Platform Engineer",
+      "url": "https://www.coinbase.com/careers/positions/8177619?gh_jid=8177619",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coinbase:::user research intern": {
+      "company": "Coinbase",
+      "title": "User Research Intern",
+      "url": "https://www.coinbase.com/careers/positions/8175360?gh_jid=8175360",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "spotify:::security engineer enterprise security platform": {
+      "company": "Spotify",
+      "title": "Security Engineer - Enterprise Security Platform",
+      "url": "https://jobs.lever.co/spotify/234ec969-a406-4956-8d85-365b9053ccf5",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "perplexity:::technical recruiter ai": {
+      "company": "Perplexity",
+      "title": "Technical Recruiter, AI",
+      "url": "https://jobs.ashbyhq.com/perplexity/ef269656-94ef-463a-ae0e-6102ca3a94dd",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "modal:::gtm engineer data platform": {
+      "company": "Modal",
+      "title": "GTM Engineer - Data Platform",
+      "url": "https://jobs.ashbyhq.com/modal/dd6fe63b-8265-474e-b1f0-fcc1c5a28daf",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "cohere:::forward deployed engineer agentic platform korea": {
+      "company": "Cohere",
+      "title": "Forward Deployed Engineer, Agentic Platform (Korea)",
+      "url": "https://jobs.ashbyhq.com/cohere/031c2335-db85-4265-8a88-a54b911be36a",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "cohere:::senior full stack engineer cohere dashboard": {
+      "company": "Cohere",
+      "title": "Senior Full-Stack Engineer, Cohere Dashboard",
+      "url": "https://jobs.ashbyhq.com/cohere/7e0e08ed-4b12-4aaa-8dda-ad6292992061",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "postera yc w20:::ai researchers for drug discovery": {
+      "company": "PostEra (YC W20)",
+      "title": "AI Researchers for Drug Discovery",
+      "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "coris yc s22:::back end engineer": {
+      "company": "Coris (YC S22)",
+      "title": "Back End Engineer",
+      "url": "https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "policyme:::junior software engineer": {
+      "company": "PolicyMe",
+      "title": "Junior Software Engineer",
+      "url": "https://jobicy.com/jobs/153164-junior-software-engineer-2",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "veriff:::senior software engineer trust": {
+      "company": "Veriff",
+      "title": "Senior Software Engineer (Trust)",
+      "url": "https://jobicy.com/jobs/153163-senior-software-engineer-trust",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "oowlish technology:::senior ios engineer swift aws": {
+      "company": "Oowlish Technology",
+      "title": "Senior iOS Engineer (Swift & AWS)",
+      "url": "https://jobicy.com/jobs/155230-senior-ios-engineer-swift-aws",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "oowlish technology:::senior software engineer full stack node js react ai focus": {
+      "company": "Oowlish Technology",
+      "title": "Senior Software Engineer (Full Stack | Node.js & React | AI Focus)",
+      "url": "https://jobicy.com/jobs/155233-senior-software-engineer-full-stack-node-js-react-ai-focus",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "fueled:::full stack web engineer": {
+      "company": "Fueled",
+      "title": "Full Stack Web Engineer",
+      "url": "https://jobicy.com/jobs/155231-full-stack-web-engineer",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "docplanner:::junior software engineer early career strong problem solving coding focus 100 remote within spain": {
+      "company": "Docplanner",
+      "title": "Junior Software Engineer – Early Career (Strong Problem solving & Coding Focus) - 100% Remote within Spain",
+      "url": "https://jobicy.com/jobs/155228-junior-software-engineer-early-career-strong-problem-solving-coding-focus-100-remote-within-spain-2",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "findev:::senior c engineer": {
+      "company": "Findev",
+      "title": "Senior C++ Engineer",
+      "url": "https://jobicy.com/jobs/155221-senior-c-engineer",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "solace:::senior backend engineer": {
+      "company": "Solace",
+      "title": "Senior Backend Engineer",
+      "url": "https://jobicy.com/jobs/155200-senior-backend-engineer-10",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "solace:::staff software engineer": {
+      "company": "Solace",
+      "title": "Staff Software Engineer",
+      "url": "https://jobicy.com/jobs/155199-staff-software-engineer-8",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "solace:::technical lead engineering": {
+      "company": "Solace",
+      "title": "Technical Lead (Engineering)",
+      "url": "https://jobicy.com/jobs/155201-technical-lead-engineering",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "solace:::senior full stack engineer": {
+      "company": "Solace",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://jobicy.com/jobs/155195-senior-full-stack-engineer-7",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "truelogic:::lead front end engineer javascript digital agency buenos aires argentina": {
+      "company": "Truelogic",
+      "title": "Lead Front-end Engineer (Javascript) - Digital Agency - Buenos Aires, Argentina.",
+      "url": "https://jobicy.com/jobs/155191-lead-front-end-engineer-javascript-digital-agency-buenos-aires-argentina",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "mural:::senior software engineer admin iam": {
+      "company": "Mural",
+      "title": "Senior Software Engineer, Admin & IAM",
+      "url": "https://jobicy.com/jobs/155185-senior-software-engineer-admin-iam",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "able:::senior software engineer full stack javascript": {
+      "company": "Able",
+      "title": "Senior Software Engineer (Full-Stack, JavaScript)",
+      "url": "https://jobicy.com/jobs/155186-senior-software-engineer-full-stack-javascript",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "cresta:::senior forward deployed engineer ai agent": {
+      "company": "Cresta",
+      "title": "Senior Forward Deployed Engineer (AI Agent)",
+      "url": "https://jobicy.com/jobs/155182-senior-forward-deployed-engineer-ai-agent",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "smartsheet:::sr forward deployed ai engineer remote eligible in the uk": {
+      "company": "Smartsheet",
+      "title": "Sr. Forward Deployed AI Engineer (Remote Eligible in the UK)",
+      "url": "https://jobicy.com/jobs/155167-sr-forward-deployed-ai-engineer-remote-eligible-in-the-uk",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "smartsheet:::sr software engineer remote eligible from bulgaria": {
+      "company": "Smartsheet",
+      "title": "Sr. Software Engineer (Remote Eligible from Bulgaria)",
+      "url": "https://jobicy.com/jobs/155172-sr-software-engineer-remote-eligible-from-bulgaria",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "eoxs:::software engineer intern python odoo freshers": {
+      "company": "EOXS",
+      "title": "Software Engineer Intern – Python / Odoo (Freshers)",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-intern-%E2%80%93-python-odoo-freshers-at-eoxs-4478163112",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
+    },
+    "kasparro ai:::full stack engineer intern pathway": {
+      "company": "Kasparro AI",
+      "title": "Full Stack Engineer Intern Pathway",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-intern-pathway-at-kasparro-ai-4476417831",
+      "last_sent": "2026-10-14T06:31:29.734073+00:00",
+      "first_seen": "2026-10-14T06:31:29.734073+00:00"
     }
   }
 }
