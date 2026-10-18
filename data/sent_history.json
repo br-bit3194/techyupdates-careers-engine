@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_updated": "2026-10-17T05:57:34.409152+00:00",
-  "total_sent_urls": 4148,
-  "total_sent_keys": 4138,
+  "last_updated": "2026-10-18T06:20:44.618470+00:00",
+  "total_sent_urls": 4191,
+  "total_sent_keys": 4181,
   "sent_urls": {
     "https://job-boards.greenhouse.io/anthropic/jobs/5382518008": {
       "company": "Anthropic",
@@ -29039,6 +29039,307 @@
       "url": "https://in.linkedin.com/jobs/view/software-engineer-iii-full-stack-python-and-react-at-jpmorganchase-4480396822",
       "last_sent": "2026-10-17T05:57:34.409152+00:00",
       "first_seen": "2026-10-17T05:57:34.409152+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=7006090002": {
+      "company": "Databricks",
+      "title": "Engineering Manager - Core Experiences",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7006090002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=7495457002": {
+      "company": "Databricks",
+      "title": "Senior Engineering Manager - Backend",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7495457002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=7934782002": {
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Ingestion",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7934782002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=8602402002": {
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Multi Cloud Efficiency",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8602402002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=8421894002": {
+      "company": "Databricks",
+      "title": "Senior Staff Software Engineer - Backend",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8421894002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=8433583002": {
+      "company": "Databricks",
+      "title": "Senior Staff Software Engineer- Networking",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8433583002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=7601565002": {
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Databases",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7601565002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=7652016002": {
+      "company": "Databricks",
+      "title": "Staff Software Engineer (Data Platform)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7652016002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=8200692002": {
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Ingestion",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8200692002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://www.artie.com/careers": {
+      "company": "Artie (YC S23)",
+      "title": "Enterprise AES and Senior Engineers",
+      "url": "https://www.artie.com/careers",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://jobicy.com/jobs/155603-engineering-manager-supportx-2": {
+      "company": "SeatGeek",
+      "title": "Engineering Manager, SupportX",
+      "url": "https://jobicy.com/jobs/155603-engineering-manager-supportx-2",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://jobicy.com/jobs/155600-senior-backend-engineer-booking-integrations-contract": {
+      "company": "Aescape",
+      "title": "Senior Backend Engineer (Booking Integrations, Contract)",
+      "url": "https://jobicy.com/jobs/155600-senior-backend-engineer-booking-integrations-contract",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://jobicy.com/jobs/155587-engineering-director-eu": {
+      "company": "Monzo",
+      "title": "Engineering Director, EU",
+      "url": "https://jobicy.com/jobs/155587-engineering-director-eu",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://jobicy.com/jobs/155579-ai-engineer-4-day-week-remote": {
+      "company": "Laminar Projects",
+      "title": "AI Engineer - 4 Day Week + Remote",
+      "url": "https://jobicy.com/jobs/155579-ai-engineer-4-day-week-remote",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://jobicy.com/jobs/155575-power-platform-developer": {
+      "company": "Oddball",
+      "title": "Power Platform Developer",
+      "url": "https://jobicy.com/jobs/155575-power-platform-developer",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://jobicy.com/jobs/155572-full-stack-engineer-6": {
+      "company": "Oddball",
+      "title": "Full Stack Engineer",
+      "url": "https://jobicy.com/jobs/155572-full-stack-engineer-6",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://jobicy.com/jobs/155565-1140-lead-developer-architect-web3": {
+      "company": "GoFasti",
+      "title": "Lead Developer / Architect Web3",
+      "url": "https://jobicy.com/jobs/155565-1140-lead-developer-architect-web3",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/software-developer-intern-at-company-avenue-advisory-pvt-ltd-4479687117": {
+      "company": "Company Avenue Advisory Pvt.Ltd.",
+      "title": "Software Developer Intern",
+      "url": "https://in.linkedin.com/jobs/view/software-developer-intern-at-company-avenue-advisory-pvt-ltd-4479687117",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-development-internship-in-mumbai-at-quick-alert-ai-4480876166": {
+      "company": "Quick Alert Ai",
+      "title": "Full Stack Development Internship in Mumbai",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-development-internship-in-mumbai-at-quick-alert-ai-4480876166",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/junior-full-stack-engineer-at-servqual-security-4480823799": {
+      "company": "ServQual - Security",
+      "title": "Junior Full Stack Engineer",
+      "url": "https://in.linkedin.com/jobs/view/junior-full-stack-engineer-at-servqual-security-4480823799",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-developer-internship-in-navi-mumbai-at-envision-next-4480858760": {
+      "company": "Envision Next",
+      "title": "Full Stack Developer Internship in Navi Mumbai",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-internship-in-navi-mumbai-at-envision-next-4480858760",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/mern-stack-development-intern-at-unified-mentor-private-limited-4479900159": {
+      "company": "Unified Mentor Private Limited",
+      "title": "MERN STACK DEVELOPMENT INTERN",
+      "url": "https://in.linkedin.com/jobs/view/mern-stack-development-intern-at-unified-mentor-private-limited-4479900159",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://www.linkedin.com/jobs/view/software-engineer-intern-summer-2027-at-motorola-solutions-4472081272": {
+      "company": "Motorola Solutions",
+      "title": "Software Engineer Intern - Summer 2027",
+      "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-summer-2027-at-motorola-solutions-4472081272",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://ca.linkedin.com/jobs/view/software-developer-co-op-hyperconverged-solutions-winter-term-january-april-2027-at-ross-video-4470751661": {
+      "company": "Ross Video",
+      "title": "Software Developer Co-op - Hyperconverged Solutions (Winter Term - January - April 2027)",
+      "url": "https://ca.linkedin.com/jobs/view/software-developer-co-op-hyperconverged-solutions-winter-term-january-april-2027-at-ross-video-4470751661",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://sg.linkedin.com/jobs/view/intern-software-development-engineer-pset-product-data-%C2%A0-document-management-at-autodesk-4470301153": {
+      "company": "Autodesk",
+      "title": "Intern, Software Development Engineer [PSET - Product Data - Document Management]",
+      "url": "https://sg.linkedin.com/jobs/view/intern-software-development-engineer-pset-product-data-%C2%A0-document-management-at-autodesk-4470301153",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://www.linkedin.com/jobs/view/software-engineering-intern-connected-systems-january-august-2027-at-rivian-and-volkswagen-group-technologies-4462361373": {
+      "company": "Rivian and Volkswagen Group Technologies",
+      "title": "Software Engineering Intern - Connected Systems (January - August 2027)",
+      "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-connected-systems-january-august-2027-at-rivian-and-volkswagen-group-technologies-4462361373",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://www.linkedin.com/jobs/view/software-engineer-intern-summer-2027-at-mckesson-4463145050": {
+      "company": "McKesson",
+      "title": "Software Engineer Intern - Summer 2027",
+      "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-summer-2027-at-mckesson-4463145050",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://ca.linkedin.com/jobs/view/software-engineering-intern-applications-infotainment-mobile-january-august-2027-at-rivian-and-volkswagen-group-technologies-4461193718": {
+      "company": "Rivian and Volkswagen Group Technologies",
+      "title": "Software Engineering Intern - Applications, Infotainment & Mobile (January - August 2027)",
+      "url": "https://ca.linkedin.com/jobs/view/software-engineering-intern-applications-infotainment-mobile-january-august-2027-at-rivian-and-volkswagen-group-technologies-4461193718",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-at-esteril-process-solutions-4433159401": {
+      "company": "Esteril Process Solutions",
+      "title": "Graduate Engineer Trainee",
+      "url": "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-at-esteril-process-solutions-4433159401",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/leadership-development-program-integrated-supply-chain-at-famu-national-alumni-association-4480867630": {
+      "company": "FAMU National Alumni Association",
+      "title": "Leadership Development Program - Integrated Supply Chain",
+      "url": "https://in.linkedin.com/jobs/view/leadership-development-program-integrated-supply-chain-at-famu-national-alumni-association-4480867630",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/trainee-e-m-at-adani-airport-holdings-ltd-4479673260": {
+      "company": "Adani Airport Holdings Ltd",
+      "title": "Trainee - E&M",
+      "url": "https://in.linkedin.com/jobs/view/trainee-e-m-at-adani-airport-holdings-ltd-4479673260",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/engineer-electrical-instrumentation-at-ingersoll-rand-compressor-systems-services-4479689196": {
+      "company": "Ingersoll Rand Compressor Systems & Services",
+      "title": "Engineer -Electrical & Instrumentation",
+      "url": "https://in.linkedin.com/jobs/view/engineer-electrical-instrumentation-at-ingersoll-rand-compressor-systems-services-4479689196",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/graduate-electronics-engineer-at-qbyss-4479665597": {
+      "company": "QBYSS",
+      "title": "Graduate Electronics Engineer",
+      "url": "https://in.linkedin.com/jobs/view/graduate-electronics-engineer-at-qbyss-4479665597",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/apprentice-it-development-program-at-eaton-4477780427": {
+      "company": "Eaton",
+      "title": "Apprentice. IT. Development Program",
+      "url": "https://in.linkedin.com/jobs/view/apprentice-it-development-program-at-eaton-4477780427",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/graduate-electrical-engineer-at-qbyss-4479670507": {
+      "company": "QBYSS",
+      "title": "Graduate Electrical Engineer",
+      "url": "https://in.linkedin.com/jobs/view/graduate-electrical-engineer-at-qbyss-4479670507",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/technical-service-engineer-4479676251": {
+      "company": "Mefirst",
+      "title": "Technical Service Engineer",
+      "url": "https://in.linkedin.com/jobs/view/technical-service-engineer-4479676251",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/junior-golang-developer-with-react-at-ncr-voyix-4468608643": {
+      "company": "NCR Voyix",
+      "title": "Junior Golang Developer with React",
+      "url": "https://in.linkedin.com/jobs/view/junior-golang-developer-with-react-at-ncr-voyix-4468608643",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/associate-software-engineer-at-bigcashweb-4479922171": {
+      "company": "BigCashWeb",
+      "title": "Associate Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-bigcashweb-4479922171",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/associate-professional-software-engineering-at-cargill-4477762742": {
+      "company": "Cargill",
+      "title": "Associate Professional, Software Engineering",
+      "url": "https://in.linkedin.com/jobs/view/associate-professional-software-engineering-at-cargill-4477762742",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/assoc-specialist-application-developer-technology-at-dbs-bank-4480823740": {
+      "company": "DBS Bank",
+      "title": "ASSOC, Specialist, Application Developer, Technology",
+      "url": "https://in.linkedin.com/jobs/view/assoc-specialist-application-developer-technology-at-dbs-bank-4480823740",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/full-stack-engineer-at-mvaak-4477354806": {
+      "company": "Mvaak",
+      "title": "Full Stack Engineer",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-at-mvaak-4477354806",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/application-developer-at-echo-media-productions-4479692734": {
+      "company": "Echo Media Productions",
+      "title": "Application Developer",
+      "url": "https://in.linkedin.com/jobs/view/application-developer-at-echo-media-productions-4479692734",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "https://in.linkedin.com/jobs/view/junior-full-stack-developer-at-crewlia-4479903768": {
+      "company": "crewlia",
+      "title": "Junior Full-Stack Developer",
+      "url": "https://in.linkedin.com/jobs/view/junior-full-stack-developer-at-crewlia-4479903768",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
     }
   },
   "sent_keys": {
@@ -58007,6 +58308,307 @@
       "url": "https://in.linkedin.com/jobs/view/software-engineer-iii-full-stack-python-and-react-at-jpmorganchase-4480396822",
       "last_sent": "2026-10-17T05:57:34.409152+00:00",
       "first_seen": "2026-10-17T05:57:34.409152+00:00"
+    },
+    "databricks:::engineering manager core experiences": {
+      "company": "Databricks",
+      "title": "Engineering Manager - Core Experiences",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7006090002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "databricks:::senior engineering manager backend": {
+      "company": "Databricks",
+      "title": "Senior Engineering Manager - Backend",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7495457002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "databricks:::senior software engineer ingestion": {
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Ingestion",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7934782002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "databricks:::senior software engineer multi cloud efficiency": {
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Multi Cloud Efficiency",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8602402002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "databricks:::senior staff software engineer backend": {
+      "company": "Databricks",
+      "title": "Senior Staff Software Engineer - Backend",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8421894002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "databricks:::senior staff software engineer networking": {
+      "company": "Databricks",
+      "title": "Senior Staff Software Engineer- Networking",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8433583002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "databricks:::staff software engineer databases": {
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Databases",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7601565002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "databricks:::staff software engineer data platform": {
+      "company": "Databricks",
+      "title": "Staff Software Engineer (Data Platform)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7652016002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "databricks:::staff software engineer ingestion": {
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Ingestion",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8200692002",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "artie yc s23:::enterprise aes and senior engineers": {
+      "company": "Artie (YC S23)",
+      "title": "Enterprise AES and Senior Engineers",
+      "url": "https://www.artie.com/careers",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "seatgeek:::engineering manager supportx": {
+      "company": "SeatGeek",
+      "title": "Engineering Manager, SupportX",
+      "url": "https://jobicy.com/jobs/155603-engineering-manager-supportx-2",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "aescape:::senior backend engineer booking integrations contract": {
+      "company": "Aescape",
+      "title": "Senior Backend Engineer (Booking Integrations, Contract)",
+      "url": "https://jobicy.com/jobs/155600-senior-backend-engineer-booking-integrations-contract",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "monzo:::engineering director eu": {
+      "company": "Monzo",
+      "title": "Engineering Director, EU",
+      "url": "https://jobicy.com/jobs/155587-engineering-director-eu",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "laminar projects:::ai engineer 4 day week remote": {
+      "company": "Laminar Projects",
+      "title": "AI Engineer - 4 Day Week + Remote",
+      "url": "https://jobicy.com/jobs/155579-ai-engineer-4-day-week-remote",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "oddball:::power platform developer": {
+      "company": "Oddball",
+      "title": "Power Platform Developer",
+      "url": "https://jobicy.com/jobs/155575-power-platform-developer",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "oddball:::full stack engineer": {
+      "company": "Oddball",
+      "title": "Full Stack Engineer",
+      "url": "https://jobicy.com/jobs/155572-full-stack-engineer-6",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "gofasti:::lead developer architect web3": {
+      "company": "GoFasti",
+      "title": "Lead Developer / Architect Web3",
+      "url": "https://jobicy.com/jobs/155565-1140-lead-developer-architect-web3",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "company avenue advisory:::software developer intern": {
+      "company": "Company Avenue Advisory Pvt.Ltd.",
+      "title": "Software Developer Intern",
+      "url": "https://in.linkedin.com/jobs/view/software-developer-intern-at-company-avenue-advisory-pvt-ltd-4479687117",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "quick alert ai:::full stack development internship in mumbai": {
+      "company": "Quick Alert Ai",
+      "title": "Full Stack Development Internship in Mumbai",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-development-internship-in-mumbai-at-quick-alert-ai-4480876166",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "servqual security:::junior full stack engineer": {
+      "company": "ServQual - Security",
+      "title": "Junior Full Stack Engineer",
+      "url": "https://in.linkedin.com/jobs/view/junior-full-stack-engineer-at-servqual-security-4480823799",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "envision next:::full stack developer internship in navi mumbai": {
+      "company": "Envision Next",
+      "title": "Full Stack Developer Internship in Navi Mumbai",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-internship-in-navi-mumbai-at-envision-next-4480858760",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "unified mentor:::mern stack development intern": {
+      "company": "Unified Mentor Private Limited",
+      "title": "MERN STACK DEVELOPMENT INTERN",
+      "url": "https://in.linkedin.com/jobs/view/mern-stack-development-intern-at-unified-mentor-private-limited-4479900159",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "motorola:::software engineer intern summer 2027": {
+      "company": "Motorola Solutions",
+      "title": "Software Engineer Intern - Summer 2027",
+      "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-summer-2027-at-motorola-solutions-4472081272",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "ross video:::software developer co op hyperconverged solutions winter term january april 2027": {
+      "company": "Ross Video",
+      "title": "Software Developer Co-op - Hyperconverged Solutions (Winter Term - January - April 2027)",
+      "url": "https://ca.linkedin.com/jobs/view/software-developer-co-op-hyperconverged-solutions-winter-term-january-april-2027-at-ross-video-4470751661",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "autodesk:::intern software development engineer pset product data document management": {
+      "company": "Autodesk",
+      "title": "Intern, Software Development Engineer [PSET - Product Data - Document Management]",
+      "url": "https://sg.linkedin.com/jobs/view/intern-software-development-engineer-pset-product-data-%C2%A0-document-management-at-autodesk-4470301153",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "rivian and volkswagen:::software engineering intern connected systems january august 2027": {
+      "company": "Rivian and Volkswagen Group Technologies",
+      "title": "Software Engineering Intern - Connected Systems (January - August 2027)",
+      "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-connected-systems-january-august-2027-at-rivian-and-volkswagen-group-technologies-4462361373",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "mckesson:::software engineer intern summer 2027": {
+      "company": "McKesson",
+      "title": "Software Engineer Intern - Summer 2027",
+      "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-summer-2027-at-mckesson-4463145050",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "rivian and volkswagen:::software engineering intern applications infotainment mobile january august 2027": {
+      "company": "Rivian and Volkswagen Group Technologies",
+      "title": "Software Engineering Intern - Applications, Infotainment & Mobile (January - August 2027)",
+      "url": "https://ca.linkedin.com/jobs/view/software-engineering-intern-applications-infotainment-mobile-january-august-2027-at-rivian-and-volkswagen-group-technologies-4461193718",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "esteril process:::graduate engineer trainee": {
+      "company": "Esteril Process Solutions",
+      "title": "Graduate Engineer Trainee",
+      "url": "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-at-esteril-process-solutions-4433159401",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "famu national alumni association:::leadership development program integrated supply chain": {
+      "company": "FAMU National Alumni Association",
+      "title": "Leadership Development Program - Integrated Supply Chain",
+      "url": "https://in.linkedin.com/jobs/view/leadership-development-program-integrated-supply-chain-at-famu-national-alumni-association-4480867630",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "adani airport:::trainee e m": {
+      "company": "Adani Airport Holdings Ltd",
+      "title": "Trainee - E&M",
+      "url": "https://in.linkedin.com/jobs/view/trainee-e-m-at-adani-airport-holdings-ltd-4479673260",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "ingersoll rand compressor systems:::engineer electrical instrumentation": {
+      "company": "Ingersoll Rand Compressor Systems & Services",
+      "title": "Engineer -Electrical & Instrumentation",
+      "url": "https://in.linkedin.com/jobs/view/engineer-electrical-instrumentation-at-ingersoll-rand-compressor-systems-services-4479689196",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "qbyss:::graduate electronics engineer": {
+      "company": "QBYSS",
+      "title": "Graduate Electronics Engineer",
+      "url": "https://in.linkedin.com/jobs/view/graduate-electronics-engineer-at-qbyss-4479665597",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "eaton:::apprentice it development program": {
+      "company": "Eaton",
+      "title": "Apprentice. IT. Development Program",
+      "url": "https://in.linkedin.com/jobs/view/apprentice-it-development-program-at-eaton-4477780427",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "qbyss:::graduate electrical engineer": {
+      "company": "QBYSS",
+      "title": "Graduate Electrical Engineer",
+      "url": "https://in.linkedin.com/jobs/view/graduate-electrical-engineer-at-qbyss-4479670507",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "mefirst:::technical service engineer": {
+      "company": "Mefirst",
+      "title": "Technical Service Engineer",
+      "url": "https://in.linkedin.com/jobs/view/technical-service-engineer-4479676251",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "ncr voyix:::junior golang developer with react": {
+      "company": "NCR Voyix",
+      "title": "Junior Golang Developer with React",
+      "url": "https://in.linkedin.com/jobs/view/junior-golang-developer-with-react-at-ncr-voyix-4468608643",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "bigcashweb:::associate software engineer": {
+      "company": "BigCashWeb",
+      "title": "Associate Software Engineer",
+      "url": "https://in.linkedin.com/jobs/view/associate-software-engineer-at-bigcashweb-4479922171",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "cargill:::associate professional software engineering": {
+      "company": "Cargill",
+      "title": "Associate Professional, Software Engineering",
+      "url": "https://in.linkedin.com/jobs/view/associate-professional-software-engineering-at-cargill-4477762742",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "dbs bank:::assoc specialist application developer technology": {
+      "company": "DBS Bank",
+      "title": "ASSOC, Specialist, Application Developer, Technology",
+      "url": "https://in.linkedin.com/jobs/view/assoc-specialist-application-developer-technology-at-dbs-bank-4480823740",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "mvaak:::full stack engineer": {
+      "company": "Mvaak",
+      "title": "Full Stack Engineer",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-at-mvaak-4477354806",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "echo media productions:::application developer": {
+      "company": "Echo Media Productions",
+      "title": "Application Developer",
+      "url": "https://in.linkedin.com/jobs/view/application-developer-at-echo-media-productions-4479692734",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
+    },
+    "crewlia:::junior full stack developer": {
+      "company": "crewlia",
+      "title": "Junior Full-Stack Developer",
+      "url": "https://in.linkedin.com/jobs/view/junior-full-stack-developer-at-crewlia-4479903768",
+      "last_sent": "2026-10-18T06:20:44.618470+00:00",
+      "first_seen": "2026-10-18T06:20:44.618470+00:00"
     }
   }
 }
