@@ -2,6 +2,7 @@
 
 import os
 import io
+import re
 import logging
 from datetime import datetime, timezone
 from typing import List, Dict, Any, Optional
@@ -10,6 +11,14 @@ import httpx
 from services.ai_extractor import OpportunityRecord
 
 logger = logging.getLogger("nexus.telegram")
+
+
+def _escape_markdown(text: str) -> str:
+    """Escape special characters for Telegram legacy Markdown (*, _, `, [)."""
+    if not text:
+        return ""
+    # In legacy Markdown, escape _, *, `, [
+    return re.sub(r"([_*`\[\]])", r"\\\1", str(text))
 
 
 def generate_executive_caption(opportunities: List[OpportunityRecord]) -> str:
@@ -35,26 +44,37 @@ def generate_executive_caption(opportunities: List[OpportunityRecord]) -> str:
     c_senior = len(by_tier["Senior / Staff / Lead (5+ YOE)"])
     total = len(opportunities)
 
-    # Pick top highlight per tier
+    # Pick top highlight per tier with escaped markdown entities
     highlights = []
     if by_tier["Internship"]:
         top = by_tier["Internship"][0]
-        highlights.append(f"• 🎓 *{top.company_name}* — {top.job_title} ({top.location})")
+        cname = _escape_markdown(top.company_name)
+        jtitle = _escape_markdown(top.job_title)
+        loc = _escape_markdown(top.location)
+        highlights.append(f"• 🎓 *{cname}* — {jtitle} ({loc})")
 
     if by_tier["Fresher / 0-2 YOE"]:
         top = by_tier["Fresher / 0-2 YOE"][0]
-        sal = f" • {top.salary_package}" if top.salary_package and top.salary_package != "Not Disclosed" else ""
-        highlights.append(f"• 🌱 *{top.company_name}* — {top.job_title} ({top.location}{sal})")
+        cname = _escape_markdown(top.company_name)
+        jtitle = _escape_markdown(top.job_title)
+        loc = _escape_markdown(top.location)
+        sal = f" • {_escape_markdown(top.salary_package)}" if top.salary_package and top.salary_package != "Not Disclosed" else ""
+        highlights.append(f"• 🌱 *{cname}* — {jtitle} ({loc}{sal})")
 
     if by_tier["Mid-Level (2-5 YOE)"]:
         top = by_tier["Mid-Level (2-5 YOE)"][0]
+        cname = _escape_markdown(top.company_name)
+        jtitle = _escape_markdown(top.job_title)
         tech = ", ".join(top.core_tech_stack[:3])
-        tech_str = f" [{tech}]" if tech else ""
-        highlights.append(f"• 💻 *{top.company_name}* — {top.job_title}{tech_str}")
+        tech_str = f" [{_escape_markdown(tech)}]" if tech else ""
+        highlights.append(f"• 💻 *{cname}* — {jtitle}{tech_str}")
 
     if by_tier["Senior / Staff / Lead (5+ YOE)"]:
         top = by_tier["Senior / Staff / Lead (5+ YOE)"][0]
-        highlights.append(f"• 🚀 *{top.company_name}* — {top.job_title} ({top.technical_domain})")
+        cname = _escape_markdown(top.company_name)
+        jtitle = _escape_markdown(top.job_title)
+        dom = _escape_markdown(top.technical_domain)
+        highlights.append(f"• 🚀 *{cname}* — {jtitle} ({dom})")
 
     highlights_str = "\n".join(highlights) if highlights else "• Fresh verified roles curated in the sheet!"
 
@@ -129,18 +149,42 @@ async def dispatch_telegram_document(
 
     try:
         logger.info("  [Telegram] Uploading document '%s' (%.2f KB) to chat %s...", out_filename, len(file_bytes) / 1024, chat_id)
-        async with httpx.AsyncClient(timeout=30.0) as client:
+        async with httpx.AsyncClient(timeout=45.0) as client:
             resp = await client.post(api_url, data=data, files=files)
             if resp.status_code == 200:
                 resp_json = resp.json()
                 msg_id = resp_json.get("result", {}).get("message_id", "N/A")
                 logger.info("  ✓ [Telegram] Successfully dispatched workbook to Telegram channel %s (Message ID: %s)", chat_id, msg_id)
                 return True
-            else:
-                logger.error(
-                    "  ✗ [Telegram] API returned HTTP %d: %s", resp.status_code, resp.text[:500]
-                )
-                return False
+
+            logger.error(
+                "  ✗ [Telegram] API returned HTTP %d: %s", resp.status_code, resp.text[:500]
+            )
+
+            # Retry fallback without markdown parse_mode if entity parsing failed
+            if resp.status_code == 400:
+                logger.info("  🔄 [Telegram] Retrying dispatch with unformatted plain caption...")
+                plain_caption = caption.replace("*", "").replace("`", "").replace("_", "").replace("[", "").replace("]", "")
+                retry_data = {
+                    "chat_id": chat_id,
+                    "caption": plain_caption[:1000],
+                }
+                excel_buffer.seek(0)
+                retry_files = {
+                    "document": (
+                        out_filename,
+                        excel_buffer.getvalue(),
+                        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    )
+                }
+                retry_resp = await client.post(api_url, data=retry_data, files=retry_files)
+                if retry_resp.status_code == 200:
+                    logger.info("  ✓ [Telegram] Plain-caption fallback successfully dispatched!")
+                    return True
+                else:
+                    logger.error("  ✗ [Telegram] Retry also failed HTTP %d: %s", retry_resp.status_code, retry_resp.text[:500])
+
+            return False
     except Exception as exc:
         logger.exception("  ✗ [Telegram] Exception during document dispatch: %s", exc)
         return False

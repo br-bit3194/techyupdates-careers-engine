@@ -56,12 +56,12 @@ class OpportunitiesBatch(BaseModel):
 
 def fallback_classify_record(raw: Dict[str, Any]) -> OpportunityRecord:
     """Intelligent rule-based fallback when Gemini API key is absent or unreachable."""
-    title = raw.get("job_title", "").strip()
-    company = raw.get("company_name", "Tech Startup").strip()
-    location = raw.get("location", "Remote").strip()
-    platform = raw.get("platform", "Direct ATS")
-    apply_url = raw.get("apply_url", "")
-    desc = raw.get("description", "").lower()
+    title = (raw.get("job_title") or "").strip()
+    company = (raw.get("company_name") or "Tech Startup").strip()
+    location = (raw.get("location") or "Remote").strip()
+    platform = (raw.get("platform") or "Direct ATS").strip()
+    apply_url = (raw.get("apply_url") or "").strip()
+    desc = (raw.get("description") or "").lower()
     t_lower = title.lower()
 
     # 1. Seniority Tier Detection

@@ -95,10 +95,10 @@ async def run_pipeline() -> Dict[str, Any]:
     past_history_dropped = 0
 
     for raw in all_raw_jobs:
-        company = raw.get("company_name", "").strip()
-        title = raw.get("job_title", "").strip()
-        url = raw.get("apply_url", "").strip()
-        desc = raw.get("description", "")
+        company = (raw.get("company_name") or "").strip()
+        title = (raw.get("job_title") or "").strip()
+        url = (raw.get("apply_url") or "").strip()
+        desc = raw.get("description") or ""
 
         if not company or not title:
             missing_fields_count += 1
@@ -186,29 +186,17 @@ async def run_pipeline() -> Dict[str, Any]:
     logger.info("  🚀 Dispatching to Telegram community channel...")
     dispatched = await dispatch_telegram_document(excel_buffer, enriched_records)
 
-    local_file_path = None
-    if dispatched:
-        logger.info("  ✓ Telegram broadcast confirmed successful! Cleaning local temp files...")
-        for fname in os.listdir(PROJECT_ROOT):
-            if fname.endswith(".xlsx") and "Opportunities" in fname:
-                try:
-                    fpath = os.path.join(PROJECT_ROOT, fname)
-                    os.remove(fpath)
-                    logger.info("    - Removed local temp file: %s", fname)
-                except Exception as exc:
-                    logger.debug("    - Could not remove %s: %s", fname, exc)
-    else:
-        date_str = datetime.now(timezone.utc).strftime("%Y%m%d")
-        local_filename = f"TechyUpdates_Opportunities_{date_str}.xlsx"
-        local_file_path = os.path.join(PROJECT_ROOT, local_filename)
-        try:
-            excel_buffer.seek(0)
-            with open(local_file_path, "wb") as f:
-                f.write(excel_buffer.getvalue())
-            logger.info("  ℹ️ Local Excel backup saved: %s", local_file_path)
-        except Exception as exc:
-            logger.error("  ✗ Could not write local Excel backup: %s", exc, exc_info=True)
-            local_file_path = None
+    date_str = datetime.now(timezone.utc).strftime("%Y%m%d")
+    local_filename = f"TechyUpdates_Opportunities_{date_str}.xlsx"
+    local_file_path = os.path.join(PROJECT_ROOT, local_filename)
+    try:
+        excel_buffer.seek(0)
+        with open(local_file_path, "wb") as f:
+            f.write(excel_buffer.getvalue())
+        logger.info("  ℹ️ Local Excel workbook saved for artifact archiving: %s", local_file_path)
+    except Exception as exc:
+        logger.error("  ✗ Could not write local Excel workbook: %s", exc, exc_info=True)
+        local_file_path = None
 
     # Persist sent records to history database to prevent cross-day re-sending
     if enriched_records:

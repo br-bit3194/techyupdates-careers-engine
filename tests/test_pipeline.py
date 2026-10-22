@@ -232,4 +232,60 @@ def test_collect_enterprise_early_careers():
         assert len(j["job_title"]) > 0
 
 
+def test_excel_workbook_illegal_characters():
+    """Verify Excel builder gracefully strips illegal XML control characters without crashing."""
+    record_with_illegal_chars = OpportunityRecord(
+        company_name="Acme\x00Corp\x0b",
+        job_title="Dev\x1bOps Engineer\x07",
+        seniority_tier="Senior / Staff / Lead (5+ YOE)",
+        technical_domain="Full-Stack / Infrastructure / DevOps",
+        min_exp_years=5,
+        max_exp_years=10,
+        location="Paris, \x0cle-de-France, France",
+        workplace_type="Hybrid",
+        salary_package="€90k - €110k",
+        platform="Lever",
+        apply_url="https://jobs.lever.co/acme/123\x08",
+        posted_date="22 Oct 2026",
+        core_tech_stack=["Kubernetes", "Terraform\x1e"],
+        why_it_matters="High-impact infra role with\x1a control characters.",
+    )
+
+    buffer = build_excel_workbook([record_with_illegal_chars])
+    assert isinstance(buffer, io.BytesIO)
+    assert buffer.getbuffer().nbytes > 0
+
+    wb = openpyxl.load_workbook(buffer)
+    ws = wb["🏆 Senior & Staff (5+ YOE)"]
+    assert "Paris" in ws.cell(row=2, column=6).value
+    assert "AcmeCorp" in ws.cell(row=2, column=1).value
+
+
+def test_telegram_markdown_escaping():
+    """Verify Telegram caption escapes markdown chars (underscores, asterisks) in dynamic strings."""
+    from services.telegram_notifier import _escape_markdown, generate_executive_caption
+
+    assert _escape_markdown("SDE_1") == "SDE\\_1"
+    assert _escape_markdown("Scale AI *") == "Scale AI \\*"
+    assert _escape_markdown("[Intern]") == "\\[Intern\\]"
+
+    record = OpportunityRecord(
+        company_name="Tech_Startup*X",
+        job_title="SDE_1 [Core_Backend]",
+        seniority_tier="Fresher / 0-2 YOE",
+        technical_domain="Backend & Distributed Systems",
+        location="Remote_Global",
+        workplace_type="Remote",
+        salary_package="₹18_24 LPA",
+        platform="Direct ATS",
+        apply_url="https://example.com/job",
+        core_tech_stack=["Go", "C++_20"],
+        why_it_matters="High growth role.",
+    )
+    caption = generate_executive_caption([record])
+    assert "Tech\\_Startup\\*X" in caption
+    assert "SDE\\_1" in caption
+
+
+
 

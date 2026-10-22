@@ -2,12 +2,24 @@
 
 import io
 import re
-from typing import List, Dict
+from typing import List, Dict, Any
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
+from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
 
 from services.ai_extractor import OpportunityRecord
+
+
+def _sanitize_text(val: Any) -> str:
+    """Sanitize strings by stripping illegal XML/Excel control characters."""
+    if val is None:
+        return ""
+    text = str(val)
+    # Strip illegal ASCII control characters: [\000-\010]|[\013-\014]|[\016-\037]
+    cleaned = ILLEGAL_CHARACTERS_RE.sub("", text)
+    # Also strip any stray null byte
+    return cleaned.replace("\x00", "")
 
 TIER_CONFIG = [
     {
@@ -71,16 +83,16 @@ def _sort_records(tier_name: str, records: List[OpportunityRecord]) -> List[Oppo
     """Sort records per PRD Section 6.3 specifications."""
     if tier_name == "Internship":
         # Newest / company
-        return sorted(records, key=lambda r: (r.company_name.lower(), r.job_title.lower()))
+        return sorted(records, key=lambda r: ((r.company_name or "").lower(), (r.job_title or "").lower()))
     elif tier_name == "Fresher / 0-2 YOE":
         # Max salary / match rank
-        return sorted(records, key=lambda r: _extract_numeric_salary(r.salary_package), reverse=True)
+        return sorted(records, key=lambda r: _extract_numeric_salary(r.salary_package or ""), reverse=True)
     elif tier_name == "Mid-Level (2-5 YOE)":
         # Domain, then Company
-        return sorted(records, key=lambda r: (r.technical_domain, r.company_name.lower()))
+        return sorted(records, key=lambda r: (r.technical_domain or "", (r.company_name or "").lower()))
     elif tier_name == "Senior / Staff / Lead (5+ YOE)":
         # Max compensation
-        return sorted(records, key=lambda r: _extract_numeric_salary(r.salary_package), reverse=True)
+        return sorted(records, key=lambda r: _extract_numeric_salary(r.salary_package or ""), reverse=True)
     return records
 
 
@@ -156,20 +168,20 @@ def build_excel_workbook(opportunities: List[OpportunityRecord]) -> io.BytesIO:
             posted_date_str = opp.posted_date or "Recent"
 
             # Clean apply url for hyperlink
-            clean_url = opp.apply_url.replace('"', '""')
+            clean_url = _sanitize_text(opp.apply_url or "").replace('"', '""')
             hyperlink_formula = f'=HYPERLINK("{clean_url}", "Apply Direct ↗")'
 
             row_data = [
-                opp.company_name,
-                opp.job_title,
-                opp.technical_domain,
-                exp_str,
-                opp.workplace_type,
-                opp.location,
-                opp.salary_package,
-                tech_stack_str,
-                posted_date_str,
-                opp.why_it_matters,
+                _sanitize_text(opp.company_name),
+                _sanitize_text(opp.job_title),
+                _sanitize_text(opp.technical_domain),
+                _sanitize_text(exp_str),
+                _sanitize_text(opp.workplace_type),
+                _sanitize_text(opp.location),
+                _sanitize_text(opp.salary_package),
+                _sanitize_text(tech_stack_str),
+                _sanitize_text(posted_date_str),
+                _sanitize_text(opp.why_it_matters),
                 hyperlink_formula,
             ]
             ws.append(row_data)
