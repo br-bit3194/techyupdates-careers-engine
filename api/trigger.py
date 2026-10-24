@@ -63,7 +63,7 @@ async def run_pipeline() -> Dict[str, Any]:
 
     all_raw_jobs: List[Dict[str, Any]] = []
     source_names = [
-        "ATS Boards (Greenhouse/Ashby/Lever)",
+        "ATS Boards (Greenhouse/Ashby/Lever/Workable)",
         "YC Startups (Algolia/HN)",
         "Remote Feeds (RemoteOK/Jobicy)",
         "LinkedIn Guest Search",

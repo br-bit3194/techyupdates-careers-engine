@@ -8,12 +8,20 @@ import httpx
 
 from config.targets import (
     ATS_TARGETS,
+    COMPANY_DISPLAY_NAMES,
     FRESHNESS_WINDOW_SECONDS,
     REQUEST_TIMEOUT_SECONDS,
 )
 from services.collectors import is_tech_role, is_scam
 
 logger = logging.getLogger("nexus.collectors.ats")
+
+
+def _format_company_name(slug: str) -> str:
+    """Format slug into canonical company display name."""
+    if slug in COMPANY_DISPLAY_NAMES:
+        return COMPANY_DISPLAY_NAMES[slug]
+    return slug.replace("-", " ").title()
 
 
 def _is_recent(dt: Optional[datetime], window_seconds: int = FRESHNESS_WINDOW_SECONDS) -> bool:
@@ -74,7 +82,7 @@ async def fetch_greenhouse_jobs(
             )
 
             results.append({
-                "company_name": slug.capitalize(),
+                "company_name": _format_company_name(slug),
                 "job_title": title,
                 "location": location_str or "Remote",
                 "apply_url": job.get("absolute_url", ""),
@@ -129,7 +137,7 @@ async def fetch_lever_jobs(
                 continue
 
             results.append({
-                "company_name": slug.capitalize(),
+                "company_name": _format_company_name(slug),
                 "job_title": title,
                 "location": location,
                 "apply_url": job.get("hostedUrl", ""),
@@ -174,7 +182,7 @@ async def fetch_ashby_jobs(
                 continue
 
             results.append({
-                "company_name": slug.capitalize(),
+                "company_name": _format_company_name(slug),
                 "job_title": title,
                 "location": location,
                 "apply_url": job_url,
@@ -188,8 +196,70 @@ async def fetch_ashby_jobs(
     return results
 
 
+async def fetch_workable_jobs(
+    client: httpx.AsyncClient, slug: str
+) -> List[Dict[str, Any]]:
+    """Fetch active jobs from Workable public postings API."""
+    url = f"https://apply.workable.com/api/v2/accounts/{slug}/jobs"
+    results: List[Dict[str, Any]] = []
+    try:
+        resp = await client.post(url, json={}, timeout=REQUEST_TIMEOUT_SECONDS)
+        if resp.status_code != 200:
+            logger.warning("Workable %s returned status %d", slug, resp.status_code)
+            return results
+
+        data = resp.json()
+        jobs = data.get("results", [])
+        for job in jobs:
+            title = job.get("title", "")
+            if not is_tech_role(title):
+                continue
+
+            published_at_str = job.get("published")
+            published_at = _parse_iso_date(published_at_str)
+            if not _is_recent(published_at):
+                continue
+
+            if is_scam(title):
+                continue
+
+            shortcode = job.get("shortcode", "")
+            job_url = (
+                f"https://apply.workable.com/{slug}/j/{shortcode}/"
+                if shortcode
+                else f"https://apply.workable.com/{slug}/"
+            )
+
+            # Resolve remote and physical location
+            loc_data = job.get("location", {})
+            city = loc_data.get("city", "") if isinstance(loc_data, dict) else ""
+            country = loc_data.get("country", "") if isinstance(loc_data, dict) else ""
+            is_remote = job.get("remote", False) or job.get("workplace") == "remote"
+
+            if is_remote:
+                location = "Remote" if not country else f"Remote ({country})"
+            elif city and country:
+                location = f"{city}, {country}"
+            else:
+                location = country or city or "Remote"
+
+            results.append({
+                "company_name": _format_company_name(slug),
+                "job_title": title,
+                "location": location,
+                "apply_url": job_url,
+                "platform": "Workable",
+                "description": "",
+                "published_at": published_at.isoformat() if published_at else None,
+                "raw_salary": None,
+            })
+    except Exception as exc:
+        logger.warning("Failed fetching Workable for %s: %s", slug, exc)
+    return results
+
+
 async def collect_all_ats_jobs() -> List[Dict[str, Any]]:
-    """Parallel collector across Greenhouse, Lever, and Ashby targets."""
+    """Parallel collector across Greenhouse, Lever, Ashby, and Workable targets."""
     headers = {
         "User-Agent": "NexusCareers-Aggregator/1.0 (+https://github.com/TechyUpdates/job_finder)"
     }
@@ -205,6 +275,9 @@ async def collect_all_ats_jobs() -> List[Dict[str, Any]]:
         for slug in ATS_TARGETS.get("ashby", []):
             tasks.append(fetch_ashby_jobs(client, slug))
 
+        for slug in ATS_TARGETS.get("workable", []):
+            tasks.append(fetch_workable_jobs(client, slug))
+
         gathered = await asyncio.gather(*tasks, return_exceptions=True)
 
         all_jobs: List[Dict[str, Any]] = []
@@ -215,3 +288,4 @@ async def collect_all_ats_jobs() -> List[Dict[str, Any]]:
                 logger.warning("ATS fetch task raised exception: %s", result)
 
         return all_jobs
+

@@ -2,7 +2,7 @@
 
 from typing import Dict, List, Set
 
-# ATS Targets: Curated top tech companies, AI scaleups, and unicorns
+# ATS Targets: Curated top tech companies, AI scaleups, unicorns, and open-source AI leaders
 ATS_TARGETS: Dict[str, List[str]] = {
     "ashby": [
         "cursor",
@@ -15,6 +15,28 @@ ATS_TARGETS: Dict[str, List[str]] = {
         "modal",
         "cohere",
         "runway",
+        # Open-Source AI scaleups & unicorn labs
+        "fireworks",
+        "genesis",
+        "livekit",
+        "physicalintelligence",
+        "nousresearch",
+        "primeintellect",
+        "inferact",
+        "langchain",
+        "black-forest-labs",
+        "supabase",
+        "ollama",
+        "sesame",
+        "e2b",
+        "mastra",
+        "thinkingmachines",
+        "dust",
+        "roboflow",
+        "fleek",
+        "browserbase",
+        "liquid-ai",
+        "airbyte",
     ],
     "greenhouse": [
         "anthropic",
@@ -35,12 +57,64 @@ ATS_TARGETS: Dict[str, List[str]] = {
         "datadog",
         "coinbase",
         "robinhood",
+        # Open-Source AI scaleups
+        "veniceai",
+        "chainguard",
+        "lightningai",
+        "togetherai",
     ],
     "lever": [
         "mistral",
         "palantir",
         "spotify",
+        "zilliz",
     ],
+    "workable": [
+        "crewai",
+    ],
+}
+
+# Canonical display names for companies with non-standard capitalization or brands
+COMPANY_DISPLAY_NAMES: Dict[str, str] = {
+    # Open-Source AI Companies
+    "fireworks": "Fireworks AI",
+    "genesis": "Genesis AI",
+    "livekit": "LiveKit",
+    "physicalintelligence": "Physical Intelligence",
+    "veniceai": "Venice.ai",
+    "nousresearch": "Nous Research",
+    "crewai": "CrewAI",
+    "primeintellect": "Prime Intellect",
+    "inferact": "Inferact (vLLM)",
+    "langchain": "LangChain",
+    "black-forest-labs": "Black Forest Labs",
+    "supabase": "Supabase",
+    "mistral": "Mistral AI",
+    "ollama": "Ollama",
+    "sesame": "Sesame",
+    "e2b": "E2B",
+    "mastra": "Mastra",
+    "thinkingmachines": "Thinking Machines Lab",
+    "dust": "Dust",
+    "chainguard": "Chainguard",
+    "roboflow": "Roboflow",
+    "lightningai": "Lightning AI",
+    "zilliz": "Zilliz",
+    "togetherai": "Together AI",
+    "fleek": "Fleek",
+    "browserbase": "Browserbase",
+    "liquid-ai": "Liquid AI",
+    "airbyte": "Airbyte",
+    # Frontier Labs & Enterprise Tech
+    "scaleai": "Scale AI",
+    "andurilindustries": "Anduril",
+    "datadog": "Datadog",
+    "cloudflare": "Cloudflare",
+    "databricks": "Databricks",
+    "benchling": "Benchling",
+    "perplexity": "Perplexity",
+    "cohere": "Cohere",
+    "runway": "Runway",
 }
 
 # Y Combinator Work at a Startup - Public Algolia Index Endpoint
@@ -57,7 +131,7 @@ REMOTE_FEEDS = {
     "jobicy": "https://jobicy.com/api/v2/remote-jobs?count=50&industry=engineering",
 }
 
-# LinkedIn Guest Scraping Endpoint: Balanced across all 4 experience tiers
+# LinkedIn Guest Scraping Endpoint: Balanced across all 4 experience tiers + targeted AI scaleups
 LINKEDIN_GUEST_CONFIG = {
     "base_url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search",
     "queries": [
@@ -76,6 +150,14 @@ LINKEDIN_GUEST_CONFIG = {
         {"keywords": "Senior Software Engineer", "location": "India"},
         {"keywords": "Senior Backend Engineer", "location": "Remote"},
         {"keywords": "Staff Engineer AI", "location": "Remote"},
+        # 5. Targeted Open-Source AI Scaleups (without public open ATS REST APIs)
+        {"keywords": "Qdrant", "location": "Remote"},
+        {"keywords": "Daytona", "location": "Remote"},
+        {"keywords": "Arcee AI", "location": "Remote"},
+        {"keywords": "DeepInfra", "location": "Remote"},
+        {"keywords": "Aiven", "location": "Remote"},
+        {"keywords": "ByteFuture", "location": "Remote"},
+        {"keywords": "Booster Robotics", "location": "Remote"},
     ],
     # f_TPR=r86400 restricts search to past 24 hours (86400 seconds)
     "time_filter": "r86400",

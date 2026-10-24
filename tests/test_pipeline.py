@@ -287,5 +287,34 @@ def test_telegram_markdown_escaping():
     assert "SDE\\_1" in caption
 
 
+def test_ats_targets_open_source_companies():
+    """Verify that open-source AI companies are configured in ATS_TARGETS."""
+    from config.targets import ATS_TARGETS
+
+    ashby_targets = ATS_TARGETS.get("ashby", [])
+    greenhouse_targets = ATS_TARGETS.get("greenhouse", [])
+    lever_targets = ATS_TARGETS.get("lever", [])
+    workable_targets = ATS_TARGETS.get("workable", [])
+
+    # Check representative open-source AI scaleups
+    for slug in ["fireworks", "genesis", "langchain", "supabase", "ollama", "e2b", "liquid-ai", "airbyte"]:
+        assert slug in ashby_targets, f"Expected {slug} in ashby targets"
+
+    for slug in ["veniceai", "chainguard", "lightningai", "togetherai"]:
+        assert slug in greenhouse_targets, f"Expected {slug} in greenhouse targets"
+
+    assert "zilliz" in lever_targets, "Expected zilliz in lever targets"
+    assert "crewai" in workable_targets, "Expected crewai in workable targets"
 
 
+def test_company_display_name_formatting():
+    """Verify canonical display name formatting for non-standard slugs."""
+    from services.collectors.ats_boards import _format_company_name
+
+    assert _format_company_name("langchain") == "LangChain"
+    assert _format_company_name("veniceai") == "Venice.ai"
+    assert _format_company_name("crewai") == "CrewAI"
+    assert _format_company_name("togetherai") == "Together AI"
+    assert _format_company_name("black-forest-labs") == "Black Forest Labs"
+    assert _format_company_name("inferact") == "Inferact (vLLM)"
+    assert _format_company_name("unknown-startup") == "Unknown Startup"
